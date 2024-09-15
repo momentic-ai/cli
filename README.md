@@ -1,6 +1,8 @@
 # momentic
 
-## System requirements
+The Momentic CLI.
+
+## System Requirements
 
 - Node 20+
 - Windows 10+, Windows Server 2016+, or Windows Subsystem for Linux (WSL).
