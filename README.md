@@ -1,6 +1,6 @@
 # momentic
 
-The Momentic CLI.
+The CLI.
 
 ## System Requirements
 
