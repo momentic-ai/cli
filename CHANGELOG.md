@@ -1,5 +1,12 @@
 # momentic
 
+## 2.7.1
+
+### Patch Changes
+
+- b47024c: Make Gitlab merge base determination non-blocking for CLI test execution
+- 2a43dce: Make descriptions required when creating tests
+
 ## 2.7.0
 
 ### Minor Changes
