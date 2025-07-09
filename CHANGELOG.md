@@ -1,5 +1,12 @@
 # momentic
 
+## 2.7.2
+
+### Patch Changes
+
+- a91cacd: When `showZeroOpacityElements` is set to false (which is the default for versions 2.0+), all interactive steps are now prevented from actioning on `opacity: 0` elements. This does not apply to element checks, which commonly need to locate and verify hidden elements.
+- 86041ae: Fixed bug that prevented switching between projects in the local app
+
 ## 2.7.1
 
 ### Patch Changes
