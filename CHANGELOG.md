@@ -1,5 +1,16 @@
 # momentic
 
+## 2.7.3
+
+### Patch Changes
+
+- d58022d: Support asserting on focus state in element checks
+- 3921d96: Support turning on/off offline mode
+- ab243cb: Fix a bug that caused before/after/main step results to overwrite each other
+- af6320a: When `disableSecondaryCacheResolution` is on, caches that were generated previously using secondary methods are now dropped before executing tests
+- 7317c50: `--parallel` takes precedence over `momentic.config.yaml`
+- 8e37516: Add `child_process` to JavaScript step
+
 ## 2.7.2
 
 ### Patch Changes
