@@ -1,5 +1,19 @@
 # momentic
 
+## 2.8.0
+
+### Minor Changes
+
+- 146cf2b: Remove parent-based redirect and GA global locator redirect
+- c263770: store labels on run groups that are triggered with the --labels argument
+
+### Patch Changes
+
+- c4295f0: Allow 'showZeroOpacityElements' to be set to 'inputs-only' to show opacity 0 <input> elements
+- caec33c: Validate that test IDs are valid UUIDs in preflight checks
+- df85343: Infinite rerender bug in network viewer
+- 7488ee9: Allow merging of rungroups with partial metadata
+
 ## 2.7.3
 
 ### Patch Changes
