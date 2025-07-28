@@ -1,5 +1,17 @@
 # momentic
 
+## 2.9.0
+
+### Minor Changes
+
+- ff679fe: Add the ability to add/remove quarantined tests using the CLI
+- 67f9869: Skip quarantined tests in runs
+
+### Patch Changes
+
+- 8ab4885: Update look and feel of user input prompts
+- af15d62: Add `dd_tags` support for attempts and environment in JUnit report
+
 ## 2.8.0
 
 ### Minor Changes
