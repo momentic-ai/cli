@@ -1,5 +1,11 @@
 # momentic
 
+## 2.10.2
+
+### Patch Changes
+
+- 8c9446e: Tests in the table now displays fileName
+
 ## 2.10.1
 
 ### Patch Changes
