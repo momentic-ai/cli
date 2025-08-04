@@ -1,5 +1,11 @@
 # momentic
 
+## 2.10.1
+
+### Patch Changes
+
+- 20225db: Add dd_tags for quarantined attributes
+
 ## 2.10.0
 
 ### Minor Changes
