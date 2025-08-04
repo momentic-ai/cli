@@ -1,5 +1,23 @@
 # momentic
 
+## 2.10.0
+
+### Minor Changes
+
+- e8bb935: Element checks now support tag name and computed styles assertions
+- 82929e0: Support step-level retries
+- 3890bc1: Add `--only-quarantined` and `--skip-quarantined` flags to `run` command, and update `run` behavior to run quarantined tests by default, but not count failures towards pipeline results
+- 8729bba: Update V2 assertion models to use latest Gemini and OpenAI models
+
+### Patch Changes
+
+- b3039c5: Remove extra log line from start of `list` output
+- 82929e0: Be able to rename a module from the details pane
+- 4e44ba9: Allow the text-extraction agent version to be configured and release the v2 text-extraction agent.
+- 82929e0: Folders now respect `exclude`
+- e8bb935: `check duplicate-ids` command now also checks for duplicate test IDs
+- 8729bba: Add new V2 agent configuration for visual assertions
+
 ## 2.9.0
 
 ### Minor Changes
