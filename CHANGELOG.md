@@ -1,5 +1,15 @@
 # momentic
 
+## 2.11.0
+
+### Minor Changes
+
+- 33e7e0b: Move failure recovery into beta with updated behavior. Failure recovery can now be triggered multiple times per test and can execute multiple steps to recover from the failure. Failure recovery no longer proposes step updates that can be applied through the CLI.
+
+### Patch Changes
+
+- 218b97b: `--ignore-failed-setup` flag will set failed tests status to cancelled
+
 ## 2.10.2
 
 ### Patch Changes
