@@ -1,5 +1,11 @@
 # momentic
 
+## 2.11.1
+
+### Patch Changes
+
+- 1e91864: Be able to edit while the test is executing
+
 ## 2.11.0
 
 ### Minor Changes
