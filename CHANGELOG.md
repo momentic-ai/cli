@@ -1,5 +1,11 @@
 # momentic
 
+## 2.11.2
+
+### Patch Changes
+
+- 87df545: Fix edge case where setting hybrid selectors to 'prefer' while not using visual actions caused interactive steps to perform extra waiting
+
 ## 2.11.1
 
 ### Patch Changes
