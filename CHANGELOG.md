@@ -1,5 +1,12 @@
 # momentic
 
+## 2.11.3
+
+### Patch Changes
+
+- be24a53: Updated Junit failure description so that the URL is valid even if strings are merged.
+- 6366b81: Adjust a11y tree serialization to preserve grouping between inputs and labels.
+
 ## 2.11.2
 
 ### Patch Changes
