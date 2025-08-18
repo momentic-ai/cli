@@ -1,5 +1,16 @@
 # momentic
 
+## 2.12.0
+
+### Minor Changes
+
+- 8120ff2: Copilot in the editor
+- 8120ff2: Drop support for Node.js 18 https://nodejs.org/en/blog/announcements/node-18-eol-support
+
+### Patch Changes
+
+- ac34b3d: Updated CLI-originated test quarantines to capture Git author information (name, email, username).
+
 ## 2.11.3
 
 ### Patch Changes
