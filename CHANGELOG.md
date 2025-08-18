@@ -1,5 +1,11 @@
 # momentic
 
+## 2.12.1
+
+### Patch Changes
+
+- e2628e6: Fix API key validation for AI proxy
+
 ## 2.12.0
 
 ### Minor Changes
