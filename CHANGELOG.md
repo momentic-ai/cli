@@ -1,5 +1,18 @@
 # momentic
 
+## 2.13.0
+
+### Minor Changes
+
+- 063e7e5: Update setup and teardown behavior to always fail tests when any step fails
+- 063e7e5: Add setup_failed and teardown_failed fields to junit reports
+
+### Patch Changes
+
+- c782d52: Discard ineligible candidates earlier in click redirection
+- c42c174: Fix a11y tree pruning logic to remove all nodes with invalid bounding boxes
+- 73042c6: Fix saving for module retries
+
 ## 2.12.1
 
 ### Patch Changes
