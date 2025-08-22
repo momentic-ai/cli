@@ -1,5 +1,11 @@
 # momentic
 
+## 2.13.1
+
+### Patch Changes
+
+- e00d997: Fix a11y tree pruning bug
+
 ## 2.13.0
 
 ### Minor Changes
