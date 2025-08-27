@@ -1,5 +1,13 @@
 # momentic
 
+## 2.14.0
+
+### Minor Changes
+
+- 76ea5e9: Add junit label if the main body of the test failed
+- c03f3a6: Memory now supports negated element checks and failing assertion and locator calls.
+- ec9dfda: Negated element checks (i.e. X does not exist) now use the assertion agent rather than the locator agent.
+
 ## 2.13.1
 
 ### Patch Changes
