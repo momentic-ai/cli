@@ -1,5 +1,13 @@
 # momentic
 
+## 2.14.1
+
+### Patch Changes
+
+- e19b1a1: Fix edge case where aria-hidden elements are not serialized because CDP constructs invalid IDs for them
+- 73ef386: Enable caching for negated element checks
+- e024835: Reduce log volume sent from the Momentic CLI to avoid network congestion issues
+
 ## 2.14.0
 
 ### Minor Changes
