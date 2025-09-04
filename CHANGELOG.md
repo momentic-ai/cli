@@ -1,5 +1,13 @@
 # momentic
 
+## 2.14.2
+
+### Patch Changes
+
+- 24380bb: Fixed network request recording bug which caused all requests's start times to be set to epoch
+- b398d6f: Escape unicode characters in cache headers
+- 24380bb: Network viewer visual improvements
+
 ## 2.14.1
 
 ### Patch Changes
