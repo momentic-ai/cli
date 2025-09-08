@@ -1,5 +1,13 @@
 # momentic
 
+## 2.14.3
+
+### Patch Changes
+
+- de4b76b: Improvements to folder handling
+- 7e5e667: Change Momentic remote logger provider
+- 4a239d2: Fix edge case where AI page filtering was not being triggered for assertions.
+
 ## 2.14.2
 
 ### Patch Changes
