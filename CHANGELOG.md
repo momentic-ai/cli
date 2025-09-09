@@ -1,5 +1,11 @@
 # momentic
 
+## 2.14.4
+
+### Patch Changes
+
+- 2844c51: Send proper run attributes for logs emitted during CLI runs
+
 ## 2.14.3
 
 ### Patch Changes
