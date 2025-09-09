@@ -1,5 +1,15 @@
 # momentic
 
+## 2.15.0
+
+### Minor Changes
+
+- aa78586: Add support for an ignoreHttpsErrors boolean in the config.
+
+### Patch Changes
+
+- 9f1159f: Filter out non-applicable test types from local apps
+
 ## 2.14.4
 
 ### Patch Changes
