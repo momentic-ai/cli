@@ -5,6 +5,7 @@
 ### Minor Changes
 
 - aa78586: Add support for an ignoreHttpsErrors boolean in the config.
+- af31c5a: Fix JSON circular dependency error thrown if a failed step throws a non-serializable error (e.g. `AxiosError`).
 
 ### Patch Changes
 
@@ -14,11 +15,15 @@
 
 ### Patch Changes
 
+**Warning**: Please avoid this version and upgrade to 2.15.0 instead.
+
 - 2844c51: Send proper run attributes for logs emitted during CLI runs
 
 ## 2.14.3
 
 ### Patch Changes
+
+**Warning**: Please avoid this version and upgrade to 2.15.0 instead.
 
 - de4b76b: Improvements to folder handling
 - 7e5e667: Change Momentic remote logger provider
