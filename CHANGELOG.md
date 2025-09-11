@@ -1,5 +1,11 @@
 # momentic
 
+## 2.15.1
+
+### Patch Changes
+
+- 8c81fd0: Show failed failure recovery attempts in the run viewer, as well as reasoning for when failure recovery is not eligible.
+
 ## 2.15.0
 
 ### Minor Changes
