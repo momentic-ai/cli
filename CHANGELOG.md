@@ -1,5 +1,11 @@
 # momentic
 
+## 2.15.2
+
+### Patch Changes
+
+- ade6220: Fix cases where tests can continue running even if failure recovery does not succeed
+
 ## 2.15.1
 
 ### Patch Changes
