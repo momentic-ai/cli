@@ -10,7 +10,7 @@ The official CLI for Momentic. It allows you to build, run, and manage your end-
 
 ## Get Started
 
-1. Log in to [Momentic Cloud](https://cloud.momentic.ai) and generate an API key.
+1. Log in to [Momentic Cloud](https://app.momentic.ai) and generate an API key.
 
 2. Install `momentic`:
 
