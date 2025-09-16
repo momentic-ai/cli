@@ -1,5 +1,13 @@
 # momentic
 
+## 2.16.0
+
+### Minor Changes
+
+- 4f96c58: Added support for mocking network requests
+- 028e793: Configuration option to disable html snapshots in results
+- 2c51e4a: Add support for other url matching methods and http method matching to 'record request', 'request listener', 'add header', and 'mock route' steps
+
 ## 2.15.2
 
 ### Patch Changes
