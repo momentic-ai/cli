@@ -1,5 +1,20 @@
 # momentic
 
+## 2.17.0
+
+### Minor Changes
+
+- ceeba05: Allow important CSS class names, styles, and HTML attributes to be configured in the local CLI, enabling customization of avaialble context for AI agents
+
+### Patch Changes
+
+- c247d2d: Label responses that have been mocked in the network viewer
+- c247d2d: Truncate oversized content in network requests rather than fully removing it
+- e15a143: Return a 500 server error if mocking code fails to evaluate rather than just hanging
+- 3737163: Fix a bug in JSON serialization of GraphQL variables
+- c247d2d: Make env truncation in the run viewer more lenient so that we don't loose keys
+- ceeba05: Apply fix for case where Chrome Dev Tools Protocol omits intermediate <span> elements from the accessibility tree
+
 ## 2.16.0
 
 ### Minor Changes
