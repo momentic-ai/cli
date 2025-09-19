@@ -1,5 +1,13 @@
 # momentic
 
+## 2.17.1
+
+### Patch Changes
+
+- b43a4ec: Merge caches back into main when a branch is merged on github
+- 29b484f: Allow failure recovery to execute in before and after steps.
+- 76e70c8: Redact certain content types entirely in the network viewer
+
 ## 2.17.0
 
 ### Minor Changes
