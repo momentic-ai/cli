@@ -1,5 +1,11 @@
 # momentic
 
+## 2.17.2
+
+### Patch Changes
+
+- e3ad980: Support merging caches back into main using the Gitlab API
+
 ## 2.17.1
 
 ### Patch Changes
