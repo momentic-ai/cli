@@ -1,12 +1,5 @@
 # momentic
 
-## 2.17.3
-
-### Patch Changes
-
-- 45d0f51: AI extract for the V2 AI agents now accept non-object JSON schemas.
-- 45d0f51: Do not fallback to cloud AI agent configurations if local ones are not provided.
-
 ## 2.17.2
 
 ### Patch Changes
