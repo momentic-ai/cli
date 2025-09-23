@@ -1,5 +1,14 @@
 # momentic
 
+## 2.17.3
+
+### Patch Changes
+
+- 0f5ba29: AI extract for the V2 AI agents now accept non-object JSON schemas.
+- 396310e: The Copilot agent (editor and MCP) can now create modules from tests.
+- 722ef30: Fixed bug causing failure recovery to proceed even if the retried step failed
+- 0f5ba29: Do not fallback to cloud AI agent configurations if local ones are not provided.
+
 ## 2.17.2
 
 ### Patch Changes
