@@ -1,5 +1,12 @@
 # momentic
 
+## 2.17.4
+
+### Patch Changes
+
+- 9e593d1: MCP & Copilot can now insert module steps into tests.
+- 04d2088: MCP and Copilot Agents are now fully capable of module manipulation and editing.
+
 ## 2.17.3
 
 ### Patch Changes
