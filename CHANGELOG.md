@@ -1,5 +1,12 @@
 # momentic
 
+## 2.17.5
+
+### Patch Changes
+
+- f9c4d4c: Copilot and MCP agents now support javascript steps.
+- de4f292: Failure recovery fixed to see the most recent error rather than just the first.
+
 ## 2.17.4
 
 ### Patch Changes
