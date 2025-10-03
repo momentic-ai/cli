@@ -1,5 +1,13 @@
 # momentic
 
+## 2.17.6
+
+### Patch Changes
+
+- 9a2e745: Copilot updated to use newer frontier model.
+- ce65799: Fix edge case where negated visibility element checks can use caches from failing attempts
+- fdccc42: Provide AI with more positioning information for elements with absolute, sticky or fixed positions
+
 ## 2.17.5
 
 ### Patch Changes
