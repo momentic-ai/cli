@@ -1,5 +1,13 @@
 # momentic
 
+## 2.17.7
+
+### Patch Changes
+
+- c5313ed: Reset the command ID when changing an assertion description to bust memory.
+- 05c6071: Agents (Copilot & MCP) now respect test functionality and don't edit after failing steps.
+- 3bd871e: Always include i tags in the serialized a11y tree
+
 ## 2.17.6
 
 ### Patch Changes
