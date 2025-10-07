@@ -1,5 +1,11 @@
 # momentic
 
+## 2.17.8
+
+### Patch Changes
+
+- 6656832: Allow much larger results arrays to be uploaded and processed
+
 ## 2.17.7
 
 ### Patch Changes
