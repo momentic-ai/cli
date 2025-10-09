@@ -1,5 +1,17 @@
 # momentic
 
+## 2.17.9
+
+### Patch Changes
+
+- 7ca8d7f: Fix nav item styling
+- 39d5ad7: Improve retries for errors caused by page state changing
+- b1b2c92: Display toast when attempting to reset the browser with unsaved changes.
+- 40c9817: Fix a bug causing certain browser-level errors to not be retried correctly
+- 28b3921: Attempt to send logs on node crashes
+- 28b3921: Prevent test recording from generating steps with single quotes in them
+- ea4a258: Agents' given better guardrails and smarter tools (MCP & Copilot).
+
 ## 2.17.8
 
 ### Patch Changes
