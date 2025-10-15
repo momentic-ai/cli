@@ -1,5 +1,13 @@
 # momentic
 
+## 2.17.10
+
+### Patch Changes
+
+- 628e66b: Send browser crash dumps to Momentic
+- 770e27a: Fixed copilot bug where it is able to edit other tests.
+- a0a176b: Added a linter to block poor instructions for the MCP's test edit tool.
+
 ## 2.17.9
 
 ### Patch Changes
