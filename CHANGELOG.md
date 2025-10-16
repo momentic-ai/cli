@@ -1,5 +1,12 @@
 # momentic
 
+## 2.17.11
+
+### Patch Changes
+
+- 7310e70: Fix a bug preventing caches from being updated after element checks
+- 34ea56c: Set default value for global locator redirect setting to true
+
 ## 2.17.10
 
 ### Patch Changes
