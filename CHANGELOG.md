@@ -1,5 +1,12 @@
 # momentic
 
+## 2.17.12
+
+### Patch Changes
+
+- e9b3019: Copilot returns to user when unable to figure out how to proceed instead of overwriting steps to bypass failure.
+- 255a565: MCP blocked from editing a test with multiple sessions.
+
 ## 2.17.11
 
 ### Patch Changes
