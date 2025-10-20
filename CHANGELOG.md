@@ -1,5 +1,11 @@
 # momentic
 
+## 2.17.13
+
+### Patch Changes
+
+- 44c1b76: Allow global locator redirect to choose zero opacity elements
+
 ## 2.17.12
 
 ### Patch Changes
