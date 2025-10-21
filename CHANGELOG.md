@@ -1,5 +1,12 @@
 # momentic
 
+## 2.17.14
+
+### Patch Changes
+
+- ef12e2e: Agents have access to new module look up tool and have hard constraints on input parameters for modules.
+- 61c28fa: Agents can now create and preview AI action steps.
+
 ## 2.17.13
 
 ### Patch Changes
