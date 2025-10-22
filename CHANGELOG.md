@@ -1,5 +1,11 @@
 # momentic
 
+## 2.17.15
+
+### Patch Changes
+
+- 885fb80: Desktop editor state revalidated on when opening test editor.
+
 ## 2.17.14
 
 ### Patch Changes
