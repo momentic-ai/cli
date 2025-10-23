@@ -1,5 +1,13 @@
 # momentic
 
+## 2.17.16
+
+### Patch Changes
+
+- 77f2d34: Agents understand modules better, can edit/create parameters, and consistently input the correct type for javascript inputs.
+- 3e490ad: Agents now prune browser snapshot leading to longer chats and more accurate computer use.
+- 40dc4e9: Agents now aware of the difference between BROWSER and NODE in javascript steps.
+
 ## 2.17.15
 
 ### Patch Changes
