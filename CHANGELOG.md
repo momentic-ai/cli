@@ -1,5 +1,12 @@
 # momentic
 
+## 2.17.17
+
+### Patch Changes
+
+- b89cf21: Copilot module changes in editor render in desktop editor.
+- 17d40ee: Fix bundling issue that may cause the AI SDK to crash on start
+
 ## 2.17.16
 
 ### Patch Changes
