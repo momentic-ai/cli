@@ -1,5 +1,13 @@
 # momentic
 
+## 2.17.18
+
+### Patch Changes
+
+- aeb2376: Agents respect setup and teardown as sections and will edit them on direction
+- 499e764: Desktop editor now has a pop up to prevent automatic overwriting if a tests disk state changes.
+- 1ace51f: Module edit tool updates the editor state to match the new module.
+
 ## 2.17.17
 
 ### Patch Changes
