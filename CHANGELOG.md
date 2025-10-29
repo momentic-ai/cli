@@ -1,5 +1,15 @@
 # momentic
 
+## 2.18.0
+
+### Minor Changes
+
+- 36b5816: Add support for initializing local storage on browser setup
+
+### Patch Changes
+
+- ff5fe3f: Bug fix for an issue where the editor could incorrectly show the “state differs from disk” pop up after using the step recorder.
+
 ## 2.17.19
 
 ### Patch Changes
