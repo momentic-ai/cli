@@ -1,5 +1,11 @@
 # momentic
 
+## 2.17.19
+
+### Patch Changes
+
+- c2ca54f: Avoid enabling the Chrome crash reporter if the home directory is not accessible
+
 ## 2.17.18
 
 ### Patch Changes
