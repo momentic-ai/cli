@@ -1,5 +1,11 @@
 # momentic
 
+## 2.18.1
+
+### Patch Changes
+
+- 48ff698: Agents now self prune messages, are protected from max hitting max context window, have access to more command types, recieved significant performance tuning, and no longer silently fail.
+
 ## 2.18.0
 
 ### Minor Changes
