@@ -1,5 +1,11 @@
 # momentic
 
+## 2.18.2
+
+### Patch Changes
+
+- 57ea719: Improve performance of AI locator on pages over 900K tokens large
+
 ## 2.18.1
 
 ### Patch Changes
