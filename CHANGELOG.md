@@ -1,5 +1,11 @@
 # momentic
 
+## 2.19.1
+
+### Patch Changes
+
+- eee297e: Fix global locator redirect bug where coordinates could be returned far away from the original element.
+
 ## 2.19.0
 
 ### Minor Changes
