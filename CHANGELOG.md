@@ -1,5 +1,14 @@
 # momentic
 
+## 2.18.3
+
+### Patch Changes
+
+- 3b72364: Disable service workers by default to reduce flakiness when intercepting requests and to combat an instance where Playwright can hang indefinitely on sites using service workers: https://github.com/microsoft/playwright/issues/37347.
+- ec6b3e0: Type steps can now use relative position.
+- 71c4ec4: Visual improvements to the network viewer in the editor
+- 71c4ec4: Visual improvements to the accessibility tree and HTML viewers in the editor
+
 ## 2.18.2
 
 ### Patch Changes
