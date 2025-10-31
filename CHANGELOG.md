@@ -1,5 +1,15 @@
 # momentic
 
+## 2.19.0
+
+### Minor Changes
+
+- 7db4ca2: Add new 'always' setting for global locator redirect
+
+### Patch Changes
+
+- 7db4ca2: Try to click a visible point on the element when stability checks are disabled
+
 ## 2.18.3
 
 ### Patch Changes
