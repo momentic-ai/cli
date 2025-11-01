@@ -8,6 +8,8 @@
 
 ## 2.19.0
 
+**Warning**: Please avoid this version and upgrade to 2.19.1 instead.
+
 ### Minor Changes
 
 - 7db4ca2: Add new 'always' setting for global locator redirect
