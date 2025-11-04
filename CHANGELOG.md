@@ -1,5 +1,12 @@
 # momentic
 
+## 2.19.2
+
+### Patch Changes
+
+- 4f22c07: Consider data-index as an important attribute by default for hybrid selector resolution.
+- ab0d09b: Reduce log volume for critical resource usage
+
 ## 2.19.1
 
 ### Patch Changes
