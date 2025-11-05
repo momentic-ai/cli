@@ -1,5 +1,11 @@
 # momentic
 
+## 2.19.3
+
+### Patch Changes
+
+- 4863fce: Opt out of FullStory scripts during test runs
+
 ## 2.19.2
 
 ### Patch Changes
