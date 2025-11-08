@@ -1,5 +1,16 @@
 # momentic
 
+## 2.20.0
+
+### Minor Changes
+
+- e02a69b: Add quarantine list command
+
+### Patch Changes
+
+- cc97caf: Agents kindly reject working with step types they cannot use.
+- b7f9758: Improve error messages when merging results fails due to validation errors
+
 ## 2.19.3
 
 ### Patch Changes
