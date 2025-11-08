@@ -1,5 +1,11 @@
 # momentic
 
+## 2.20.1
+
+### Patch Changes
+
+- e6acbe2: Improve context management for agents and prevent unresponsive copilot UI crash.
+
 ## 2.20.0
 
 ### Minor Changes
