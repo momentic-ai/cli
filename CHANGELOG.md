@@ -1,5 +1,11 @@
 # momentic
 
+## 2.20.2
+
+### Patch Changes
+
+- bfd938e: Improve accuracy of collecting resource usage data on Mac OS
+
 ## 2.20.1
 
 ### Patch Changes
