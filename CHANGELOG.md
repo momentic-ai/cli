@@ -1,5 +1,11 @@
 # momentic
 
+## 2.20.3
+
+### Patch Changes
+
+- 86d48a2: Fix a bug where we were calling functions only supported on HTMLElements on non-HTMLElements
+
 ## 2.20.2
 
 ### Patch Changes
