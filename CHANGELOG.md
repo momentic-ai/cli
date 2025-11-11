@@ -1,5 +1,14 @@
 # momentic
 
+## 2.20.4
+
+### Patch Changes
+
+- e191cba: Fixed race case in the desktop editor for disk diff alert when manually hitting the save button.
+- b55b738: Agents less likely to use javascript steps to avoid unsupported step types
+- d1546f1: Added drag and drop step to agents.
+- 7cf94ce: Support different tolerances in web caches
+
 ## 2.20.3
 
 ### Patch Changes
