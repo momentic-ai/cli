@@ -1,5 +1,11 @@
 # momentic
 
+## 2.21.3
+
+### Patch Changes
+
+- 397cebd: More verbose logging for momentic upgrade command
+
 ## 2.21.2
 
 ### Patch Changes
