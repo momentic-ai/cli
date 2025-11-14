@@ -1,5 +1,11 @@
 # momentic
 
+## 2.21.2
+
+### Patch Changes
+
+- d65ea00: Add the ability to use a proxy server when running tests. Proxies can be configured at the test and environment level.
+
 ## 2.21.1
 
 ### Patch Changes
