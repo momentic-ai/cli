@@ -1,5 +1,12 @@
 # momentic
 
+## 2.21.4
+
+### Patch Changes
+
+- 99f3794: Add a visual indicator when caches aren't being saved in the editor
+- fbfac02: Diff from disk pop up now cancels execution upon selecting a choice.
+
 ## 2.21.3
 
 ### Patch Changes
