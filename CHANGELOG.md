@@ -1,5 +1,20 @@
 # momentic
 
+## 2.21.0
+
+### Minor Changes
+
+- ca32829: Add a --regenerate-caches flag to rebuild caches from scratch
+- 7d30562: Add the ability to upload videos of test runs
+- 80f40ad: Update default settings for AI agents to use the latest models
+- 80f40ad: momentic upgrade command to update existing configurations to the latest defaults
+
+### Patch Changes
+
+- bfed3bb: Agents now have access to Copy, GoForward, LocalStorage, MouseDrag, Paste, Refresh, and APIRequest steps.
+- aeaaddb: Agents no longer remove and replace tools. They are now given better context for the test and steps indices and prioritize accurate splicing.
+- 7eee99f: MCP edit test tool has full description of the subagent it fires off.
+
 ## 2.20.4
 
 ### Patch Changes
