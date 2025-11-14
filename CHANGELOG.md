@@ -1,5 +1,11 @@
 # momentic
 
+## 2.21.1
+
+### Patch Changes
+
+- 5c848d1: Lock "ai" to prevent toast error upon finish message mismatch between copilot's frontend and streamText.
+
 ## 2.21.0
 
 ### Minor Changes
