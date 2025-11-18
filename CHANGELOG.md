@@ -1,5 +1,14 @@
 # momentic
 
+## 2.22.1
+
+### Patch Changes
+
+- 61aaa3d: Use System.PullRequest.SourceBranch to infer branch for Azure devops workflows triggered by PRs
+- 6505a99: Copilot reset session properly resets environment variables.
+- 61aaa3d: Grant local-network-access permission to browsers during CLI runs
+- 527caea: Only check CLI version for commands that don't require specific output
+
 ## 2.22.0
 
 ### Minor Changes
