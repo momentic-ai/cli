@@ -1,5 +1,15 @@
 # momentic
 
+## 2.22.0
+
+### Minor Changes
+
+- d3f4d0f: Upgrade to latest playwright
+
+### Patch Changes
+
+- 9ac963d: Upgrade dependencies to address security vulnerabilities
+
 ## 2.21.4
 
 ### Patch Changes
