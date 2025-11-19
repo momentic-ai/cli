@@ -1,5 +1,13 @@
 # momentic
 
+## 2.22.2
+
+### Patch Changes
+
+- ad81bed: Fix issue where memory would not be saved if the overall test status is failed
+- a07d939: Copilot test_get tool no longer truncates steps.
+- ad81bed: Fix cache saving issue where memory from element checks that have any failed attempts would not be saved
+
 ## 2.22.1
 
 ### Patch Changes
