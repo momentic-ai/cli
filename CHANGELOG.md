@@ -1,5 +1,13 @@
 # momentic
 
+## 2.22.3
+
+### Patch Changes
+
+- c725b84: Each element check attempt now uses a copy of the original step cache instead of inheriting the cache from the last attempt
+- d0148c5: Fix a bug causing mouse drag to not work on pages with certain cursor event handlers
+- 202374b: Search bar for variables in the Context tab of the editor.
+
 ## 2.22.2
 
 ### Patch Changes
