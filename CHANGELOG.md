@@ -1,5 +1,13 @@
 # momentic
 
+## 2.22.4
+
+### Patch Changes
+
+- 152c0b4: Add AI smart waiting when cache cannot be used
+- cbc6461: Add an extra layer of validation to ensure that the page doesn't change after caches are resolved
+- ad093ce: Copilot receives cache information when it uses the test get tool.
+
 ## 2.22.3
 
 ### Patch Changes
