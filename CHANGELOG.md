@@ -1,5 +1,11 @@
 # momentic
 
+## 2.23.0
+
+### Minor Changes
+
+- 55249d2: Add conditional step type
+
 ## 2.22.5
 
 ### Patch Changes
