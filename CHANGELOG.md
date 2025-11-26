@@ -1,5 +1,12 @@
 # momentic
 
+## 2.22.5
+
+### Patch Changes
+
+- 00b1be0: Fix vulnerable dependencies
+- 90805ba: MCP sends back notifications for tools and reasoning.
+
 ## 2.22.4
 
 ### Patch Changes
