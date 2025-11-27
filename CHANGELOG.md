@@ -1,5 +1,11 @@
 # momentic
 
+## 2.23.1
+
+### Patch Changes
+
+- c0e487f: Fix a bug where caches were being discarded despite being usable
+
 ## 2.23.0
 
 ### Minor Changes
