@@ -1,5 +1,11 @@
 # momentic
 
+## 2.23.2
+
+### Patch Changes
+
+- 4c63a68: Stream HAR entries to disk during test runs to avoid excessive memory usage
+
 ## 2.23.1
 
 ### Patch Changes
