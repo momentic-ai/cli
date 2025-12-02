@@ -1,5 +1,12 @@
 # momentic
 
+## 2.23.3
+
+### Patch Changes
+
+- d636332: Record reason why caches did not resolve
+- d636332: Support resolving caches with a single selector
+
 ## 2.23.2
 
 ### Patch Changes
