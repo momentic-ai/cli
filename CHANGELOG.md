@@ -1,5 +1,12 @@
 # momentic
 
+## 2.23.4
+
+### Patch Changes
+
+- c878f84: Always serialize labels in the web a11y tree
+- c878f84: Serialize parents of momentic-ineligible elements to provide more context
+
 ## 2.23.3
 
 ### Patch Changes
