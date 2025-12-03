@@ -1,5 +1,12 @@
 # momentic
 
+## 2.24.0
+
+### Minor Changes
+
+- 629fea6: Add a flag to incrementally evict old caches
+- c7000f2: Locator v3 improved to be more accurate and nitpick less.
+
 ## 2.23.4
 
 ### Patch Changes
