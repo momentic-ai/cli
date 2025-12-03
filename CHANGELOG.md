@@ -5,7 +5,7 @@
 ### Patch Changes
 
 - 2caba7c: Update visual assertion primary model for the V3 agent
-- 547a02c: Revoe the diff from disk dialog.
+- 547a02c: Remove the diff from disk dialog.
 
 ## 2.24.0
 
