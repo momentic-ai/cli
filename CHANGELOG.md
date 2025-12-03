@@ -1,5 +1,12 @@
 # momentic
 
+## 2.24.1
+
+### Patch Changes
+
+- 2caba7c: Update visual assertion primary model for the V3 agent
+- 547a02c: Revoe the diff from disk dialog.
+
 ## 2.24.0
 
 ### Minor Changes
