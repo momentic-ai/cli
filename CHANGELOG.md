@@ -1,5 +1,12 @@
 # momentic
 
+## 2.25.1
+
+### Patch Changes
+
+- 7116222: Copilot and MCP are now less likely to ignore failures in steps.
+- dd2af11: Copilot sticks to its edit protocol better and adds steps more frequently instead of splicing large sets.
+
 ## 2.25.0
 
 ### Minor Changes
