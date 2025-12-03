@@ -1,5 +1,16 @@
 # momentic
 
+## 2.25.0
+
+### Minor Changes
+
+- 25e6091: Drag and drop step added to AI actions, failure recovery, auto-healing, and test generation.
+
+### Patch Changes
+
+- dcf8df2: Fix issues with step actions including adding modules before/after modules and adding children to AI Action steps
+- f8294ce: MCP edit test tool now returns diffs as additions and deletions instead of the full test.
+
 ## 2.24.1
 
 ### Patch Changes
