@@ -1,5 +1,12 @@
 # momentic
 
+## 2.25.2
+
+### Patch Changes
+
+- 65aec9f: Block fullstory scripts that have been vendored to prevent performance degradation in test environments
+- 5c37b7c: MCP test_edit tool has better guidelines on how to interpret the response messages array.
+
 ## 2.25.1
 
 ### Patch Changes
