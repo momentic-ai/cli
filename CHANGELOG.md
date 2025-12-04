@@ -1,5 +1,11 @@
 # momentic
 
+## 2.25.3
+
+### Patch Changes
+
+- 30c1182: Add 'disableFullStory' flag so that users can selectively enable fullstory blocking
+
 ## 2.25.2
 
 ### Patch Changes
