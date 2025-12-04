@@ -1,5 +1,12 @@
 # momentic
 
+## 2.25.4
+
+### Patch Changes
+
+- 6cc766e: Fix a bug where request and/or response content was being redacted from recorded requests
+- 6cc766e: Fix a bug where requests bodies were not being passed to mocks
+
 ## 2.25.3
 
 ### Patch Changes
