@@ -1,5 +1,11 @@
 # momentic
 
+## 2.25.5
+
+### Patch Changes
+
+- dce3a05: Improve tracking for Agents.
+
 ## 2.25.4
 
 ### Patch Changes
