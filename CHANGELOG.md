@@ -1,5 +1,11 @@
 # momentic
 
+## 2.25.6
+
+### Patch Changes
+
+- 946822c: Add more checks to make sure that selectors still resolve to the same element after cache resolution
+
 ## 2.25.5
 
 ### Patch Changes
