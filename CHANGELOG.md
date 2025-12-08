@@ -1,5 +1,11 @@
 # momentic
 
+## 2.25.7
+
+### Patch Changes
+
+- 4431744: Fixed tracing error log.
+
 ## 2.25.6
 
 ### Patch Changes
