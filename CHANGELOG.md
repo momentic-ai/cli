@@ -1,5 +1,11 @@
 # momentic
 
+## 2.25.8
+
+### Patch Changes
+
+- 7f7d6d3: Fixed Node 25 incompatibility.
+
 ## 2.25.7
 
 ### Patch Changes
