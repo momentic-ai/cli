@@ -1,5 +1,11 @@
 # momentic
 
+## 2.25.9
+
+### Patch Changes
+
+- bf21ca7: Make git repository metadata more consistent when running on CircleCI
+
 ## 2.25.8
 
 ### Patch Changes
