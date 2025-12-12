@@ -1,5 +1,22 @@
 # momentic
 
+## 2.26.0
+
+### Minor Changes
+
+- 6983b6e: Add support for form-urlencoded API request bodies
+
+### Patch Changes
+
+- e801f0d: Fix a bug in the REQUEST step where content type was not set according to the body type chosen
+- 0d56868: Added GraphQL step support to Agents (Copilot & MCP).
+- 85b109a: Agents evaluate whether they can run the step after their changes to ensure they don't break you test.
+- d4b4c70: Make git repository metadata more consistent when running on CircleCI
+- 06c656c: Copilot tuned to better understand how tools are failing from their responses.
+- 7eb152a: MCP linting step adjusted to be less nitty in rejecting improper usage.
+- 847ae7d: Also serialize elements with background images and no children as images in the accessibility tree
+- 1ad35ae: Enable Agents to save API step results to EnvKeys.
+
 ## 2.25.8
 
 ### Patch Changes
