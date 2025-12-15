@@ -1,5 +1,11 @@
 # momentic
 
+## 2.27.1
+
+### Patch Changes
+
+- a52493d: Update navigation section header link styles to appear clickable
+
 ## 2.27.0
 
 ### Minor Changes
