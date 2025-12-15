@@ -1,5 +1,15 @@
 # momentic
 
+## 2.27.0
+
+### Minor Changes
+
+- 2e1b0d0: Add more granular settings to opt out of console and network logs
+
+### Patch Changes
+
+- c146c24: Improve test search performance
+
 ## 2.26.0
 
 ### Minor Changes
