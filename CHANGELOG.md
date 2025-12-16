@@ -1,5 +1,14 @@
 # momentic
 
+## 2.27.2
+
+### Patch Changes
+
+- 889f0ba: Fix issues with adding conditional steps to modules
+- 03b67be: Module tools can now create subdirectories from the copilot. Metadata-only changes to modules are now supported via copilot.
+- 15bcd22: The test editing MCP tool now advertises how it can edit modules.
+- f0b8c4e: Highlight the from and to target during drag and drop steps
+
 ## 2.27.1
 
 ### Patch Changes
