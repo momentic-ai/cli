@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.0
+
+### Minor Changes
+
+- 1d05bfc: Upgrade models for AI action and failure recovery
+
 ## 2.27.2
 
 ### Patch Changes
