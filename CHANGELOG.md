@@ -1,5 +1,15 @@
 # momentic
 
+## 2.28.2
+
+### Patch Changes
+
+- 4c7094b: Copilot and MCP more prone to search for modules when making tests.
+- e30ad26: Copilot and MCP are now significantly better at understanding visual descriptions when editing tests.
+- 16eea66: MCP now summarizes your test_edit session and uses it to return a structured response telling you if it accomplished its goal and if it is safe to continue"
+- a690374: Drastically improve Allure reporting with module name support, before/after screenshots, context, api request data, and video attachments
+- 4c7094b: Copilot and MCP now adhere more strongly to the edit protocol.
+
 ## 2.28.1
 
 ### Patch Changes
