@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.1
+
+### Patch Changes
+
+- d80023c: Normalize headers in request command
+
 ## 2.28.0
 
 ### Minor Changes
