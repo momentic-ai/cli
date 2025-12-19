@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.4
+
+### Patch Changes
+
+- 8ce9747: Model improvement for AI Actions.
+
 ## 2.28.3
 
 ### Patch Changes
