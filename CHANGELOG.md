@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.3
+
+### Patch Changes
+
+- 19de55d: Fix issue where editing conditional step assertion was removing child steps
+
 ## 2.28.2
 
 ### Patch Changes
