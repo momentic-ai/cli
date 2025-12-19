@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.5
+
+### Patch Changes
+
+- 5cf5758: Fix request recording step picking up requests that started before recording
+
 ## 2.28.4
 
 ### Patch Changes
