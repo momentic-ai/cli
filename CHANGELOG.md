@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.6
+
+### Patch Changes
+
+- ea9db74: AI Action evaluate agent prompt tuning.
+
 ## 2.28.5
 
 ### Patch Changes
