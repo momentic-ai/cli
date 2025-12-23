@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.7
+
+### Patch Changes
+
+- 9fdae76: Fix issue with hanlding numerical values in DOM processing
+
 ## 2.28.6
 
 ### Patch Changes
