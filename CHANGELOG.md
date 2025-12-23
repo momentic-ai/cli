@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.8
+
+### Patch Changes
+
+- a33a3b1: Update momentic.config file to allow specifying repository root to display in UI
+
 ## 2.28.7
 
 ### Patch Changes
