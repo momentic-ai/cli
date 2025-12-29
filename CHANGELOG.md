@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.9
+
+### Patch Changes
+
+- c059bbd: Fix request step schema parsing errors
+
 ## 2.28.8
 
 ### Patch Changes
