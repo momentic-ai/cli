@@ -1,5 +1,11 @@
 # momentic
 
+## 2.28.10
+
+### Patch Changes
+
+- bc1bfe9: Add momentic.config browser setting defaultBrowserType to specify org default browser to use in tests
+
 ## 2.28.9
 
 ### Patch Changes
