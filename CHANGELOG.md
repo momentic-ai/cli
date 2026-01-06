@@ -1,5 +1,11 @@
 # momentic
 
+## 2.29.0
+
+### Minor Changes
+
+- 8b8c2be: Add setting to only grant specific permissions to sites
+
 ## 2.28.10
 
 ### Patch Changes
