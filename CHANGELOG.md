@@ -1,5 +1,12 @@
 # momentic
 
+## 2.29.1
+
+### Patch Changes
+
+- 7e2d3f8: Revert numerical inputs to allow invalid entries until blur / enter.
+- ba87e1d: Add ability to edit name and description of tests from Repository view
+
 ## 2.29.0
 
 ### Minor Changes
