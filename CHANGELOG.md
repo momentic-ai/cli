@@ -1,5 +1,11 @@
 # momentic
 
+## 2.29.2
+
+### Patch Changes
+
+- f088b16: Prevent launching app when an invalid test schema is detected, and show which files as well as steps must be fixed.
+
 ## 2.29.1
 
 ### Patch Changes
