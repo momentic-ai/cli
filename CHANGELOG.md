@@ -1,5 +1,14 @@
 # momentic
 
+## 2.29.3
+
+### Patch Changes
+
+- dcdbae8: Fix a bug that caused certain caches to bust unnecessarily inside iframes
+- 9104af2: Default creation of new tests to 1 retry
+- d1edaa0: Added undo redo for the editor on local app, copilot actions are included in the undoable actions.
+- 9104af2: Fix bug where defaults with "-" in them were not interpolated correctly in the momentic.config.yaml
+
 ## 2.29.2
 
 ### Patch Changes
