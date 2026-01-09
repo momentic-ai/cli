@@ -1,5 +1,11 @@
 # momentic
 
+## 2.29.4
+
+### Patch Changes
+
+- 388067e: Improve cache v3 requirement generation
+
 ## 2.29.3
 
 ### Patch Changes
