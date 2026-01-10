@@ -1,5 +1,11 @@
 # momentic
 
+## 2.29.5
+
+### Patch Changes
+
+- 24048a0: Prevent modules from being added to other modules in the "all" tab of adding a new step
+
 ## 2.29.4
 
 ### Patch Changes
