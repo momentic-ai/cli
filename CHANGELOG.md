@@ -1,5 +1,11 @@
 # momentic
 
+## 2.29.6
+
+### Patch Changes
+
+- 3a23aa4: Support session storage when loading and saving auth state
+
 ## 2.29.5
 
 ### Patch Changes
