@@ -1,5 +1,11 @@
 # momentic
 
+## 2.30.0
+
+### Minor Changes
+
+- 1e74ae7: Locator model improvement and prompt tuning.
+
 ## 2.29.6
 
 ### Patch Changes
