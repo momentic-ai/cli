@@ -1,5 +1,11 @@
 # momentic
 
+## 2.30.1
+
+### Patch Changes
+
+- 7f73bce: Fix cache resolution bug when running tests outside of CI on main
+
 ## 2.30.0
 
 ### Minor Changes
