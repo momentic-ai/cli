@@ -1,5 +1,11 @@
 # momentic
 
+## 2.30.2
+
+### Patch Changes
+
+- 77807f9: Fixed intermittent cache misses in cached modules using the “Treat as auth module” setting with redirecting login pages.
+
 ## 2.30.1
 
 ### Patch Changes
