@@ -1,5 +1,11 @@
 # momentic
 
+## 2.31.1
+
+### Patch Changes
+
+- a85b860: Fix cache saving for the assertions inside conditionals
+
 ## 2.31.0
 
 ### Minor Changes
