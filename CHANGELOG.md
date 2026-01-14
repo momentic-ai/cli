@@ -1,5 +1,15 @@
 # momentic
 
+## 2.31.0
+
+### Minor Changes
+
+- 5e032c0: Tune Locator to respect multiple single quote strict queries in one request.
+
+### Patch Changes
+
+- 712604f: Fix async promise rejection error when node highlights fail
+
 ## 2.30.2
 
 ### Patch Changes
