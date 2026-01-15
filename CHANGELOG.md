@@ -1,5 +1,11 @@
 # momentic
 
+## 2.32.0
+
+### Minor Changes
+
+- 9766cdf: Prompt tuning for more stable model responses.
+
 ## 2.31.1
 
 ### Patch Changes
