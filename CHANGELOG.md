@@ -1,5 +1,11 @@
 # momentic
 
+## 2.33.0
+
+### Minor Changes
+
+- abf8fbd: Add support for overriding git metadata using environment variables
+
 ## 2.32.0
 
 ### Minor Changes
