@@ -1,5 +1,11 @@
 # momentic
 
+## 2.33.1
+
+### Patch Changes
+
+- bba2c7b: Fix a bug where caches were being saved incorrectly for failing test runs
+
 ## 2.33.0
 
 ### Minor Changes
