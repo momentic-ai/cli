@@ -1,5 +1,11 @@
 # momentic
 
+## 2.33.2
+
+### Patch Changes
+
+- 50b81cd: Conditional steps now allow javascript conditionals with a truthy return evaluated as true.
+
 ## 2.33.1
 
 ### Patch Changes
