@@ -1,5 +1,11 @@
 # momentic
 
+## 2.33.3
+
+### Patch Changes
+
+- 7fb96b9: Locator rules for ineligible elements adjusted.
+
 ## 2.33.2
 
 ### Patch Changes
