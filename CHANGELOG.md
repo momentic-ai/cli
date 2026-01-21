@@ -1,5 +1,15 @@
 # momentic
 
+## 2.34.0
+
+### Minor Changes
+
+- 47b8d73: Prompt tuning for how to handle single quotes around textual arguments when locating elements.
+
+### Patch Changes
+
+- 08de2ea: Copilot and MCP now have access to the waitForDownload, downloadTimeoutMs, and delayMs settings on click steps.
+
 ## 2.33.3
 
 ### Patch Changes
