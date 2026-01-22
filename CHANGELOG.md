@@ -1,5 +1,15 @@
 # momentic
 
+## 2.35.0
+
+### Minor Changes
+
+- 51a3b3a: Be able to view tests that are using a module when viewing a module in the app
+
+### Patch Changes
+
+- 9e40a82: Improve handling of ambiguous global locator redirect cases
+
 ## 2.34.0
 
 ### Minor Changes
