@@ -1,5 +1,12 @@
 # momentic
 
+## 2.35.1
+
+### Patch Changes
+
+- 4520016: Patch minor security vulnerability with diff-lines
+- 976ff82: Adjust accessibility tree serialization for elements with the same "name" and text content, removing the "name" but preserving the child text content
+
 ## 2.35.0
 
 ### Minor Changes
