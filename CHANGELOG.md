@@ -1,5 +1,18 @@
 # momentic
 
+## 2.37.0
+
+### Minor Changes
+
+- 244330c: Add results view command to launch local run viewer and view local results
+
+### Patch Changes
+
+- 48fecad: Hide incorrect credit estimate from the test details pane
+- eca74d8: Step selection defaults to ordered by alphabetical order.
+- 48fecad: Sort modules alphabetically when creating a new step
+- 48fecad: Fix an issue where cleanup would fail after creating test results archives due to open file streams
+
 ## 2.36.0
 
 ### Minor Changes
