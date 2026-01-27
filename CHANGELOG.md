@@ -1,5 +1,16 @@
 # momentic
 
+## 2.36.0
+
+### Minor Changes
+
+- 94abe57: Conditional steps now support page checks as the condition to if else with.
+
+### Patch Changes
+
+- d6bb10c: Fix a11y tree serialization for em elements, which was causing AI locate calls to pick text elements and throw a DOM error in rare instances
+- 6d0bf80: Automate windows dependencies during momentic install-browsers
+
 ## 2.35.1
 
 ### Patch Changes
