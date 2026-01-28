@@ -1,5 +1,11 @@
 # momentic
 
+## 2.37.1
+
+### Patch Changes
+
+- 7fc78d8: Fix playwright dependency installation on windows
+
 ## 2.37.0
 
 ### Minor Changes
