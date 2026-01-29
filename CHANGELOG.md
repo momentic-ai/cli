@@ -1,5 +1,11 @@
 # momentic
 
+## 2.37.2
+
+### Patch Changes
+
+- 8db77a1: Copilot reset session reloads environment variables.
+
 ## 2.37.1
 
 ### Patch Changes
