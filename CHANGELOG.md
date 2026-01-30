@@ -1,5 +1,15 @@
 # momentic
 
+## 2.38.0
+
+### Minor Changes
+
+- 42e6e61: List runs on landing page for local run viewer and make runId optional in results view command
+
+### Patch Changes
+
+- 296bc95: Improve enforcement of relative elements in caches
+
 ## 2.37.2
 
 ### Patch Changes
