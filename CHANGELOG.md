@@ -1,5 +1,13 @@
 # momentic
 
+## 2.38.1
+
+### Patch Changes
+
+- 08f45e6: Unify copilot preview step tools.
+- 9ad2177: Copilot only uses splice to edit the test.
+- 94cb48e: Bug fix for retries flag in CLI. Now the Cli flag overrides the test.retries which overrides the config.retries.
+
 ## 2.38.0
 
 ### Minor Changes
