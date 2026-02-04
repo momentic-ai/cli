@@ -1,5 +1,22 @@
 # momentic
 
+## 2.39.0
+
+### Minor Changes
+
+- 32c1eff: New MCP commands for starting and terminating browser sessions. MCP managed browser sessions can be headful & auto terminate if not interacted with for 5 min.
+- 32c1eff: New MCP tool to view the start of a given browser session. This includes a browser snapshot and image. Warning: this is often token heavy.
+- 603c177: New MCP tool for previewing step inputs on a test browser session.
+- 32c1eff: MCP stdio support under mcp command. EX: npx momentic mcp.
+- a2f8bcd: Record system and process memory and cpu resource data during text execution and display in Run Viewer
+- 603c177: New MCP tool for retrieving environment variables from a browser test session.
+- 603c177: New MCP function to run step ranges on a test browser session.
+- 603c177: New MCP tool for editing the session in use via splicing steps into the test.
+
+### Patch Changes
+
+- 668918b: Convert MCP responses to using multiple content parts in responses.
+
 ## 2.38.2
 
 ### Patch Changes
