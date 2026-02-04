@@ -1,5 +1,11 @@
 # momentic
 
+## 2.39.1
+
+### Patch Changes
+
+- 55575cb: Fix bug where duplicating conditional steps doesn't create new command Ids for sub steps.
+
 ## 2.39.0
 
 ### Minor Changes
