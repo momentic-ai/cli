@@ -1,5 +1,12 @@
 # momentic
 
+## 2.38.2
+
+### Patch Changes
+
+- 7232de7: Fix copilot bug where it was throwing errors when editing tool-calls.
+- 43b0ba0: Fix a bug where element checks on attributes that do not exist pass
+
 ## 2.38.1
 
 ### Patch Changes
