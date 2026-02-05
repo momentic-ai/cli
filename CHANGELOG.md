@@ -1,5 +1,11 @@
 # momentic
 
+## 2.40.0
+
+### Minor Changes
+
+- 1f7e786: Adds quarantined_at to CLI and Mobile CLI report outputs
+
 ## 2.39.2
 
 ### Patch Changes
