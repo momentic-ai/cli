@@ -1,5 +1,11 @@
 # momentic
 
+## 2.39.2
+
+### Patch Changes
+
+- 6852592: Fix bug where browser would sometimes scroll when not necessary.
+
 ## 2.39.1
 
 ### Patch Changes
