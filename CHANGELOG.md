@@ -1,5 +1,16 @@
 # momentic
 
+## 2.42.0
+
+### Minor Changes
+
+- 12ffbd8: Copilot now uses step caches if available when executing test steps
+
+### Patch Changes
+
+- 0f05e51: Removed step linting.
+- 9ed4176: Fix module edit tool not saving modules edits when using Copilot.
+
 ## 2.41.0
 
 ### Minor Changes
