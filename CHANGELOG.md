@@ -1,5 +1,11 @@
 # momentic
 
+## 2.41.0
+
+### Minor Changes
+
+- 32beeea: Show quarantined badge on run with --only-quarantined
+
 ## 2.40.0
 
 ### Minor Changes
