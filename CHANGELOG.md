@@ -1,5 +1,12 @@
 # momentic
 
+## 2.42.1
+
+### Patch Changes
+
+- ca1e82d: Make copilot's edits instantly fire an editor save to fix module edit vs autosave race condition.
+- 5f5a62b: Removed the MCP flag that allowed edits to bypass disk persistence; edits now always follow the context-level persistence setting.
+
 ## 2.42.0
 
 ### Minor Changes
