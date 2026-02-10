@@ -1,5 +1,12 @@
 # momentic
 
+## 2.42.2
+
+### Patch Changes
+
+- 905727b: Change Copilot editing procedure to cause fewer unnecessary tool calls.
+- 8ecb17f: AI checks now fire one last attempt at the end of the timeout rather than finishing at the timeout. Behavior unified with pre 2.33.1 momentic.
+
 ## 2.42.1
 
 ### Patch Changes
