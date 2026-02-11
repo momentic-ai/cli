@@ -1,5 +1,11 @@
 # momentic
 
+## 2.43.0
+
+### Minor Changes
+
+- ad9fcf4: Show AI settings in run viewer
+
 ## 2.42.2
 
 ### Patch Changes
