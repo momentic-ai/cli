@@ -1,5 +1,16 @@
 # momentic
 
+## 2.44.0
+
+### Minor Changes
+
+- b2d21c4: Preprocess redirectable elements to no longer be momentic-ineligible.
+
+### Patch Changes
+
+- 247ad9f: Fix a sharding bug where some shards included duplicate items
+- 8444e96: Remove click redirection for invalid elements to target parent hitboxes.
+
 ## 2.43.0
 
 ### Minor Changes
