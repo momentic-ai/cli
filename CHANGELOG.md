@@ -1,5 +1,12 @@
 # momentic
 
+## 2.44.1
+
+### Patch Changes
+
+- e549d0a: When running a single step within a conditional or module, don't show the status of the step on the parent container.
+- 720ea84: Don't run assertions on conditional steps if running a single step inside a conditional.
+
 ## 2.44.0
 
 ### Minor Changes
