@@ -1,5 +1,12 @@
 # momentic
 
+## 2.45.1
+
+### Patch Changes
+
+- 4d54e1e: Fix issue where toggling through test details panels would not update test name input value
+- f6f3084: Fix issue where failed condition substeps would be ran when executing Run To command
+
 ## 2.45.0
 
 ### Minor Changes
