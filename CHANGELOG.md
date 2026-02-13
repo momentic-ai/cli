@@ -1,5 +1,17 @@
 # momentic
 
+## 2.45.0
+
+### Minor Changes
+
+- dbea1b0: Makes retries optional on test configs, enables fallback to momentic.config.yaml
+- b1afdff: Improve interaction model to detect element targets that change mid-interaction and retry execution.
+
+### Patch Changes
+
+- b2d4aae: Agent tools now keep browser controls open by default, so Copilot can keep working after you cancel an action.
+- cf06ba9: Fix stdio mcp to correctly use the passed in config.yaml
+
 ## 2.44.1
 
 ### Patch Changes
