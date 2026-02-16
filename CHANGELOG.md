@@ -1,5 +1,11 @@
 # momentic
 
+## 2.45.3
+
+### Patch Changes
+
+- 91c384b: Improve redirect logging and increase the timeout to find a label.
+
 ## 2.45.2
 
 ### Patch Changes
