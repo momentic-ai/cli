@@ -1,5 +1,13 @@
 # momentic
 
+## 2.45.4
+
+### Patch Changes
+
+- 446e4b0: Change Copilot and MCP to be more screenshot reliant to decrease context bloat
+- d70d307: Update tab switching timeout language to be more specific to the tab switching step and better represent the timeouts intended functionality
+- 14a3bba: Fix the minimum width of the navigation bar in the local app
+
 ## 2.45.3
 
 ### Patch Changes
