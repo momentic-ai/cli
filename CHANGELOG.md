@@ -1,5 +1,16 @@
 # momentic
 
+## 2.46.0
+
+### Minor Changes
+
+- e38ab14: Added request listener, request recording, and mock route step types for agents.
+
+### Patch Changes
+
+- eb74162: Capture more exceptions for internal reporting
+- 2f21e56: Add a new flag to the MCP run step tool to allow the model to re-run from a freshly reset session.
+
 ## 2.45.6
 
 ### Patch Changes
