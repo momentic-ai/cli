@@ -1,5 +1,13 @@
 # momentic
 
+## 2.45.6
+
+### Patch Changes
+
+- b6f5964: Apply the same logic for validating element identity for newly AI-located elements as was applied for cached elements in 2.45.2
+- a409a84: Add a CLI flag to the stdio MCP server command to override the default headful/headless from the environment variable.
+- b6f5964: Fix bug that was preventing redirecting clicks from 1x1 inputs if the input had a long, auto-generated ID
+
 ## 2.45.5
 
 ### Patch Changes
