@@ -1,5 +1,12 @@
 # momentic
 
+## 2.46.1
+
+### Patch Changes
+
+- 33653fd: Trim fields from the momentic_test_list tool's test summaries to save tokens for mcp consumers.
+- 1aaf3dc: Automatically scroll into view elements when visual actions is on and globalLocatorRedirect is on
+
 ## 2.46.0
 
 ### Minor Changes
