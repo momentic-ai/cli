@@ -1,5 +1,12 @@
 # momentic
 
+## 2.45.5
+
+### Patch Changes
+
+- 918868b: Add a new parameter to MCP server initialization allowing the user to decide if they want the tool response to write to a file or get it inline.
+- a008a69: Exclude head, header, and footer elements from PAGE_CHECK assertions
+
 ## 2.45.4
 
 ### Patch Changes
