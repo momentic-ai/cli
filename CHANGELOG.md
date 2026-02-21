@@ -1,5 +1,11 @@
 # momentic
 
+## 2.46.2
+
+### Patch Changes
+
+- 43c4fa9: Improve error reporting
+
 ## 2.46.1
 
 ### Patch Changes
