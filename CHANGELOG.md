@@ -1,5 +1,17 @@
 # momentic
 
+## 2.47.0
+
+### Minor Changes
+
+- a1a17d4: Removed support for SSE transport for MCP to keep inline with standard.
+- 3076456: Update Run Viewer UI to match mobile editor experience
+
+### Patch Changes
+
+- 46751da: Add a progress token for the run step tool to give updates for what is being currently executed in the test.
+- a1a17d4: Clean up potential memory leaks from mcp sessions' browsers not being killed when server crashes.
+
 ## 2.46.5
 
 ### Patch Changes
