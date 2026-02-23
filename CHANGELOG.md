@@ -1,5 +1,11 @@
 # momentic
 
+## 2.46.5
+
+### Patch Changes
+
+- c6f0f27: Improve error handling in environments where git is not installed
+
 ## 2.46.4
 
 ### Patch Changes
