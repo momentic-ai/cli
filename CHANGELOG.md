@@ -1,5 +1,12 @@
 # momentic
 
+## 2.46.3
+
+### Patch Changes
+
+- 1b597d1: Fix issue with dependency causing an error in some scenarios when copilot attempts tool calls.
+- 8c15cbc: Fix stdio MCP server crash when running steps with reset session.
+
 ## 2.46.2
 
 ### Patch Changes
