@@ -1,5 +1,12 @@
 # momentic
 
+## 2.46.4
+
+### Patch Changes
+
+- 344b092: Optimize MCP image return formatting so that images render correctly in more coding agents
+- 344b092: Change MCP sessions to use headful browsers by default
+
 ## 2.46.3
 
 ### Patch Changes
