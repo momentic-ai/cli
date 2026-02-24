@@ -1,5 +1,16 @@
 # momentic
 
+## 2.48.0
+
+### Minor Changes
+
+- 3daba60: Adds support for custom browser settings when running the Momentic MCP server via the mcp command.
+
+### Patch Changes
+
+- 0a98032: Save cache info when running preview step with MCP/copilot so that future execution is cached
+- b3099d1: Fix issues with run Viewer UI
+
 ## 2.47.0
 
 ### Minor Changes
