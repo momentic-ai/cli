@@ -1,5 +1,11 @@
 # momentic
 
+## 2.48.2
+
+### Patch Changes
+
+- 7cb2c54: Fix overflow issue when resizing local run viewer
+
 ## 2.48.1
 
 ### Patch Changes
