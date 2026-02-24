@@ -1,5 +1,11 @@
 # momentic
 
+## 2.48.1
+
+### Patch Changes
+
+- 5818d33: Update UI for failure recovery steps
+
 ## 2.48.0
 
 ### Minor Changes
