@@ -1,5 +1,15 @@
 # momentic
 
+## 2.49.0
+
+### Minor Changes
+
+- bb3d060: Tighten the criteria for scenarios in which failure recovery can be triggered. Specifically, do not trigger on permanent user flow changes that require updating the test. In addition, reduce cases where failure recovery re-adds the step that will be re-attempted.
+
+### Patch Changes
+
+- 03d78db: Change orientation of label for run viewer step settings that include code blocks
+
 ## 2.48.3
 
 ### Patch Changes
