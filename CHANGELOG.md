@@ -1,5 +1,12 @@
 # momentic
 
+## 2.48.3
+
+### Patch Changes
+
+- 8a1a981: Improved copilot tracking.
+- 9983451: Fix overflow issue when resizing local run viewer
+
 ## 2.48.2
 
 ### Patch Changes
