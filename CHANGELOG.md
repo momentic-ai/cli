@@ -1,5 +1,11 @@
 # momentic
 
+## 2.49.1
+
+### Patch Changes
+
+- 7a07184: Consolidate step schemas in MCP tools to reduce context bloat
+
 ## 2.49.0
 
 ### Minor Changes
