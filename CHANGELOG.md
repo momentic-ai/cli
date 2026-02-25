@@ -1,5 +1,11 @@
 # momentic
 
+## 2.49.2
+
+### Patch Changes
+
+- fc6f312: When the agent sends an incorrect config path to the MCP to create a session, catch the error and send it back.
+
 ## 2.49.1
 
 ### Patch Changes
