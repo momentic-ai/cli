@@ -1,5 +1,15 @@
 # momentic
 
+## 2.50.0
+
+### Minor Changes
+
+- f587556: Edit test tool removed from MCP.
+
+### Patch Changes
+
+- 941b14a: Change defaults of the get browser state tool and added better text descriptions for how to use the tool.
+
 ## 2.49.2
 
 ### Patch Changes
