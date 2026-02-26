@@ -1,5 +1,11 @@
 # momentic
 
+## 2.50.1
+
+### Patch Changes
+
+- 956aee0: Add local run viewer text to browser CLI run output.
+
 ## 2.50.0
 
 ### Minor Changes
