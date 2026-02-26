@@ -1,5 +1,11 @@
 # momentic
 
+## 2.50.2
+
+### Patch Changes
+
+- 49da689: Limit width of tooltips in video player
+
 ## 2.50.1
 
 ### Patch Changes
