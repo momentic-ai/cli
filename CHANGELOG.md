@@ -1,5 +1,15 @@
 # momentic
 
+## 2.51.0
+
+### Minor Changes
+
+- 26bb35f: Update run viewer to use new hierarchy structure for nested steps
+
+### Patch Changes
+
+- b7bec68: Pressing Escape closes the details panel when viewing a row (tests, suites, files, test plans, run groups).
+
 ## 2.50.2
 
 ### Patch Changes
