@@ -1,5 +1,11 @@
 # momentic
 
+## 2.51.1
+
+### Patch Changes
+
+- 054e94e: Fix issue where run viewer steps would not collapse if selected
+
 ## 2.51.0
 
 ### Minor Changes
