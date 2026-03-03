@@ -1,5 +1,12 @@
 # momentic
 
+## 2.53.1
+
+### Patch Changes
+
+- ff41a83: Add support for previewing modules to the MCP tool.
+- fc300b4: Add OpenCode to skill installer command.
+
 ## 2.53.0
 
 ### Minor Changes
