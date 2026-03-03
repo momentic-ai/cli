@@ -1,5 +1,18 @@
 # momentic
 
+## 2.52.0
+
+### Minor Changes
+
+- 8ad9dc9: Add momentic_get_initial_data MCP tool to get state of momentic project before calling other tools
+- 8ad9dc9: Update input schema for MCP to be a cli-style string
+
+### Patch Changes
+
+- 8861888: Improve MCP splice tool responses so the model can understand test updates without needing an additional `get test` call.
+- 0b9fdb3: Fix issue with video recording timestamp being off after switching tabs during high machine resource usage
+- 39ac893: Fix issue with html parser failing on specific tags
+
 ## 2.51.1
 
 ### Patch Changes
