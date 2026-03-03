@@ -1,5 +1,17 @@
 # momentic
 
+## 2.53.0
+
+### Minor Changes
+
+- a53f786: New install-skill command added to the cli.
+
+### Patch Changes
+
+- 40a5289: Change preview tool to bypass smart waiting to improve latency for test creation via repeating[preview -> think] -> splice pattern.
+- 40a5289: Improve logging in create session tool response to prevent LLMs from mislabeling functioning sessions as errored out.
+- 40a5289: Added screenshots to the tool response of the start session tool to prevent wasted get browser state calls.
+
 ## 2.52.0
 
 ### Minor Changes
