@@ -1,5 +1,12 @@
 # momentic
 
+## 2.54.1
+
+### Patch Changes
+
+- 1029c6b: Fix a bug where caches were incorrectly being saved after failed runs
+- bd74012: Improve copilot's underlying model.
+
 ## 2.54.0
 
 ### Minor Changes
