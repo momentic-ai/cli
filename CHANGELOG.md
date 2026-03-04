@@ -1,5 +1,18 @@
 # momentic
 
+## 2.54.0
+
+### Minor Changes
+
+- 6c2fa73: Support conditional steps in MCP/copilot
+- b1f7e8a: Change the install-skill tool to install-skills in the cli.
+
+### Patch Changes
+
+- b1f7e8a: Rename the momentic-agent skill to momentic-test.
+- c40e39c: Always show run link input field when run group request fails in the local run viewer
+- a816ca4: Update the momentic skill to utilize modules better.
+
 ## 2.53.1
 
 ### Patch Changes
