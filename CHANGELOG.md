@@ -1,5 +1,11 @@
 # momentic
 
+## 2.54.2
+
+### Patch Changes
+
+- abed478: Minor UI fixes
+
 ## 2.54.1
 
 ### Patch Changes
