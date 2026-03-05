@@ -1,5 +1,11 @@
 # momentic
 
+## 2.55.0
+
+### Minor Changes
+
+- ca92267: Add support for isolating step caches by environment
+
 ## 2.54.2
 
 ### Patch Changes
