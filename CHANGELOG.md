@@ -1,5 +1,16 @@
 # momentic
 
+## 2.56.0
+
+### Minor Changes
+
+- c356206: Add support for the module creation tool in the MCP.
+
+### Patch Changes
+
+- c6fa1e9: Fix a bug where sigint was unhandled for desktop servers
+- c2cf2cc: Update the momentic-test skill to be more hesistant to make unnecessary semantic changes like filling in unnecesary fields on steps, changing quote types, etc.
+
 ## 2.55.0
 
 ### Minor Changes
