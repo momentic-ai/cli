@@ -6,6 +6,8 @@
 
 - bf11867: Replace module_update tool in copilot with additional options for splice_steps tool, along with prompting changes to clarify how to use the splice tool to edit modules for both MCP and Copilot.
 
+- fd2812e: Avoid fetching the accessibility tree when resolving elements with a cache to improve execution performance and browser stability.
+
 ### Patch Changes
 
 - fd2812e: Add browser option to disable the Chrome zygote process, which can reduce crashes in resource-limited environments
