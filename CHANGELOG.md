@@ -1,5 +1,15 @@
 # momentic
 
+## 2.58.0
+
+### Minor Changes
+
+- 0f6d2c1: Add example data to the momentic init command
+
+### Patch Changes
+
+- 2984701: Fix bug where local app exits on non-critical errors
+
 ## 2.57.0
 
 ### Minor Changes
