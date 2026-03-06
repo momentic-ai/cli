@@ -1,5 +1,15 @@
 # momentic
 
+## 2.57.0
+
+### Minor Changes
+
+- bf11867: Replace module_update tool in copilot with additional options for splice_steps tool, along with prompting changes to clarify how to use the splice tool to edit modules for both MCP and Copilot.
+
+### Patch Changes
+
+- fd2812e: Add browser option to disable the Chrome zygote process, which can reduce crashes in resource-limited environments
+
 ## 2.56.0
 
 ### Minor Changes
