@@ -1,5 +1,11 @@
 # momentic
 
+## 2.58.1
+
+### Patch Changes
+
+- 5a30cb3: Serialize class names for <i> elements by default, improving icon interactions
+
 ## 2.58.0
 
 ### Minor Changes
