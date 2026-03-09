@@ -1,5 +1,15 @@
 # momentic
 
+## 2.59.0
+
+### Minor Changes
+
+- 5ad3706: Display web step traces in run viewer
+
+### Patch Changes
+
+- 8a78b7f: Add images to AI assertion and locator traces for run viewer
+
 ## 2.58.2
 
 ### Patch Changes
