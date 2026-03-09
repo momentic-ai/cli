@@ -1,5 +1,12 @@
 # momentic
 
+## 2.58.2
+
+### Patch Changes
+
+- 0fefab8: Filter folder listings in mobile CLI to only show mobile tests and modules (and vice versa for the desktop CLI)
+- a6a81fc: Fix bug where errors in project configuration, duplicate id errors, or other crashes would crash the stdio mcp server
+
 ## 2.58.1
 
 ### Patch Changes
