@@ -1,5 +1,11 @@
 # momentic
 
+## 2.60.0
+
+### Minor Changes
+
+- 3919ff5: Element checks return much faster when the element eventually appears (checks will attempt to reuse the cache on every attempt as opposed to only the first attempt)
+
 ## 2.59.0
 
 ### Minor Changes
