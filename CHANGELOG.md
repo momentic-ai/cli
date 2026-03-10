@@ -1,5 +1,15 @@
 # momentic
 
+## 2.61.0
+
+### Minor Changes
+
+- 3454a30: CLI mcp command no longer allows a --yes flag, instead it uses the old default value (true) as the value.
+
+### Patch Changes
+
+- 13aa0b1: Momentic module list mcp tool now also respects the flag to output into chat or into a file (default). The module list tool also now removes unnecessary fields from the module output to make it easier for models to utilize.
+
 ## 2.60.0
 
 ### Minor Changes
