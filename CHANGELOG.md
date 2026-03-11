@@ -1,16 +1,5 @@
 # momentic
 
-## 2.63.0
-
-### Minor Changes
-
-- db9d803: Make AI actions always-on by removing the aiAction feature gate. Users no longer need to set ai.aiAction: true in momentic.config.yaml to use AI action steps.
-
-### Patch Changes
-
-- f76d03d: Add browser setting enableForceClickForMissingRedirectElement
-- 592fca6: Fixes for MCP including better schema examples for single quotes and missing envKey parameter on modules
-
 ## 2.62.0
 
 ### Minor Changes
