@@ -1,5 +1,18 @@
 # momentic
 
+## 2.62.0
+
+### Minor Changes
+
+- 4113175: Support element check condition in conditional step
+- 4f8d041: Rename momentic_test_environment_list to momentic_attributes_list with structured output.
+
+### Patch Changes
+
+- ff84a5c: Lock down the behavior of the mcp create module tool to only be able to input valid entity names.
+- ff84a5c: The MCP tool for creating a module now ignores both testPath and startIndex when one is omitted.
+- ff84a5c: Add support for absolute paths to tests in the create module tools.
+
 ## 2.61.0
 
 ### Minor Changes
