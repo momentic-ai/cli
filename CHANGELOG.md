@@ -1,5 +1,11 @@
 # momentic
 
+## 2.64.0
+
+### Minor Changes
+
+- 2558c8e: Update MCP step schema time units to match the units that are stored on the resulting momentic steps. Previously, all units were in ms but units will now vary depending on the step configuration
+
 ## 2.63.0
 
 ### Minor Changes
