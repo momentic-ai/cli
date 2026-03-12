@@ -1,5 +1,11 @@
 # momentic
 
+## 2.64.1
+
+### Patch Changes
+
+- 99436cc: Fix bug where MCP could create nested modules through conditional steps.
+
 ## 2.64.0
 
 ### Minor Changes
