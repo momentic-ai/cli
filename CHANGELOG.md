@@ -1,5 +1,15 @@
 # momentic
 
+## 2.65.0
+
+### Minor Changes
+
+- 989b8ef: Remove the momentic_test_get tool in favor of just directly reading the test from the yaml
+
+### Patch Changes
+
+- 989b8ef: Remove environment default from agent step schema
+
 ## 2.64.1
 
 ### Patch Changes
