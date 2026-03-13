@@ -1,5 +1,18 @@
 # momentic
 
+## 2.67.0
+
+### Minor Changes
+
+- 3f88169: Add the save cache option flag on the mcp command to enable force cache overwrites by the mcp.
+
+### Patch Changes
+
+- 4ffebd1: Fix issue where tests page scroll position reset when opening test details panel
+- b27f822: Add wait for stability span and change previous wait for stability description to smart waiting
+- b541fd6: Update resources tab on run viewer to have split charts for cpu/memory
+- c91cc09: Adjust the cache saving for mcp servers to not overwrite caches on main when executing run step.
+
 ## 2.66.0
 
 ### Minor Changes
