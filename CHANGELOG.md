@@ -1,5 +1,15 @@
 # momentic
 
+## 2.68.0
+
+### Minor Changes
+
+- 5b03448: Add the disable cache option flag on the mcp command to enable disabling caches by the mcp, with proper validation at the command level.
+
+### Patch Changes
+
+- 12e5b5f: Restore smart waiting retry logic for tab switching with at least 1 retry regardless of timeout
+
 ## 2.67.0
 
 ### Minor Changes
