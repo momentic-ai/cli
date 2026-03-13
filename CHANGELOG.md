@@ -1,5 +1,12 @@
 # momentic
 
+## 2.66.0
+
+### Minor Changes
+
+- 7dcbe42: Move the get browser state tool to get session state to be consistent with the mobile mcp. Adjust the skill to mirror the new unified behavior.
+- 1803ae7: Add ignorePageLoadTimeouts browser setting to allow ignoring domcontentloaded timeouts
+
 ## 2.65.0
 
 ### Minor Changes
