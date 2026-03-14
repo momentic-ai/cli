@@ -1,5 +1,12 @@
 # momentic
 
+## 2.68.1
+
+### Patch Changes
+
+- c4f5ed9: Update run details panel to be detachable and error text easier to read
+- f675781: Fix the bug where if a run step tool call took more than 5 min the session would be purged.
+
 ## 2.68.0
 
 ### Minor Changes
