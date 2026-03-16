@@ -1,5 +1,11 @@
 # momentic
 
+## 2.68.3
+
+### Patch Changes
+
+- 1d46d33: Speed up code paths that fetch Git metadata for the current user and branch before the test editor opens
+
 ## 2.68.2
 
 ### Patch Changes
