@@ -1,5 +1,11 @@
 # momentic
 
+## 2.68.2
+
+### Patch Changes
+
+- a231894: Strengthen language in skill around never splicing un-validated steps
+
 ## 2.68.1
 
 ### Patch Changes
