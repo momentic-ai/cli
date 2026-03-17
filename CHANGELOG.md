@@ -1,5 +1,15 @@
 # momentic
 
+## 2.69.0
+
+### Minor Changes
+
+- 9c486cb: New buildkite-json reporter for run granularity reporter data for buildkite.
+
+### Patch Changes
+
+- 9c486cb: Fix junit reporter to properly identify whether a step failed in setup, main, or teardown.
+
 ## 2.68.3
 
 ### Patch Changes
