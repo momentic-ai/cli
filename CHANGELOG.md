@@ -1,5 +1,11 @@
 # momentic
 
+## 2.70.0
+
+### Minor Changes
+
+- 12338df: Support running the local app on a custom port via --port flag or MOMENTIC_PORT env var
+
 ## 2.69.0
 
 ### Minor Changes
