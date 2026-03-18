@@ -1,5 +1,18 @@
 # momentic
 
+## 2.72.0
+
+### Minor Changes
+
+- b850fcf: Add support for REQUEST step body-type (json|form-urlencoded) in the mcp.
+
+### Patch Changes
+
+- 889afe5: Update run viewer details panel styles
+- b850fcf: Fix mcp bug where invalid json for graphql request headers would fail silently.
+- de63f5c: Improve response message to the model when cache entries fail to save inside the mcp's splice tool.
+- e749e10: Sentence case step type names (AI check, Element check, Page check) across UI labels, error messages, and agent prompts
+
 ## 2.71.2
 
 ### Patch Changes
