@@ -1,5 +1,11 @@
 # momentic
 
+## 2.72.1
+
+### Patch Changes
+
+- a272075: Fix default parameters not showing up on modules when changing step type
+
 ## 2.72.0
 
 ### Minor Changes
