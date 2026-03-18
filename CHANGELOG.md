@@ -1,5 +1,11 @@
 # momentic
 
+## 2.71.1
+
+### Patch Changes
+
+- e69d482: Add query param for displaying detailed traces
+
 ## 2.71.0
 
 ### Minor Changes
