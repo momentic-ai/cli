@@ -1,5 +1,19 @@
 # momentic
 
+## 2.71.0
+
+### Minor Changes
+
+- 90dbec5: Add --session-idle-timeout-minutes flag and MOMENTIC_SESSION_IDLE_TIMEOUT_MINUTES env var to configure MCP session idle timeout
+
+### Patch Changes
+
+- c22e44c: Split asset details into separate Channel and Tag sections
+- 4d89166: Exclude failure_section tag from buildkite JSON report for non-failed tests
+- 38ec4a1: Minor UI updates on run viewer step list
+- 3ccb48d: Revert --port flag to use PORT env var instead of MOMENTIC_PORT
+- 96e97fe: Prevent InlineCode from shrinking in run viewer step content by adding shrink-0
+
 ## 2.70.0
 
 ### Minor Changes
