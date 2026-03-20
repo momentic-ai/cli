@@ -1,5 +1,18 @@
 # momentic
 
+## 2.74.0
+
+### Minor Changes
+
+- 2c49514: Rename the get attributes tool to get artifacts and updated the momentic-test skill.
+
+### Patch Changes
+
+- 0515419: Update the skill to not push through errors when the session has clear errors.
+- f6de50e: Improve the skill to prevent the model from over using javascript steps for actions native momentic steps already perform.
+- e7fbb6e: Fixes for copilot including better logging and preview tool call structure
+- 5fa34ba: Tune tool descriptions to encorage better model behavior when editing.
+
 ## 2.73.0
 
 ### Minor Changes
