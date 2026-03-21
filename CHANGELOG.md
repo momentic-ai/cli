@@ -1,5 +1,13 @@
 # momentic
 
+## 2.75.0
+
+### Minor Changes
+
+- 0a7c024: Improve UI for the console log viewer and add search functionality
+- 9f341ea: Allow Chrome args to be removed using the MOMENTIC_CHROME_REMOVE_ARGS environment variable.
+- 9f341ea: Update the client-side performance observer to use the DOM long-animation-frame API instead. Separate long running scripts into Momentic and non-Momentic sources.
+
 ## 2.74.0
 
 ### Minor Changes
