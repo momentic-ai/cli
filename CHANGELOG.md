@@ -1,5 +1,14 @@
 # momentic
 
+## 2.75.1
+
+### Patch Changes
+
+- 4f3568b: Make copilot use cache keys better.
+- 68d1185: Fix crash in local editor when deleting child step
+- 7a00b75: Change the splice tool to return a recovery artifact to enable agents to undo bad splices accurately.
+- 6a7caae: Improve the skill to improve the model's usage of cache keys to persist caches from previewed steps.
+
 ## 2.75.0
 
 ### Minor Changes
