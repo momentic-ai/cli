@@ -1,5 +1,12 @@
 # momentic
 
+## 2.76.0
+
+### Minor Changes
+
+- 42d95af: Add ability to delete a test from the test details pane in the desktop app
+- c7038d2: Add UI for ai action v3
+
 ## 2.75.1
 
 ### Patch Changes
