@@ -1,5 +1,16 @@
 # momentic
 
+## 2.77.0
+
+### Minor Changes
+
+- 980356a: Added 'always' hybrid selector mode option and truncated hybrid selector logging in step output.
+
+### Patch Changes
+
+- f7cc3e2: Change default element check condition from "exists" to "is visible"
+- c87cc4a: Fix failed step auto scroll bug
+
 ## 2.76.0
 
 ### Minor Changes
