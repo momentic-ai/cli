@@ -1,5 +1,11 @@
 # momentic
 
+## 2.78.0
+
+### Minor Changes
+
+- 36fcdce: Prevent playwright force clicking when we can't find an element to redirect to. Now enabled only through forceClickForMissingRedirectElement setting.
+
 ## 2.77.0
 
 ### Minor Changes
