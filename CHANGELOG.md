@@ -203,7 +203,7 @@
 
 ### Patch Changes
 
-- f76d03d: Add browser setting enableForceClickForMissingRedirectElement
+- f76d03d: Add browser setting forceClickForMissingRedirectElement
 - 592fca6: Fixes for MCP including better schema examples for single quotes and missing envKey parameter on modules
 
 ## 2.62.0
