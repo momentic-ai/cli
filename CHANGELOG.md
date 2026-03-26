@@ -1,5 +1,13 @@
 # momentic
 
+## 2.79.1
+
+### Patch Changes
+
+- edc3095: Print run links for cancelled runs if --timeout-minutes is hit
+- bc06489: Fix issue dropdown options in module params dialog were not clickable
+- 3de30d1: Improve the skill for how to handle edits and execution logic within sections (setup, main, teardown).
+
 ## 2.79.0
 
 ### Minor Changes
