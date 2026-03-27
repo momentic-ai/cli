@@ -1,5 +1,11 @@
 # momentic
 
+## 2.79.2
+
+### Patch Changes
+
+- 0d5c6c0: Add --video flag to MCP command for recording browser session videos
+
 ## 2.79.1
 
 ### Patch Changes
