@@ -1,5 +1,21 @@
 # momentic
 
+## 2.80.0
+
+### Minor Changes
+
+- 07821c5: Change install-skills to do local installs instead of global.
+- 66862b0: Changed the install-skills command to use --editor [your editor] instead of ide specific flags.
+
+### Patch Changes
+
+- 9afa048: Revert to old console log viewer
+- 421353b: fix: skip iframe URL in recorded steps when autoExpandIframes is enabled
+- 66862b0: Ship skill markdown as a file asset under skills/ instead of inlining via process.env substitution
+- 5a4a5bc: Add spans to mcp and add span output artifact on session terminate tool.
+- 4891204: Fix alignment of step indices on run viewer
+- da622af: Remove unused Chrome extension and exclude dev-only directories from npm package
+
 ## 2.79.2
 
 ### Patch Changes
