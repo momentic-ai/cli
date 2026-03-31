@@ -1,5 +1,15 @@
 # momentic
 
+## 2.81.0
+
+### Minor Changes
+
+- 6f1fc63: Add result processing tools to web MCP
+
+### Patch Changes
+
+- bc5fc8a: Improve mcp session logging.
+
 ## 2.80.0
 
 ### Minor Changes
