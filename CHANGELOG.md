@@ -1,5 +1,12 @@
 # momentic
 
+## 2.81.1
+
+### Patch Changes
+
+- 953296d: Improve mcp trace observability.
+- 373a6ee: Improve result and step serialization for conditional steps and modules.
+
 ## 2.81.0
 
 ### Minor Changes
