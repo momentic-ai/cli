@@ -1,5 +1,16 @@
 # momentic
 
+## 2.83.0
+
+### Minor Changes
+
+- dd638cf: Add new momentic-result-classification skill
+
+### Patch Changes
+
+- dd638cf: Some fixes in the results MCP tools, including some extra data returned by the get-result tool
+- dd638cf: Update result-classification skill to use stepsSnapshot in results
+
 ## 2.82.2
 
 ### Patch Changes
