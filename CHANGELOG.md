@@ -1,5 +1,11 @@
 # momentic
 
+## 2.82.1
+
+### Patch Changes
+
+- a1283ce: Fix merge command hanging
+
 ## 2.82.0
 
 ### Minor Changes
