@@ -1,5 +1,11 @@
 # momentic
 
+## 2.82.0
+
+### Minor Changes
+
+- 2811ad4: Add trace for auto-follow new tabs operation
+
 ## 2.81.1
 
 ### Patch Changes
