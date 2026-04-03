@@ -1,5 +1,12 @@
 # momentic
 
+## 2.83.1
+
+### Patch Changes
+
+- 35ae277: Show element screenshots in the run viewer for all interactive steps
+- 35ae277: Surface UI toggle for the "disableBrowserMonitoring" advanced setting in the test editor
+
 ## 2.83.0
 
 ### Minor Changes
