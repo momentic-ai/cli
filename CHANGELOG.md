@@ -1,5 +1,12 @@
 # momentic
 
+## 2.83.2
+
+### Patch Changes
+
+- a392554: Display setup and teardown sections in run viewer
+- b4fc065: Fix migration of graphql step variable inputs.
+
 ## 2.83.1
 
 ### Patch Changes
