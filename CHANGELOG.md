@@ -1,5 +1,11 @@
 # momentic
 
+## 2.83.3
+
+### Patch Changes
+
+- 65a00b0: Support pngs in run viewer
+
 ## 2.83.2
 
 ### Patch Changes
