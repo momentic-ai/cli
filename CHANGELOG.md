@@ -1,5 +1,14 @@
 # momentic
 
+## 2.84.1
+
+### Patch Changes
+
+- 7259435: Improve error collection
+- 782c501: Fix git repo detection to work in repositories with no commits.
+- 51908d6: Use exit code 1 for all test cancellations
+- 2ce4ca3: Add Bitrise CI detection for automatic git metadata extraction
+
 ## 2.84.0
 
 ### Minor Changes
