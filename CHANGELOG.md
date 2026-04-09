@@ -1,5 +1,11 @@
 # momentic
 
+## 2.84.2
+
+### Patch Changes
+
+- aa38559: Ignore .momentic-mcp from globbing
+
 ## 2.84.1
 
 ### Patch Changes
