@@ -1,5 +1,15 @@
 # momentic
 
+## 2.84.0
+
+### Minor Changes
+
+- baf8991: Add traces for AI extract step
+
+### Patch Changes
+
+- 8da3f1b: Improve the momentic-test skill's ability to use variables in Momentic.
+
 ## 2.83.4
 
 ### Patch Changes
