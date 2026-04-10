@@ -1,5 +1,16 @@
 # momentic
 
+## 2.85.0
+
+### Minor Changes
+
+- 0dc1e46: Make testId and gitBranchName optional in momentic_list_runs and add pagination support
+
+### Patch Changes
+
+- 296e1d7: Address security vulnerabilities
+- 72733af: Update return data structure of momentic_get_run MCP tool to provide more fields
+
 ## 2.84.2
 
 ### Patch Changes
