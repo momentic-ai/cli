@@ -1,5 +1,16 @@
 # momentic
 
+## 2.86.0
+
+### Minor Changes
+
+- d3adba8: Add the simplifiedTestSteps property on the response from momentic_get_run and some prompting changes to result classification to use the new property in determining test intent
+
+### Patch Changes
+
+- 66fdd71: Improve observability for mcp traces.
+- 8c5a78b: Properly cancel in-progress runs on sigterm
+
 ## 2.85.0
 
 ### Minor Changes
