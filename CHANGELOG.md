@@ -1,5 +1,12 @@
 # momentic
 
+## 2.87.1
+
+### Patch Changes
+
+- ccba13b: Start the MCP server before running project validation in the mcp CLI command in order to improve startup performance.
+- ef7f299: Change conditionals to show the status of the conditional not the conditional and substeps.
+
 ## 2.87.0
 
 ### Minor Changes
