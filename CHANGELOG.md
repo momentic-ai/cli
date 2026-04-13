@@ -1,5 +1,15 @@
 # momentic
 
+## 2.87.0
+
+### Minor Changes
+
+- 1d986d8: Improve copilot speed and stream reliability
+
+### Patch Changes
+
+- 1d986d8: Improve reliability of AI response streaming for OpenAI-based completions
+
 ## 2.86.0
 
 ### Minor Changes
