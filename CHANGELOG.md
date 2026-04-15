@@ -1,5 +1,11 @@
 # momentic
 
+## 2.88.2
+
+### Patch Changes
+
+- 370e885: Improve click step behavior for pages with large iframes
+
 ## 2.88.1
 
 ### Patch Changes
