@@ -1,5 +1,11 @@
 # momentic
 
+## 2.88.1
+
+### Patch Changes
+
+- 312aec5: Fix error that occurs during OpenAI fallbacks where reasoning summaries would cause fatal message mismatch exceptions
+
 ## 2.88.0
 
 ### Minor Changes
