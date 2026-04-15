@@ -1,5 +1,18 @@
 # momentic
 
+## 2.88.0
+
+### Minor Changes
+
+- e393f31: Add relative position to hover steps.
+- 4b30678: Support filtering runs by quarantined and recovered status in the list_runs MCP tool
+- e393f31: Enable the MCP server to create and use steps with relative positions.
+
+### Patch Changes
+
+- 7cbb2b5: Improve auth check error messages with actionable guidance
+- eaa328f: Preserve partial step results when test runs are cancelled by timeout
+
 ## 2.87.1
 
 ### Patch Changes
