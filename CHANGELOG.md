@@ -1,5 +1,11 @@
 # momentic
 
+## 2.89.1
+
+### Patch Changes
+
+- b9e11f1: Fix issue with not showing some canceled runs as canceled
+
 ## 2.89.0
 
 ### Minor Changes
