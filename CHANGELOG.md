@@ -1,5 +1,16 @@
 # momentic
 
+## 2.89.0
+
+### Minor Changes
+
+- 368c32f: Add `--video` for `momentic run` with support for `true`, `false`, and `on-fail`. `--record-video` remains supported as a deprecated alias that enables video (`true`).
+
+### Patch Changes
+
+- df3138a: Exclude more directories from globbing by default
+- 640d70f: Duplicate-ids check now detects duplicates inside conditional blocks and else branches
+
 ## 2.88.2
 
 ### Patch Changes
