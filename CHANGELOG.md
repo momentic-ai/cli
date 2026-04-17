@@ -1,5 +1,11 @@
 # momentic
 
+## 2.91.0
+
+### Minor Changes
+
+- e73369a: Add a --daemon flag to the MCP to enable a background daemon to maintain sessions across separate server invocations. Note: this is not available for windows yet.
+
 ## 2.90.0
 
 ### Minor Changes
