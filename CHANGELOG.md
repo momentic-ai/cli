@@ -1,5 +1,11 @@
 # momentic
 
+## 2.90.0
+
+### Minor Changes
+
+- d73b126: Add momentic_get_step_result tool and associated prompting
+
 ## 2.89.1
 
 ### Patch Changes
