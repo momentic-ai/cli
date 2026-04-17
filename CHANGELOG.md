@@ -1,5 +1,17 @@
 # momentic
 
+## 2.92.0
+
+### Minor Changes
+
+- 2c0e5c3: Add ai classify cli command
+
+### Patch Changes
+
+- 7c7aa07: Improve globbing performance
+- 7c7aa07: Exclude dependency directories from config yaml file search
+- 99e77ec: Make the daemon not connect to daemons from other cli versions.
+
 ## 2.91.0
 
 ### Minor Changes
