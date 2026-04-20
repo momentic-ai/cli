@@ -1,5 +1,12 @@
 # momentic
 
+## 2.93.2
+
+### Patch Changes
+
+- 4313b4f: Show AI Action version in run viewer
+- a007398: Add a short wait between selecting all and clearing content
+
 ## 2.93.1
 
 ### Patch Changes
