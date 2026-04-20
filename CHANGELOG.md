@@ -1,5 +1,17 @@
 # momentic
 
+## 2.93.0
+
+### Minor Changes
+
+- ce25160: Remove get intial data to instead move the step schema onto the session start tool. Updated the skill to match the new edit procedure.
+
+### Patch Changes
+
+- e6d1b37: Fix issue with execution not stopping after running "Run to" on a child
+- 6259dbc: Update Run Viewer UI to have resizable panels, floating step info card
+- fbe5a7d: Fix video player hover CSS being hard to read
+
 ## 2.92.0
 
 ### Minor Changes
