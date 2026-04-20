@@ -1,5 +1,11 @@
 # momentic
 
+## 2.93.1
+
+### Patch Changes
+
+- cc4fcbd: Fix a bug where tests were not shown in the local app UI on Windows
+
 ## 2.93.0
 
 ### Minor Changes
