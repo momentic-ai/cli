@@ -1,5 +1,15 @@
 # momentic
 
+## 2.94.0
+
+### Minor Changes
+
+- 6fcfc99: Default aiPageFiltering to true and deprecate the previous embeddings-based filtering engine
+
+### Patch Changes
+
+- 6fcfc99: Add a buffer between page loads and any attempt to fetch an HTML snapshot from the page, which was causing some renderers to crash
+
 ## 2.93.2
 
 ### Patch Changes
