@@ -1,5 +1,11 @@
 # momentic
 
+## 2.94.1
+
+### Patch Changes
+
+- 00e377a: Default `allowPartialAccessibilityTree` to `true` to prevent browser crashes and stalls on very large pages. Set it to `false` to restore the previous behavior on pages where AI targeting needs a more complete accessibility tree. Also keep run recordings streaming after a browser crash by restarting the screencast whenever Momentic reconnects to the browser.
+
 ## 2.94.0
 
 ### Minor Changes
