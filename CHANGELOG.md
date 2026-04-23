@@ -1,5 +1,12 @@
 # momentic
 
+## 2.95.1
+
+### Patch Changes
+
+- 2c77f29: Improve reliability of streamText agents by enabling provider-specific pruning of stateful messages on the client-side and retaining reasoning traces when possible
+- f74776f: The `momentic_get_run`, `momentic_get_step_result`, and `momentic_list_runs` MCP tools now validate that the `runId` / `testId` inputs are well-formed UUIDs, giving a clear validation error up front instead of a downstream failure.
+
 ## 2.95.0
 
 ### Minor Changes
