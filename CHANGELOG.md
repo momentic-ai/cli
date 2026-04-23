@@ -1,5 +1,11 @@
 # momentic
 
+## 2.95.0
+
+### Minor Changes
+
+- eaa7edf: `momentic ai classify` now accepts a full run URL (e.g. https://app.momentic.ai/runs/<runId>) in addition to a run ID.
+
 ## 2.94.1
 
 ### Patch Changes
