@@ -1,5 +1,13 @@
 # momentic
 
+## 2.95.2
+
+### Patch Changes
+
+- 46b15f2: Fix error introduced in 2.95.1 that caused failure classification to never return a response
+- d9faeae: Update result classification cli command model and add better error handling
+- b0de5f2: Correctly cancel runs on SIGINT rather than exiting immediately
+
 ## 2.95.1
 
 ### Patch Changes
