@@ -1,5 +1,15 @@
 # momentic
 
+## 2.96.0
+
+### Minor Changes
+
+- 5ed5ab4: Increase maximum individual session duration for websocket-based clients like classification and AI action to 5 minutes
+
+### Patch Changes
+
+- 65b77ff: Make result classification command retry generating a classification if the agent exits without a result.
+
 ## 2.95.2
 
 ### Patch Changes
