@@ -1,5 +1,19 @@
 # momentic
 
+## 2.97.0
+
+### Minor Changes
+
+- f5ff932: Add a new `bannedAttributes` browser setting that excludes the listed HTML attributes from the context passed to AI agents and from cache element comparisons. This is the inverse of `importantAttributes` and is useful for stripping out dynamic attributes that would otherwise bust the cache. Attributes may be specified by exact name or with a trailing `*` to match a prefix (for example `data-dynamic-*`).
+- 9392532: Add tool-based failure recovery (`failure-recovery: v2`). When enabled, the recovery agent can introspect browser state, execute steps, retry the failed step, and bust stale step caches via dedicated tools — surfacing the same per-step UI as AI action v3 with a "Failure recovery" label.
+
+### Patch Changes
+
+- dc5b130: When --api-key falls back to ~/.momentic/auth.json, --server now also defaults to the server URL stored alongside that key, so a wizard login against staging no longer silently sends the staging key to the production server.
+- dc5b130: - `momentic init` now writes only `momentic.config.yaml`; sample module and test scaffolding moved into the `@momentic/wizard` onboarding flow so manual installs stay minimal.
+  - `momentic install-skills` and `momentic-mobile install-skills` are now deprecated. They still work, but prefer `npx skills@latest add momentic-ai/skills` — it auto-detects `.claude/`, `.cursor/`, `.agents/`, `.opencode/`, `.github/copilot/` and lets skill updates ship independently of the CLI.
+  - The CLI now falls back to `~/.momentic/auth.json` (written by `momentic-wizard login`) when `MOMENTIC_API_KEY` isn't set.
+
 ## 2.96.0
 
 ### Minor Changes
