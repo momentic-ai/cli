@@ -1,5 +1,17 @@
 # momentic
 
+## 2.99.0
+
+### Minor Changes
+
+- f9e5aeb: Add run history tools to copilot for viewing previous test runs
+
+### Patch Changes
+
+- bf7acd8: AI actions now recover gracefully when the LLM finishes without calling the finish tool, instead of failing with a platform error.
+- 15c6cb7: Fix edge case where test inputs fail to resolve resulting in a orphaned browser instance.
+- f4448f1: Patch transitive axios vulnerability (CVE-2026-42035, CVE-2026-42033) via pnpm and npm overrides
+
 ## 2.98.0
 
 ### Minor Changes
