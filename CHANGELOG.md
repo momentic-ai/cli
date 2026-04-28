@@ -1,5 +1,19 @@
 # momentic
 
+## 2.98.0
+
+### Minor Changes
+
+- 99cdc29: Add global timezone configuration: defaultTimezone and useHostTimezone browser settings
+
+### Patch Changes
+
+- fb6bdf0: Upgrade uuid to ^14.0.0, appium to 3.3.1, and node-simctl to ^8.2.0 to fix known security vulnerabilities.
+- bf4cd1c: Add scope boundaries to copilot system prompt to reject out-of-scope requests
+- cac4d74: Patch axios to 1.15.1 to fix critical HTTP Response Splitting and Prototype Pollution vulnerabilities
+- 559eb16: Cache git metadata fetches to improve app load performance
+- ee72ad5: Add support for progress tokens for the mcp when --daemon is enabled, allowing updates messages from tools running on background workers.
+
 ## 2.97.0
 
 ### Minor Changes
