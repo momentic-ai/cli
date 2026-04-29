@@ -1,5 +1,12 @@
 # momentic
 
+## 2.99.1
+
+### Patch Changes
+
+- 5351691: Change the value of redacted env vars to "-" to improve storage efficiency
+- 8e72dd4: Improve the reliability of result classification return objects.
+
 ## 2.99.0
 
 ### Minor Changes
