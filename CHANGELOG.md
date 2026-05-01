@@ -1,5 +1,20 @@
 # momentic
 
+## 2.100.0
+
+### Minor Changes
+
+- 29a7e5b: Upgrade failure recovery categorization agent to use the latest SOTA models
+
+### Patch Changes
+
+- 44011c1: Better prompting both in the skill and mcp tools for using momentic artifacts and their relative paths.
+- dbc0f7c: Allow elements to be targeted upon retry even if they change identity instead of throwing ElementMovedError
+- d9f320b: Fix occasional crash that occurred in long Copilot sessions caused by our context pruning logic orphaning tool calls. Improve long-context performance of agents.
+- fd1da59: Generated `momentic.config.yaml` files no longer set an unused default failure-recovery agent version.
+- 839bd43: Upgrade the javascript editor with types and intellisense
+- 1fb746c: Track test run completion events via PostHog analytics
+
 ## 2.99.1
 
 ### Patch Changes
