@@ -1,5 +1,14 @@
 # momentic
 
+## 2.100.1
+
+### Patch Changes
+
+- 2fc0994: Reduced redundant network requests from the local app frontend.
+- 4859c54: Show a warning when momentic.config.yaml contains unrecognized keys
+- a036c08: Speed up local app load times by caching filesystem operations
+- c284376: Align init and upgrade configs with wizard defaults: add useMemory, failure recovery v2.0, and mobile upgrade command
+
 ## 2.100.0
 
 ### Minor Changes
