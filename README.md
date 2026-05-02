@@ -12,7 +12,8 @@ end-to-end tests - all through natural language prompts.
 
 ## Get Started
 
-1. Log in to [Momentic Cloud](https://app.momentic.ai) and generate an API key.
+1. Log in to the [Momentic dashboard](https://app.momentic.ai) and generate an
+   API key.
 
 2. Install `momentic`:
 
