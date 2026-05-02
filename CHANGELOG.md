@@ -1,5 +1,12 @@
 # momentic
 
+## 2.100.2
+
+### Patch Changes
+
+- c5b52d1: Embed Pylon support chat widget in the local app. The signed-in user's email is used to identify them, with HMAC-based identity verification when enabled on the server.
+- 4f9519e: The setup wizard now adds the sample environment(s) the scaffolded test depends on, even when a `momentic.config.yaml` already exists, so the very first run no longer fails with a missing-environment error. Mobile projects also get a sample environment so it's clear how to configure variables. Failures during the sample test, the editor-skills install, and the CLI install now show the full underlying output instead of being truncated to the last few lines. CLI command help, log messages, and READMEs now refer to the "Momentic dashboard" instead of "Momentic Cloud".
+
 ## 2.100.1
 
 ### Patch Changes
