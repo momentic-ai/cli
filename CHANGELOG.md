@@ -1,5 +1,11 @@
 # momentic
 
+## 2.101.1
+
+### Patch Changes
+
+- 8b13b14: Hide trace on the run details page for parent AI action
+
 ## 2.101.0
 
 ### Minor Changes
