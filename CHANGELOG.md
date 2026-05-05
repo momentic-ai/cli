@@ -1,5 +1,14 @@
 # momentic
 
+## 2.101.2
+
+### Patch Changes
+
+- 4cf851c: Migrate workspace packages from `main` to `exports` and enable tree-shaking in tsup bundles. Adds `sideEffects: false` to internal packages so esbuild can drop dead code from CLI builds.
+- afc42a2: Show clear error when automatic parallelism is configured for web test runs
+- 81c9920: Patch transitive `axios` dependency to 1.15.2 to address a critical Prototype Pollution vulnerability ([CVE-2026-42264](https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750)).
+- 29aa90d: Add AI model minor version pinning in CLI
+
 ## 2.101.1
 
 ### Patch Changes
