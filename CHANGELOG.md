@@ -1,5 +1,11 @@
 # momentic
 
+## 2.101.3
+
+### Patch Changes
+
+- 5556ee3: Explicitly exit process after successful command execution
+
 ## 2.101.2
 
 ### Patch Changes
