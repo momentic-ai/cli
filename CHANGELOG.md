@@ -1,5 +1,21 @@
 # momentic
 
+## 2.102.0
+
+### Minor Changes
+
+- 9ca8aff: Show Agent Trajectory for AI ACTION v3 in Run Viewer
+
+### Patch Changes
+
+- 4c7b693: `momentic ai classify --output-format json` now prints only the final JSON to stdout so it can be piped directly into other tools. Errors that prevent classification are still printed.
+- 2505fd1: Local results viewer (`cli results view` / `mobile-cli results view`) now
+  renders per-attempt timeline segments for runs that retried. Previously the
+  viewer showed a single bar per run regardless of how many attempts it took;
+  now each attempt appears as its own colored segment with transparent gaps
+  between attempts, matching the cloud run-group page.
+- d1a22f0: Fix race condition in the local desktop app caused by duplicating a module shortly after editing it
+
 ## 2.101.3
 
 ### Patch Changes
