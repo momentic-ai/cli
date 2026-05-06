@@ -1,5 +1,11 @@
 # momentic
 
+## 2.103.0
+
+### Minor Changes
+
+- d7f2135: Add a close tab test step to close a browser tab
+
 ## 2.102.0
 
 ### Minor Changes
