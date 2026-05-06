@@ -1,5 +1,11 @@
 # momentic
 
+## 2.104.1
+
+### Patch Changes
+
+- ebc273f: Reevaluate element location for case when selector changes after timeout
+
 ## 2.104.0
 
 ### Minor Changes
