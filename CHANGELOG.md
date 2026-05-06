@@ -1,5 +1,15 @@
 # momentic
 
+## 2.104.0
+
+### Minor Changes
+
+- c01cf0d: Summarize children for get_step_result MCP tool to reduce context bloat
+
+### Patch Changes
+
+- 36b44d0: Incorporate SVG identity into the cache resolution algorithm for browser interactions
+
 ## 2.103.0
 
 ### Minor Changes
