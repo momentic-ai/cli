@@ -1,5 +1,16 @@
 # momentic
 
+## 2.104.2
+
+### Patch Changes
+
+- f9fb144: Run group timeline now anchors each run's bar at the run group's start time, so the "Waited for" segment is visible for CLI runs (which don't have a queuedAt). Wall time stat also stays accurate when the latest run finishes after the run group's recorded finishedAt.
+- c358018: Upgrade PostHog telemetry SDK to v5 (native fetch, no axios).
+- 78d1a4b: AI Action v3 TYPE steps now clear the target's existing text before typing by default, matching the documented schema behavior. Previously they were silently appending to whatever was already in the input. To preserve the old append-without-clearing behavior, pass `--clear-content NEVER` on the TYPE step.
+- d50b82a: Clear the assertion's cache when failure recovery succeeds, so a recovered run no longer leaves a stale "false" memory trace that could cause future runs to incorrectly fail.
+- b6f66b1: Address edge case caused by Chrome Dev Tools where some images would have no accessibility role, causing AI Assertion and locator inconsistencies
+- 30e676e: Editor's run spinner now clears as soon as the step finishes instead of waiting on background cache writes, shaving ~300ms off every Run click.
+
 ## 2.104.1
 
 ### Patch Changes
