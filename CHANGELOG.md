@@ -1,5 +1,15 @@
 # momentic
 
+## 2.104.3
+
+### Patch Changes
+
+- c9a69b0: Fix the self-hosted local results viewer (the static bundle shipped at
+  `node_modules/momentic/run-viewer-static`) failing with "Unexpected
+  Application Error! 404 Not Found" when opened directly via `index.html`.
+  The viewer now once again shows the requested run whenever the URL
+  includes a `?zipUrl=` query parameter.
+
 ## 2.104.2
 
 ### Patch Changes
