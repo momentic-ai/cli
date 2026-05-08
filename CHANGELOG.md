@@ -1,5 +1,16 @@
 # momentic
 
+## 2.106.0
+
+### Minor Changes
+
+- 8ccad2e: AI ACTION v3 trajectory shows screenshots
+
+### Patch Changes
+
+- 21092a5: Fix issue with run viewer panels overflowing for some tests
+- c6caa20: Display further details about conditional step configuration in run viewer
+
 ## 2.105.0
 
 ### Minor Changes
