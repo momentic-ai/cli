@@ -1,5 +1,25 @@
 # momentic
 
+## 2.105.0
+
+### Minor Changes
+
+- 04cd455: [beta] result classification runs before failure recovery to determine whether or not to recover based on category settings
+- 3d2f9b3: Added `email.create()` for provisioning fresh ephemeral email inboxes from inside a test at runtime. The returned inbox auto-expires after 24h.
+- 7560379: Update run viewer UI to be two panel layout
+- decb6d7: Add "recoverable" field to failure classification response
+- 55f156c: Added `sms.lease()` and `sms.release()` for checking a free number out of your org's pool for the duration of a test. See [SMS docs](https://docs.momentic.ai/integrations/sms#sms-lease-and-sms-release).
+- 8c45334: Make the results path optional in `momentic results upload`, defaulting to the same `test-results` directory that `momentic run` writes to.
+
+### Patch Changes
+
+- 94f7d5c: Crash from EPIPE in retina-display detection no longer takes down the CLI when output is piped or aborted under npx.
+- 4ce7421: Make fetching test metadata significantly faster.
+- ca2f435: Fail more gracefully when a run has no attempts
+- 9de4134: Hide the `--api-key` default value in `--help` output so the CLI no longer prints the API key from `~/.momentic/auth.json`.
+- eba24ff: Step tooltips on the video player timeline and resource usage charts now show "JavaScript" instead of the raw code for JavaScript steps, and the timeline tooltips dismiss when you move off the step rather than staying pinned open while hovering the tooltip itself.
+- 8420b06: Show the actions taken by failure recovery in the run viewer
+
 ## 2.104.3
 
 ### Patch Changes
