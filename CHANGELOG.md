@@ -15,10 +15,10 @@
 
 ### Minor Changes
 
-- 04cd455: [beta] result classification runs before failure recovery to determine whether or not to recover based on category settings
+- 04cd455: [beta] Result classification now runs before failure recovery, so you can configure recovery behavior per failure category.
 - 3d2f9b3: Added `email.create()` for provisioning fresh ephemeral email inboxes from inside a test at runtime. The returned inbox auto-expires after 24h.
 - 7560379: Update run viewer UI to be two panel layout
-- decb6d7: Add "recoverable" field to failure classification response
+- decb6d7: Result classification responses now include a `recoverable` field.
 - 55f156c: Added `sms.lease()` and `sms.release()` for checking a free number out of your org's pool for the duration of a test. See [SMS docs](https://docs.momentic.ai/integrations/sms#sms-lease-and-sms-release).
 - 8c45334: Make the results path optional in `momentic results upload`, defaulting to the same `test-results` directory that `momentic run` writes to.
 
@@ -46,11 +46,11 @@
 ### Patch Changes
 
 - f9fb144: Run group timeline now anchors each run's bar at the run group's start time, so the "Waited for" segment is visible for CLI runs (which don't have a queuedAt). Wall time stat also stays accurate when the latest run finishes after the run group's recorded finishedAt.
-- c358018: Upgrade PostHog telemetry SDK to v5 (native fetch, no axios).
+- c358018: Improve reliability of usage telemetry.
 - 78d1a4b: AI Action v3 TYPE steps now clear the target's existing text before typing by default, matching the documented schema behavior. Previously they were silently appending to whatever was already in the input. To preserve the old append-without-clearing behavior, pass `--clear-content NEVER` on the TYPE step.
 - d50b82a: Clear the assertion's cache when failure recovery succeeds, so a recovered run no longer leaves a stale "false" memory trace that could cause future runs to incorrectly fail.
 - b6f66b1: Address edge case caused by Chrome Dev Tools where some images would have no accessibility role, causing AI Assertion and locator inconsistencies
-- 30e676e: Editor's run spinner now clears as soon as the step finishes instead of waiting on background cache writes, shaving ~300ms off every Run click.
+- 30e676e: Editor's run spinner now clears as soon as the step finishes, shaving ~300ms off every Run click.
 
 ## 2.104.1
 
@@ -66,7 +66,7 @@
 
 ### Patch Changes
 
-- 36b44d0: Incorporate SVG identity into the cache resolution algorithm for browser interactions
+- 36b44d0: Improve cache reliability for browser interactions with SVG elements
 
 ## 2.103.0
 
@@ -94,13 +94,13 @@
 
 ### Patch Changes
 
-- 5556ee3: Explicitly exit process after successful command execution
+- 5556ee3: Fix CLI sometimes hanging after a successful run.
 
 ## 2.101.2
 
 ### Patch Changes
 
-- 4cf851c: Migrate workspace packages from `main` to `exports` and enable tree-shaking in tsup bundles. Adds `sideEffects: false` to internal packages so esbuild can drop dead code from CLI builds.
+- 4cf851c: Reduce CLI bundle size for faster installs.
 - afc42a2: Show clear error when automatic parallelism is configured for web test runs
 - 81c9920: Patch transitive `axios` dependency to 1.15.2 to address a critical Prototype Pollution vulnerability ([CVE-2026-42264](https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750)).
 - 29aa90d: Add AI model minor version pinning in CLI
@@ -120,13 +120,13 @@
 
 ### Patch Changes
 
-- 72ce2d6: Fixed lag when opening "View details" on the tests table — the table no longer re-renders every row on each click.
+- 72ce2d6: Fixed lag when opening "View details" on the tests table.
 
 ## 2.100.2
 
 ### Patch Changes
 
-- c5b52d1: Embed Pylon support chat widget in the local app. The signed-in user's email is used to identify them, with HMAC-based identity verification when enabled on the server.
+- c5b52d1: Add in-app support chat widget to the local app.
 - 4f9519e: The setup wizard now adds the sample environment(s) the scaffolded test depends on, even when a `momentic.config.yaml` already exists, so the very first run no longer fails with a missing-environment error. Mobile projects also get a sample environment so it's clear how to configure variables. Failures during the sample test, the editor-skills install, and the CLI install now show the full underlying output instead of being truncated to the last few lines. CLI command help, log messages, and READMEs now refer to the "Momentic dashboard" instead of "Momentic Cloud".
 
 ## 2.100.1
@@ -146,19 +146,19 @@
 
 ### Patch Changes
 
-- 44011c1: Better prompting both in the skill and mcp tools for using momentic artifacts and their relative paths.
-- dbc0f7c: Allow elements to be targeted upon retry even if they change identity instead of throwing ElementMovedError
-- d9f320b: Fix occasional crash that occurred in long Copilot sessions caused by our context pruning logic orphaning tool calls. Improve long-context performance of agents.
+- 44011c1: Improve agent prompting for working with Momentic artifacts and their relative paths.
+- dbc0f7c: Allow elements to be targeted upon retry even if they change identity.
+- d9f320b: Fix occasional crash in long Copilot sessions and improve long-context performance of agents.
 - fd1da59: Generated `momentic.config.yaml` files no longer set an unused default failure-recovery agent version.
 - 839bd43: Upgrade the javascript editor with types and intellisense
-- 1fb746c: Track test run completion events via PostHog analytics
+- 1fb746c: Improve telemetry for test run completion events.
 
 ## 2.99.1
 
 ### Patch Changes
 
-- 5351691: Change the value of redacted env vars to "-" to improve storage efficiency
-- 8e72dd4: Improve the reliability of result classification return objects.
+- 5351691: Display redacted env var values as "-" in the run viewer.
+- 8e72dd4: Improve the reliability of result classification responses.
 
 ## 2.99.0
 
@@ -168,9 +168,9 @@
 
 ### Patch Changes
 
-- bf7acd8: AI actions now recover gracefully when the LLM finishes without calling the finish tool, instead of failing with a platform error.
-- 15c6cb7: Fix edge case where test inputs fail to resolve resulting in a orphaned browser instance.
-- f4448f1: Patch transitive axios vulnerability (CVE-2026-42035, CVE-2026-42033) via pnpm and npm overrides
+- bf7acd8: AI actions now recover gracefully when the AI model returns without explicitly finishing the action.
+- 15c6cb7: Fix edge case where test inputs fail to resolve, resulting in an orphaned browser instance.
+- f4448f1: Patch transitive axios vulnerability (CVE-2026-42035, CVE-2026-42033).
 
 ## 2.98.0
 
@@ -180,22 +180,22 @@
 
 ### Patch Changes
 
-- fb6bdf0: Upgrade uuid to ^14.0.0, appium to 3.3.1, and node-simctl to ^8.2.0 to fix known security vulnerabilities.
-- bf4cd1c: Add scope boundaries to copilot system prompt to reject out-of-scope requests
-- cac4d74: Patch axios to 1.15.1 to fix critical HTTP Response Splitting and Prototype Pollution vulnerabilities
-- 559eb16: Cache git metadata fetches to improve app load performance
-- ee72ad5: Add support for progress tokens for the mcp when --daemon is enabled, allowing updates messages from tools running on background workers.
+- fb6bdf0: Upgrade internal dependencies to fix known security vulnerabilities.
+- bf4cd1c: Copilot now rejects out-of-scope requests.
+- cac4d74: Patch axios to 1.15.1 to fix critical HTTP Response Splitting and Prototype Pollution vulnerabilities.
+- 559eb16: Cache git metadata fetches to improve app load performance.
+- ee72ad5: MCP server now streams progress updates when `--daemon` is enabled, so long-running tools can report incremental status.
 
 ## 2.97.0
 
 ### Minor Changes
 
 - f5ff932: Add a new `bannedAttributes` browser setting that excludes the listed HTML attributes from the context passed to AI agents and from cache element comparisons. This is the inverse of `importantAttributes` and is useful for stripping out dynamic attributes that would otherwise bust the cache. Attributes may be specified by exact name or with a trailing `*` to match a prefix (for example `data-dynamic-*`).
-- 9392532: Add tool-based failure recovery (`failure-recovery: v2`). When enabled, the recovery agent can introspect browser state, execute steps, retry the failed step, and bust stale step caches via dedicated tools — surfacing the same per-step UI as AI action v3 with a "Failure recovery" label.
+- 9392532: Add `failure-recovery: v2`. The new recovery flow can inspect browser state, execute steps, retry the failed step, and refresh stale step caches — surfacing the same per-step UI as AI action v3 with a "Failure recovery" label.
 
 ### Patch Changes
 
-- dc5b130: When --api-key falls back to ~/.momentic/auth.json, --server now also defaults to the server URL stored alongside that key, so a wizard login against staging no longer silently sends the staging key to the production server.
+- dc5b130: When `--api-key` falls back to `~/.momentic/auth.json`, `--server` now also defaults to the server URL stored alongside that key, so signing in against a non-default server no longer silently sends that key to the production server.
 - dc5b130: - `momentic init` now writes only `momentic.config.yaml`; sample module and test scaffolding moved into the `@momentic/wizard` onboarding flow so manual installs stay minimal.
   - `momentic install-skills` and `momentic-mobile install-skills` are now deprecated. They still work, but prefer `npx skills@latest add momentic-ai/skills` — it auto-detects `.claude/`, `.cursor/`, `.agents/`, `.opencode/`, `.github/copilot/` and lets skill updates ship independently of the CLI.
   - The CLI now falls back to `~/.momentic/auth.json` (written by `momentic-wizard login`) when `MOMENTIC_API_KEY` isn't set.
@@ -204,11 +204,11 @@
 
 ### Minor Changes
 
-- 5ed5ab4: Increase maximum individual session duration for websocket-based clients like classification and AI action to 5 minutes
+- 5ed5ab4: Increase maximum individual session duration for classification and AI action to 5 minutes.
 
 ### Patch Changes
 
-- 65b77ff: Make result classification command retry generating a classification if the agent exits without a result.
+- 65b77ff: Result classification command now retries automatically if the model returns without a result.
 
 ## 2.95.2
 
@@ -222,7 +222,7 @@
 
 ### Patch Changes
 
-- 2c77f29: Improve reliability of streamText agents by enabling provider-specific pruning of stateful messages on the client-side and retaining reasoning traces when possible
+- 2c77f29: Improve reliability of AI agent streaming responses while preserving reasoning context where possible.
 - f74776f: The `momentic_get_run`, `momentic_get_step_result`, and `momentic_list_runs` MCP tools now validate that the `runId` / `testId` inputs are well-formed UUIDs, giving a clear validation error up front instead of a downstream failure.
 
 ## 2.95.0
@@ -241,7 +241,7 @@
 
 ### Minor Changes
 
-- 6fcfc99: Default aiPageFiltering to true and deprecate the previous embeddings-based filtering engine
+- 6fcfc99: Default `aiPageFiltering` to `true` and deprecate the previous filtering engine.
 
 ### Patch Changes
 
@@ -264,19 +264,19 @@
 
 ### Minor Changes
 
-- ce25160: Remove get intial data to instead move the step schema onto the session start tool. Updated the skill to match the new edit procedure.
+- ce25160: MCP: Consolidate session and step schema retrieval into the session start tool. Updated the `momentic-test` skill to match.
 
 ### Patch Changes
 
 - e6d1b37: Fix issue with execution not stopping after running "Run to" on a child
 - 6259dbc: Update Run Viewer UI to have resizable panels, floating step info card
-- fbe5a7d: Fix video player hover CSS being hard to read
+- fbe5a7d: Fix unreadable text in video player hover tooltip
 
 ## 2.92.0
 
 ### Minor Changes
 
-- 2c0e5c3: Add ai classify cli command
+- 2c0e5c3: Add `momentic ai classify` CLI command
 
 ### Patch Changes
 
@@ -294,7 +294,7 @@
 
 ### Minor Changes
 
-- d73b126: Add momentic_get_step_result tool and associated prompting
+- d73b126: Add `momentic_get_step_result` MCP tool
 
 ## 2.89.1
 
@@ -323,7 +323,7 @@
 
 ### Patch Changes
 
-- 312aec5: Fix error that occurs during OpenAI fallbacks where reasoning summaries would cause fatal message mismatch exceptions
+- 312aec5: Fix error in some AI model fallback paths that caused fatal message mismatches
 
 ## 2.88.0
 
@@ -343,7 +343,7 @@
 ### Patch Changes
 
 - ccba13b: Start the MCP server before running project validation in the mcp CLI command in order to improve startup performance.
-- ef7f299: Change conditionals to show the status of the conditional not the conditional and substeps.
+- ef7f299: Conditional step status now reflects only the conditional itself, not its substeps.
 
 ## 2.87.0
 
@@ -353,13 +353,13 @@
 
 ### Patch Changes
 
-- 1d986d8: Improve reliability of AI response streaming for OpenAI-based completions
+- 1d986d8: Improve reliability of AI response streaming.
 
 ## 2.86.0
 
 ### Minor Changes
 
-- d3adba8: Add the simplifiedTestSteps property on the response from momentic_get_run and some prompting changes to result classification to use the new property in determining test intent
+- d3adba8: Add `simplifiedTestSteps` field to `momentic_get_run` responses and use it for better test intent inference in result classification.
 
 ### Patch Changes
 
@@ -437,7 +437,7 @@
 ### Patch Changes
 
 - dd638cf: Some fixes in the results MCP tools, including some extra data returned by the get-result tool
-- dd638cf: Update result-classification skill to use stepsSnapshot in results
+- dd638cf: Improve result-classification skill to use detailed step data
 
 ## 2.82.2
 
@@ -485,10 +485,10 @@
 
 - 9afa048: Revert to old console log viewer
 - 421353b: fix: skip iframe URL in recorded steps when autoExpandIframes is enabled
-- 66862b0: Ship skill markdown as a file asset under skills/ instead of inlining via process.env substitution
-- 5a4a5bc: Add spans to mcp and add span output artifact on session terminate tool.
+- 66862b0: Ship skill markdown as separate file assets under `skills/` for easier inspection.
+- 5a4a5bc: Add tracing spans to MCP and emit span output as an artifact when sessions terminate.
 - 4891204: Fix alignment of step indices on run viewer
-- da622af: Remove unused Chrome extension and exclude dev-only directories from npm package
+- da622af: Reduce npm package size by removing unused files.
 
 ## 2.79.2
 
@@ -549,7 +549,7 @@
 
 - 0a7c024: Improve UI for the console log viewer and add search functionality
 - 9f341ea: Allow Chrome args to be removed using the MOMENTIC_CHROME_REMOVE_ARGS environment variable.
-- 9f341ea: Update the client-side performance observer to use the DOM long-animation-frame API instead. Separate long running scripts into Momentic and non-Momentic sources.
+- 9f341ea: Improve detection of long-running scripts in the page and distinguish Momentic vs non-Momentic sources.
 
 ## 2.74.0
 
@@ -562,7 +562,7 @@
 - 0515419: Update the skill to not push through errors when the session has clear errors.
 - f6de50e: Improve the skill to prevent the model from over using javascript steps for actions native momentic steps already perform.
 - e7fbb6e: Fixes for copilot including better logging and preview tool call structure
-- 5fa34ba: Tune tool descriptions to encorage better model behavior when editing.
+- 5fa34ba: Tune tool descriptions to encourage better agent behavior when editing.
 
 ## 2.73.0
 
@@ -621,7 +621,7 @@
 - 4d89166: Exclude failure_section tag from buildkite JSON report for non-failed tests
 - 38ec4a1: Minor UI updates on run viewer step list
 - 3ccb48d: Revert --port flag to use PORT env var instead of MOMENTIC_PORT
-- 96e97fe: Prevent InlineCode from shrinking in run viewer step content by adding shrink-0
+- 96e97fe: Prevent code snippets from shrinking in run viewer step content
 
 ## 2.70.0
 
@@ -715,7 +715,7 @@
 ### Minor Changes
 
 - 2b8e2ee: Add --browser flag to the run command to allow selecting a browser that overrides test and config defaults
-- db9d803: Make AI actions always-on by removing the aiAction feature gate. Users no longer need to set ai.aiAction: true in momentic.config.yaml to use AI action steps.
+- db9d803: Make AI actions always-on. The `ai.aiAction` config option is no longer needed in `momentic.config.yaml`.
 
 ### Patch Changes
 
@@ -805,7 +805,7 @@
 ### Patch Changes
 
 - c6fa1e9: Fix a bug where sigint was unhandled for desktop servers
-- c2cf2cc: Update the momentic-test skill to be more hesistant to make unnecessary semantic changes like filling in unnecesary fields on steps, changing quote types, etc.
+- c2cf2cc: Update the momentic-test skill to be more hesitant about making unnecessary semantic changes like filling in unused fields on steps, changing quote types, etc.
 
 ## 2.55.0
 
@@ -854,7 +854,7 @@
 
 ### Patch Changes
 
-- 40a5289: Change preview tool to bypass smart waiting to improve latency for test creation via repeating[preview -> think] -> splice pattern.
+- 40a5289: Preview tool now skips smart waiting to reduce latency during agent-driven test creation.
 - 40a5289: Improve logging in create session tool response to prevent LLMs from mislabeling functioning sessions as errored out.
 - 40a5289: Added screenshots to the tool response of the start session tool to prevent wasted get browser state calls.
 
@@ -1082,7 +1082,7 @@
 
 ### Minor Changes
 
-- b2d21c4: Preprocess redirectable elements to no longer be momentic-ineligible.
+- b2d21c4: Allow redirectable elements to be selected even if they would otherwise be filtered out.
 
 ### Patch Changes
 
@@ -1107,7 +1107,7 @@
 ### Patch Changes
 
 - ca1e82d: Make copilot's edits instantly fire an editor save to fix module edit vs autosave race condition.
-- 5f5a62b: Removed the MCP flag that allowed edits to bypass disk persistence; edits now always follow the context-level persistence setting.
+- 5f5a62b: Removed the MCP flag that allowed edits to bypass disk persistence; edits now always follow the project-level persistence setting.
 
 ## 2.42.0
 
@@ -1207,9 +1207,9 @@
 ### Patch Changes
 
 - 48fecad: Hide incorrect credit estimate from the test details pane
-- eca74d8: Step selection defaults to ordered by alphabetical order.
+- eca74d8: Step selection now defaults to alphabetical order.
 - 48fecad: Sort modules alphabetically when creating a new step
-- 48fecad: Fix an issue where cleanup would fail after creating test results archives due to open file streams
+- 48fecad: Fix an issue where cleanup would fail after creating test results archives.
 
 ## 2.36.0
 
@@ -1381,7 +1381,7 @@
 
 ### Patch Changes
 
-- 9fdae76: Fix issue with hanlding numerical values in DOM processing
+- 9fdae76: Fix issue with handling numerical values in DOM processing
 
 ## 2.28.6
 
@@ -1413,7 +1413,7 @@
 
 - 4c7094b: Copilot and MCP more prone to search for modules when making tests.
 - e30ad26: Copilot and MCP are now significantly better at understanding visual descriptions when editing tests.
-- 16eea66: MCP now summarizes your test_edit session and uses it to return a structured response telling you if it accomplished its goal and if it is safe to continue"
+- 16eea66: MCP now returns a structured response after a test-editing session, indicating whether it accomplished its goal and whether it is safe to continue.
 - a690374: Drastically improve Allure reporting with module name support, before/after screenshots, context, api request data, and video attachments
 - 4c7094b: Copilot and MCP now adhere more strongly to the edit protocol.
 
@@ -1467,7 +1467,7 @@
 - 85b109a: Agents evaluate whether they can run the step after their changes to ensure they don't break you test.
 - d4b4c70: Make git repository metadata more consistent when running on CircleCI
 - 06c656c: Copilot tuned to better understand how tools are failing from their responses.
-- 7eb152a: MCP linting step adjusted to be less nitty in rejecting improper usage.
+- 7eb152a: MCP linting step is now less strict when rejecting improper usage.
 - 847ae7d: Also serialize elements with background images and no children as images in the accessibility tree
 - 1ad35ae: Enable Agents to save API step results to EnvKeys.
 
@@ -1512,7 +1512,7 @@
 
 ### Patch Changes
 
-- 65aec9f: Block fullstory scripts that have been vendored to prevent performance degradation in test environments
+- 65aec9f: Block self-hosted FullStory scripts to prevent performance degradation in test environments
 - 5c37b7c: MCP test_edit tool has better guidelines on how to interpret the response messages array.
 
 ## 2.25.1
@@ -1652,7 +1652,7 @@
 
 ### Patch Changes
 
-- 5c848d1: Lock "ai" to prevent toast error upon finish message mismatch between copilot's frontend and streamText.
+- 5c848d1: Pin AI SDK version to prevent message-mismatch errors in the copilot UI.
 
 ## 2.21.0
 
@@ -1914,7 +1914,7 @@
 
 ### Minor Changes
 
-- ceeba05: Allow important CSS class names, styles, and HTML attributes to be configured in the local CLI, enabling customization of avaialble context for AI agents
+- ceeba05: Allow important CSS class names, styles, and HTML attributes to be configured in the local CLI, enabling customization of available context for AI agents
 
 ### Patch Changes
 
@@ -2182,7 +2182,7 @@
 
 - Fixed API server retry timeout logic
 - Fixed cache usage issues in module resolution
-- Fixed verious performance issues when loading and navigating the app
+- Fixed various performance issues when loading and navigating the app
 
 ## 2.4.0
 
