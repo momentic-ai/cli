@@ -1,5 +1,26 @@
 # momentic
 
+## 2.107.0
+
+### Minor Changes
+
+- 08a0f00: Add opt-in OpenTelemetry tracing for shared local CLI diagnostics.
+
+### Patch Changes
+
+- 9ce2e44: Local run viewer: left/right arrow keys now swap between before/after screenshots.
+- d35564a: Slim down install size by removing unused dependencies.
+- 61388c3: Redesign the run viewer header and details panel: the failure classification chip is now hover-only, the details panel defaults to closed, and browse vs. action buttons are visually separated.
+- 068752d: Fix issue with relative position xy input labels causing values to be hidden
+- f8a12dd: Only mark runs as recovered when the heal actually saved the run
+- 52c56ce: Fix issue with jumping back to beginning of video when reaching second step
+- 61388c3: Fix JavaScript step type declarations so that the email.create() API shows up in editor autocomplete and type checking.
+- 61388c3: Stop the CLI from crashing with broken-pipe and Sentry errors when its output is piped into commands like head or aborted mid-stream.
+- 2186f2d: Improve efficiency of git resolution for editor sessions, making the run button faster to begin executing steps.
+- 61388c3: Make run viewer step rows keyboard-accessible: Tab moves focus through steps and Enter or Space selects a focused step.
+- 85cf7c8: Fix issue with test editor inputs rejecting pasted text with new lines
+- 61388c3: Tidy up run rows and tables: replace stacked badges with a single chip cluster for clearer status, classification, and label information.
+
 ## 2.106.0
 
 ### Minor Changes
