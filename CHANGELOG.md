@@ -1,5 +1,12 @@
 # momentic
 
+## 2.107.1
+
+### Patch Changes
+
+- 063d5c3: Improve step search relevance.
+- 11e7140: Fix "(intermediate value).env is not a function" crash on startup that could occur in some package manager layouts.
+
 ## 2.107.0
 
 ### Minor Changes
