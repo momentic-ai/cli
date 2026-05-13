@@ -1,5 +1,17 @@
 # momentic
 
+## 2.108.0
+
+### Minor Changes
+
+- 6bdb3ef: Add get_step_result mcp tool and some updates to better reference steps within results
+- 6bdb3ef: For result MCP tools that deal with run attempts, by default the first attempt is returned for failing runs and the last attempt is returned for passing runs
+
+### Patch Changes
+
+- 6bdb3ef: Return confidence level for result classification determination
+- 0187563: Improve cache stability when interacting with elements whose look-alikes appear elsewhere on the page
+
 ## 2.107.1
 
 ### Patch Changes
