@@ -1,5 +1,17 @@
 # momentic
 
+## 2.110.0
+
+### Minor Changes
+
+- a9355c9: Improve v2 failure recovery so the agent can decide when memory is poisoned and clear it surgically.
+
+### Patch Changes
+
+- 58bbf3a: Improve performance when opening, saving, or running tests in the local editor. Most noticeable on large workspaces.
+- a9355c9: Improve failure recovery for failures that happen inside a module in a test's setup or teardown steps — the recovery now considers the surrounding setup/teardown steps as context instead of just the failed module's inner steps.
+- 58bbf3a: Improve performance of the module details panel and folder browsing in the local editor. Most noticeable on large workspaces.
+
 ## 2.109.0
 
 ### Minor Changes
