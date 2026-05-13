@@ -1,5 +1,17 @@
 # momentic
 
+## 2.109.0
+
+### Minor Changes
+
+- f851010: Add visual assertion v4 configuration for improved screenshot-based assertion evaluation.
+- e2dbb11: Allow disabling of cache for relevant step types through the CLI and MCP
+
+### Patch Changes
+
+- 75402b5: The local editor sidebar no longer fans out a request for every nested folder when the app first opens — sub-folders only fetch their contents when you actually expand them. Opening a test in the editor also stops issuing a separate full-project entity scan for the folder picker; it uses a glob-only `/api/entities/folders` lookup so the create-module dialog still surfaces every folder containing a test or module without parsing any YAML. Largest improvements on workspaces with deep folder trees or thousands of tests.
+- 2a83857: Avoid CLI crash on startup when local diagnostics telemetry initialization fails
+
 ## 2.108.1
 
 ### Patch Changes
