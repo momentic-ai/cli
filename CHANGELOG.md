@@ -1,5 +1,13 @@
 # momentic
 
+## 2.108.1
+
+### Patch Changes
+
+- 1fc0149: In some cases, cancelled runs would not show their current step results.
+- 1c4e0b8: Add `--save` to `momentic ai classify` to persist the classification back into the local run archive, saving to cloud runs is not yet supported.
+- d509349: Fix issue where resizing editor and run viewer stacked panels would trap element focus and prevent step keyboard navigation
+
 ## 2.108.0
 
 ### Minor Changes
