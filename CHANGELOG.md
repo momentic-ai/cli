@@ -1,5 +1,26 @@
 # momentic
 
+## 2.111.0
+
+### Minor Changes
+
+- ac6b7e3: Extend `momentic ai classify --save` to allow cloud runs' classifications to be persisted.
+
+### Patch Changes
+
+- c1e6c6f: `momentic app` and `momentic-mobile app` now show a clean startup banner with the local URL and version. Update-available notices are shown as a boxed message and skipped in CI / non-TTY shells. List commands (`momentic list`, `momentic-mobile list`, `momentic quarantine list`) are now safe to pipe — only test paths go to stdout. `momentic-mobile` now also checks for new releases on startup.
+- f0ae1cd: Speed up the module recommend tool.
+- 41bbc60: Fix run viewer video player flickering selected step back to its parent during gaps between substeps in a module or conditional.
+- c3277a3: When AI failure classification is enabled in momentic.config.yaml, GitHub PR comments now lead with an AI-generated risk summary (clean run vs. likely regression) instead of just the test result tables. The detailed tables are preserved in a collapsed section.
+- 8cd5e14: `ai classify` now stops cleanly on Ctrl-C.
+- d698a36: Improve AI Action v3 healing by including completed step results and the final screenshot from the last successful run.
+- b893bb2: Improvements to classification accuracy for in-flow AI failure categorization.
+- 9dbc7e0: Fix unexpected error when a directory being written to doesn't already exist.
+- 45e126e: Fix Pylon chat support widget not appearing in the local app sidebar
+- 82fbd0a: Promote web AI Action V3 from alpha to beta
+- 37d950b: Improve reliability of in-flight failure classification.
+- 943797f: Fix zod4 external dependency issue
+
 ## 2.110.0
 
 ### Minor Changes
