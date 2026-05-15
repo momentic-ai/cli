@@ -1,5 +1,22 @@
 # momentic
 
+## 2.112.0
+
+### Minor Changes
+
+- 959e589: Add a `momentic_test_get` MCP tool that returns a fully resolved test by id, including stable step ids and parent chains.
+- e5e5f19: Move test-steps fetching out of `momentic_get_run`'s `includeTestSteps` flag into a dedicated `momentic_get_test_steps_for_run` tool. `momentic_get_run` no longer accepts `includeTestSteps`; consumers that need stepsSnapshots must call the new tool.
+
+### Patch Changes
+
+- 1d8a758: Do not fail the run when archiving artifacts is blocked by a transient file lock on Windows (OneDrive sync, antivirus).
+- ec59187: Move the test output to respect your agents output to file or inline for mcp.
+- eab626e: Enable the mcp to change clicks to force clicks.
+- e1daa0c: `consoleLogger` now writes `.error` and `.warn` output to stderr while `.info`, `.success`, `.debug`, and other variants continue writing to stdout, so `momentic run > out.log 2> err.log` cleanly separates progress from errors. `--log-level error` now silences `.success`, `.dimmed`, `.bold`, `.underline`, and `.grey` decorative variants as users expect.
+- e5e5f19: Performance improvements for result-classification
+- 4f2eb35: Improve schema validation performance and error messages
+- 0e5015a: `momentic run` and `momentic-mobile run` now print a two-line summary banner at the top (CLI version, Node version, project, test count, shard). Per-test status badges fall back to plain ASCII `[PASS]` / `[FAIL]` on terminals without truecolor + unicode + TTY, and completed status rows no longer carry the running-progress counter.
+
 ## 2.111.0
 
 ### Minor Changes
