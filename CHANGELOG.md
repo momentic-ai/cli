@@ -1,5 +1,14 @@
 # momentic
 
+## 2.113.1
+
+### Patch Changes
+
+- 97c4c6a: Fix long test titles overflowing and making attempt dropdown inaccessible
+- 16a13bc: Make transient healing dependent on the "recoverable" output of failure classification
+- e521688: Fix failure categorization sometimes getting partial results.
+- 7c2f488: Update OpenTelemetry dependencies for compatibility with newer Sentry peer requirements
+
 ## 2.113.0
 
 ### Minor Changes
