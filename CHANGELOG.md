@@ -1,5 +1,18 @@
 # momentic
 
+## 2.113.0
+
+### Minor Changes
+
+- d689c66: Add `momentic check lint` command for validating v2 project files, resolving local file references, and detecting entity ID conflicts.
+- 25a0f2e: Show YAML code pointer in failure summary
+- aebb86e: Add `--reporter` flag to `momentic run` and `momentic-mobile run`. Pass multiple times to combine reporters (e.g. `--reporter=list --reporter=junit`); file reporters write to `--reporter-dir`. Cloud run URLs are now clickable in supporting terminals, and end-of-run output is quieter overall.
+- d689c66: Convert imported tests and modules to your project's v2 format automatically when running `momentic import` in v2 workspaces.
+
+### Patch Changes
+
+- 1b6ccf9: Identify authenticated CLI users to product analytics for better support and self-serve activation diagnostics.
+
 ## 2.112.0
 
 ### Minor Changes
