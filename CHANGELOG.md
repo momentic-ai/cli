@@ -1,5 +1,16 @@
 # momentic
 
+## 2.114.0
+
+### Minor Changes
+
+- 0ec0404: New browser setting option to include bounding box coords for all elements
+
+### Patch Changes
+
+- 190776b: Fix MCP run step tool throwing after splice steps on unfrozen yaml files.
+- 847f3f3: Improve AI Action v3 ability to handle dynamic content
+
 ## 2.113.1
 
 ### Patch Changes
