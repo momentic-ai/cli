@@ -1,5 +1,14 @@
 # momentic
 
+## 2.114.1
+
+### Patch Changes
+
+- ac04b6f: Improve web cache reliability by ignoring script and style content when comparing element text.
+- 3d7c646: Raise the default JavaScript step timeout to 90 seconds (was 15 seconds) and allow configuring it up to 10 minutes.
+- 1065b19: Fix resource-pressure hint appearing in the middle of the post-run failure summary.
+- e13819e: Improve token efficiency and speed of failure recovery
+
 ## 2.114.0
 
 ### Minor Changes
