@@ -1,5 +1,20 @@
 # momentic
 
+## 2.115.0
+
+### Minor Changes
+
+- 1585ed6: Add includeTrace flag to get_step_result tool
+- 99c0e91: Updated category definitions for result classification including splitting "Test can be improved" into "Test authorship" and "Test setup", wrapping "Performance" into "Infrastructure", removing Related/Unrelated from "Application change" and "Bug", and adding an "Other" category
+- b69bd56: `momentic import` now accepts folder paths (e.g. `momentic import auth/onboarding`) to pull every test and module inside a cloud folder. The cloud folder hierarchy is recreated on disk so tests land in matching local directories. Tests already on disk stay in their current location to avoid duplicates.
+
+### Patch Changes
+
+- 358fa75: Improve the skills guidance in choosing between AI actions and native steps.
+- 1376f2e: Improvements to `--share-diagnostics`.
+- ef6b742: AI Action V3 can now generate AI_EXTRACT steps to extract structured data from the page.
+- e949573: Do not fail CLI runs when AI failure classification elects to heal the test
+
 ## 2.114.1
 
 ### Patch Changes
