@@ -1,5 +1,18 @@
 # momentic
 
+## 2.117.0
+
+### Minor Changes
+
+- b0441da: Add `npx momentic ai classify --interactive` (`-i`) to keep the chat session open after classification for follow-up questions about the run.
+
+### Patch Changes
+
+- b2f7d66: Cancelled runs (from `--timeout-minutes`, `SIGINT`, `SIGTERM`, etc.) now print their run URL and cancellation reason in the final summary, alongside failed runs — so any cancelled run can be opened in the run viewer with one click.
+- 76b9bbc: Allow for permanent recovery with failure classification v2 if one-time recovery fails.
+- 8d4a8c9: Refine CLI test run output and performance warnings for clarity.
+- 4b0f641: When sharding (`--shard-count` or `--shard-index` > 1), the post-run output now prints a `merge shards:` instruction instead of an `after upload:` run-group URL. The per-shard run group is replaced after the merge step in CI, so the original link was misleading.
+
 ## 2.116.0
 
 ### Minor Changes
