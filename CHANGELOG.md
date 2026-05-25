@@ -12,6 +12,7 @@
 - 76b9bbc: Allow for permanent recovery with failure classification v2 if one-time recovery fails.
 - 8d4a8c9: Refine CLI test run output and performance warnings for clarity.
 - 4b0f641: When sharding (`--shard-count` or `--shard-index` > 1), the post-run output now prints a `merge shards:` instruction instead of an `after upload:` run-group URL. The per-shard run group is replaced after the merge step in CI, so the original link was misleading.
+- 4b0f641: Trace viewer now collapses consecutive "Smart waiting" rows into a single row with the summed duration and a `(N waits)` count, so repeated stability waits during a retry loop render as one combined row instead of many separate rows.
 
 ## 2.116.0
 
