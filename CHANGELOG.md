@@ -1,5 +1,11 @@
 # momentic
 
+## 2.117.1
+
+### Patch Changes
+
+- b9285d7: Improve test context in result classification.
+
 ## 2.117.0
 
 ### Minor Changes
