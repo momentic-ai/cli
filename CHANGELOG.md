@@ -1,5 +1,11 @@
 # momentic
 
+## 2.118.1
+
+### Patch Changes
+
+- 35da597: Fix repository name being mis-detected on some CircleCI configurations.
+
 ## 2.118.0
 
 ### Minor Changes
