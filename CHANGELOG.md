@@ -1,5 +1,17 @@
 # momentic
 
+## 2.118.0
+
+### Minor Changes
+
+- b86973b: Add `--exclude` flag to `ai heal` to skip tests whose name matches the provided regex patterns.
+
+### Patch Changes
+
+- 4b24209: Improve element-cache invalidation during failure recovery to reduce wrong-element interactions
+- 39d44ff: Fix repository metadata not being detected on some CircleCI configurations.
+- 068d985: Javascript step on run viewer can now be viewed in larger window
+
 ## 2.117.1
 
 ### Patch Changes
