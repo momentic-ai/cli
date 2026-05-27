@@ -1,5 +1,20 @@
 # momentic
 
+## 2.119.0
+
+### Minor Changes
+
+- 0657473: Use knowledge base context for result classification
+- b5f8fea: Ungate public documentation and CLI commands for the simplified format migration
+
+### Patch Changes
+
+- 452a176: Show `[recovered]` next to each test in the live results when failure recovery successfully rescued the run.
+- 42a4f17: AI Action v3 performance telemetry collection enabled.
+- 692226a: AI Action UI bugfix
+- 9451f61: AI Action v3 now works to fulfill the postcondition instead of just failing on it
+- 07f8cb2: Failure recovery agent shows full trajectory (reasoning, tool calls, substep executions) in run viewer instead of just a flat substep list.
+
 ## 2.118.1
 
 ### Patch Changes
