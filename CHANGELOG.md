@@ -1,5 +1,24 @@
 # momentic
 
+## 2.120.0
+
+### Minor Changes
+
+- 53bbf0a: Move heal and classification configs to the cloud. Cloud configurations of heal or classification will override local configurations.
+- d209b5c: Add knowledge base access to locator agent
+
+### Patch Changes
+
+- ad2655a: Bias the healing subagent towards doing more exploration when stuck in a state different from its previous runs.
+- 29237ac: Add `--share-diagnostics` flag (env `MOMENTIC_SHARE_DIAGNOSTICS`) to opt into sharing full CLI run telemetry. AI Action telemetry continues to be shared by default.
+- 4b3dec4: Patch security vulnerabilities
+- ce961b8: Improve auto-heal pull request titles and descriptions to follow your repository's `.github/PULL_REQUEST_TEMPLATE.md` when present.
+- 86dba3c: Improve handling of oversized page snapshots so massive pages no longer blow the context window during failure recovery or multi-turn agent runs.
+- ea0aab8: Improve remote browser reliability during CLI test retries.
+- 5a4e16e: Improve target cache reliability so that caches are less likely to resolve to the wrong element.
+- 4237e96: Fix duplicate test action so conditional step IDs are regenerated alongside other step IDs.
+- f271cc3: Log the configured on-success mode (e.g. pull request, patch) before applying it to healed tests.
+
 ## 2.119.0
 
 ### Minor Changes
