@@ -1,5 +1,18 @@
 # momentic
 
+## 2.122.0
+
+### Minor Changes
+
+- b1e98d6: Include citations to knowledge base entries in trace
+
+### Patch Changes
+
+- 5373cf5: Fix the exclude flag to match the run command's behavior for the heal command.
+- b0dd0c5: Update dependencies to resolve a security vulnerability.
+- ecab97f: Add the ability to heal a run group directly by passing its ID to `momentic ai heal --run-group-id <id>`, without needing a local results archive.
+- 9e657df: Test runs no longer exit with a non-zero status when the only failures are classified as warn.
+
 ## 2.121.0
 
 ### Minor Changes
