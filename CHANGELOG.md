@@ -1,5 +1,17 @@
 # momentic
 
+## 2.121.0
+
+### Minor Changes
+
+- e033a97: Speed up the healing and bucketing agents via a better parallel tool interface.
+
+### Patch Changes
+
+- 530e0bc: Fix AI Action v3 date serialization and running replays before committing
+- 95946aa: AI Action v3 step caching is now reliably reapplied on subsequent runs.
+- 2cf9721: Fix a bug where `--only-quarantined` stopped reporting exit code 1 for failures.
+
 ## 2.120.0
 
 ### Minor Changes
