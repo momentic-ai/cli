@@ -1,5 +1,18 @@
 # momentic
 
+## 2.123.0
+
+### Minor Changes
+
+- 39e7e80: Add `--parallel auto` to `momentic run` and `ai heal`. Workers are sized from the host's CPU count using the project-level `browser.remoteBrowser` flag: remote-browser projects scale to `cores * 4 - 2` (IO-bound), local-browser projects cap at `cores` (CPU-bound).
+- 51e9b7e: Healing can now open its pull requests as drafts by selecting "Draft pull request" as the on-successful-heal behavior.
+- 567eea4: Add `login` and `logout` commands to sign in with your Momentic account and save an API key
+
+### Patch Changes
+
+- 5443e94: Fix retries on browser connection failures.
+- 4168b71: Treat non-recoverable heal-category failures as warnings instead of failing the run
+
 ## 2.122.0
 
 ### Minor Changes
