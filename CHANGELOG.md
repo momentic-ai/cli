@@ -1,5 +1,21 @@
 # momentic
 
+## 2.124.0
+
+### Minor Changes
+
+- 09f404e: Recorded HTTP request/response data in run output is no longer cut off and shown as empty objects.
+
+### Patch Changes
+
+- 17af9a0: AI Action can now perform a wider range of actions when generating steps, including going forward, refreshing, waiting for a URL, checking elements and pages, copying and pasting, making network requests, reading and writing local storage, handling dialogs, and running JavaScript.
+- aada171: Lint validation errors are now shown ESLint/Vale-style — `line:col  error  message  location` — with a codeframe (line numbers, `>` marker, and surrounding context) pointing at the exact line in your test/module YAML, matching the style of the run-failure trace. Unreadable Zod messages were replaced with actionable ones: invalid IDs, `coords`, and mobile percent values now say what's expected instead of dumping a raw regex or `Invalid input`. Affects `momentic lint`, `momentic checks duplicate-ids`, and the preflight checks before `run`/`app`.
+- dc9673c: Use the source branch name as-is in auto-heal branch names instead of URL-encoding it
+- 80684e4: Fix issue in editor where code editor inputs would resize incorrectly when resizing step list panel
+- 2b7e8cf: AI Action can now work across multiple browser tabs while generating steps — opening new tabs, switching between open tabs, and closing tabs.
+- 9eab96c: Improve result classification accuracy by giving the classifier additional application context.
+- 24ce328: Show a clear, actionable message telling you to run install-browsers when a run fails because the required browser executables aren't installed, instead of a raw Playwright error.
+
 ## 2.123.0
 
 ### Minor Changes
