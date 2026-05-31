@@ -1,5 +1,20 @@
 # momentic
 
+## 2.125.0
+
+### Minor Changes
+
+- 720a3cb: Add Antigravity to the coding agents the onboarding wizard can wire Momentic into
+- 34f77ec: Add `ai triage` as an alias of `ai heal`, plus a `--dry-run` flag on both that previews how failed tests would be grouped for healing and exits without making any changes.
+- 71cb7ab: Name each failure bucket in `ai heal` / `ai triage` output with a short, human-readable label describing the shared issue, making bucketed results easier to scan.
+- 7bebecc: Add a "quarantine" on-failed-heal option that quarantines tests auto-heal can't fix.
+- ec7913f: Add a `--json` flag to `ai triage` that suppresses progress output and prints the result as machine-readable JSON, making it easy to pipe triage results into other tools.
+
+### Patch Changes
+
+- 2fed53f: After `init`, print accurate next steps (install editor skills, wire up the Momentic MCP, open the local editor, and docs) instead of pointing at the onboarding wizard, which does nothing once a project is already initialized
+- 13b43bc: Failure classification and auto-heal are now configured only in the Momentic dashboard. The `ai.classification` and `ai.healing` keys in `momentic.config.yaml` are ignored.
+
 ## 2.124.0
 
 ### Minor Changes
