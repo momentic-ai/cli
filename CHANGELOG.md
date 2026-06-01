@@ -1,5 +1,21 @@
 # momentic
 
+## 2.126.0
+
+### Minor Changes
+
+- 8211d39: Add a new selectable locator version (v4.2) that improves element cache stability when locating elements inside large containers such as modals and dialogs, reducing unnecessary cache misses on repeat runs.
+- 5b146a8: Move successful heals that fail on success behavior to their own status so users can know to look at their job that ran it to recover the patch.
+
+### Patch Changes
+
+- efaf78f: Improve element cache reliability by excluding very large text content from element-cache matching, so frequently-changing text in large containers (e.g. big modals) no longer causes unnecessary cache misses
+- bbf1212: Fix `momentic app` incorrectly showing "No projects found" when launched with `-c` pointing at a config file outside the current directory
+- e689555: Reduce the default worker count for `--parallel auto` with local browsers to half the available CPU cores (minimum 1) to avoid CPU saturation and timeouts.
+- 0918705: Emit detailed diagnostic traces for the full result classification computation, including model inference time and per-tool calls, when running with --share-diagnostics.
+- b251c6e: Ctrl+C now immediately cancels the CLI while it is checking your API key or resolving the project config.
+- 1e1f250: Simplified YAML now lists the primary field first for each step (module path for module steps, goal for act steps).
+
 ## 2.125.0
 
 ### Minor Changes
