@@ -1,5 +1,12 @@
 # momentic
 
+## 2.127.1
+
+### Patch Changes
+
+- c25caf0: The `heal` command (alias `triage`) now reports the name of each test it could not fix alongside its ID, instead of printing the ID alone.
+- c25caf0: The heal command now publishes its risk summary to GitHub pull request comments.
+
 ## 2.127.0
 
 ### Minor Changes
