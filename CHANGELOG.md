@@ -1,5 +1,17 @@
 # momentic
 
+## 2.127.0
+
+### Minor Changes
+
+- c4bf7a5: Generate an AI risk summary for healed result archives and persist it during upload.
+
+### Patch Changes
+
+- 5d41efa: Fix a spurious validation error when an agent-authored module step sets a default value or enum for a parameter the module already declares.
+- e619965: Fix AI Heal compatibility with remote browsers.
+- a19d30d: Improve agent assertion usage to reduce unnecessary settings and brittle checks
+
 ## 2.126.0
 
 ### Minor Changes
