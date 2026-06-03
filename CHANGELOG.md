@@ -1,5 +1,19 @@
 # momentic
 
+## 2.128.0
+
+### Minor Changes
+
+- 0968da7: Enable direct commit and push functionality for the heal agent.
+- 48d6880: Add knowledge base access to assertion agent
+- e1f69e9: AI Action auto generates overridable post-conditions to improve reliability of browser state handoff to next step
+
+### Patch Changes
+
+- 0e36eee: Fix email helpers (fetchLatest, fetchAll, sendEmail) to correctly handle a full email address being passed instead of just the inbox name
+- 2a7ec1e: Failures in post heal behaviors now tell you what failed.
+- 4c792b1: Improvements for display of traces
+
 ## 2.127.1
 
 ### Patch Changes
