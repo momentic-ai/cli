@@ -1,5 +1,13 @@
 # momentic
 
+## 2.128.1
+
+### Patch Changes
+
+- e5dfffa: Fix the AI Action V3 "Clear cached steps" button hanging when clicked before the editor session finished loading
+- 203057f: Unified the CLI's terminal output across `momentic run`, `ai explore`, `ai heal`, and `ai classify` with a shared banner, status glyphs, spinner, and live progress panes, compact tool-call summaries, and consistent result sections with muted explanations instead of raw `#`/`**` markup.
+- 281789d: The `--share-diagnostics` flag can now be enabled by passing it on its own (e.g. `momentic run --share-diagnostics`), without an explicit value, and it no longer swallows a following test path.
+
 ## 2.128.0
 
 ### Minor Changes
