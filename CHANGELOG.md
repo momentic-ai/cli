@@ -1,5 +1,15 @@
 # momentic
 
+## 2.129.0
+
+### Minor Changes
+
+- c1a0c79: Roll out updated web test editor experience
+
+### Patch Changes
+
+- 3f2eeee: Improve reliability of automatic failure recovery: provider timeouts now fail over instead of aborting a run, and recovery degrades gracefully when an attempt is interrupted.
+
 ## 2.128.1
 
 ### Patch Changes
