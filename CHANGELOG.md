@@ -1,5 +1,16 @@
 # momentic
 
+## 2.129.2
+
+### Patch Changes
+
+- 24811c5: The run viewer now shows a "Failure recovery not eligible" callout in the step list when a failed step could not be recovered, with the short reason inline.
+- a7495d3: Restore folder selection when creating modules in the editor
+- 527bd09: Add keyboard shortcut to delete steps (backspace)
+- c11075c: When running with --share-diagnostics, the CLI now reports remote-browser CDP round-trip latency and the runner's egress IP/region to help diagnose slow remote-browser runs.
+- 83729f9: Fix shift to also respect j and k in the editor for selecting, shift j and k now mirrors shift down and up arrows.
+- 4b899f8: Fix "Module is no longer on disk" error that could block saving right after creating a module from selected steps in the editor. New modules are now created alongside the test that uses them.
+
 ## 2.129.1
 
 ### Patch Changes
