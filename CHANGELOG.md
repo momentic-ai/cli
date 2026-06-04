@@ -1,5 +1,12 @@
 # momentic
 
+## 2.129.1
+
+### Patch Changes
+
+- ddcbb0f: Element checks with long timeouts now finish as soon as the element is found, instead of waiting out the entire timeout when the page has changed since the check started.
+- 8f123ee: Add keybindings for adding steps after (o) and before (shift+o) selected step in editor
+
 ## 2.129.0
 
 ### Minor Changes
