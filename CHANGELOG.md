@@ -1,5 +1,16 @@
 # momentic
 
+## 2.130.0
+
+### Minor Changes
+
+- c19585e: Automatically upload local results after `momentic ai triage`, use --no-upload to disable.
+
+### Patch Changes
+
+- cc1d1a1: Show clear messages for missing, moved, or conflicting module files instead of unexpected errors.
+- 6354b9f: Add indexes to step list in the editor
+
 ## 2.129.2
 
 ### Patch Changes
