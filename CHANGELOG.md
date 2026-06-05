@@ -1,5 +1,19 @@
 # momentic
 
+## 2.131.0
+
+### Minor Changes
+
+- 9b3494b: Add knowledge base access to failure recovery agent
+
+### Patch Changes
+
+- 5b47d81: Improved fallback models for the triage agents and fixed context overflow that could occur on fallback
+- d1398fa: Fix duplicating a step in the editor producing a duplicate command ID that failed the duplicate-IDs check on v1-format projects
+- b1e1aa2: Restore the editor warning that caches are not saved when editing tests on a protected branch
+- a822d20: Make the PR notification made by triage aware of failures that crash the healing agents and tune its style of response.
+- e6e55f7: Add the ability to move modules and tests between folders in the local editor. Moving a module or test now automatically rewrites every internal reference (relative module paths in tests and other modules) so relocating entities no longer breaks with "could not find module file" errors.
+
 ## 2.130.0
 
 ### Minor Changes
