@@ -1,5 +1,12 @@
 # momentic
 
+## 2.131.1
+
+### Patch Changes
+
+- b0e6014: Show a clear, file-specific error when a simplified-format test file is invalid, instead of a raw validation dump.
+- db50551: When creating a module from selected steps in the editor, the folder picker now defaults to the folder of the test you're editing instead of the project root.
+
 ## 2.131.0
 
 ### Minor Changes
