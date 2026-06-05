@@ -1,5 +1,11 @@
 # momentic
 
+## 2.131.2
+
+### Patch Changes
+
+- 9dda778: Fix issue where panels would not persist layout through certain interactions
+
 ## 2.131.1
 
 ### Patch Changes
