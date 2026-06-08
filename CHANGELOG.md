@@ -1,5 +1,16 @@
 # momentic
 
+## 2.132.1
+
+### Patch Changes
+
+- 17a0807: Show a clear, actionable error when renaming or creating a test with a name that already exists, instead of an unexpected internal error
+- 68f764e: Resolve a moderate-severity security advisory in a third-party dependency
+- 10b4ca9: Fix JavaScript step timeout max bounds
+- eed8ae3: Make the github notification summary aware of the entire run state and not just limiting it to healed runs.
+- 737c623: Make triage agent's github comment aware of what your classification config and healing config are set to as well as the intention of quarantining tests.
+- 74aa15c: Show a clear, actionable message instead of an unexpected crash when sign-in credentials can't be saved due to file permissions
+
 ## 2.132.0
 
 ### Minor Changes
