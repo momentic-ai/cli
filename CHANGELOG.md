@@ -1,5 +1,16 @@
 # momentic
 
+## 2.133.0
+
+### Minor Changes
+
+- 5a453cf: Send a Slack notification summarizing the tests built when the explore agent runs
+- dc3ea1b: Add ability to drag and drop multiple steps at once in editor
+
+### Patch Changes
+
+- 9093a2f: Tune the github pr comment's severity to better match the failing tests.
+
 ## 2.132.1
 
 ### Patch Changes
