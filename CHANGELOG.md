@@ -1,5 +1,18 @@
 # momentic
 
+## 2.132.0
+
+### Minor Changes
+
+- ff3d671: Improve results classification accuracy and add the ability to search thru HTML snapshots, additional past runs, and failure recovery contents
+
+### Patch Changes
+
+- 50df05f: Improve web element cache hit rate on pages with repeated, visually-distinct elements (e.g. duplicate menus/popups) so cached steps resolve more reliably instead of falling back to AI
+- cf587c7: Fix an issue where a single unresolvable module could prevent tests and modules from loading
+- 7c66f08: Record the browser viewport in run attempt metadata.json so run artifacts capture the pixel dimensions the test rendered at.
+- d1eb26a: Fix issue where empty folders would not show up when choosing folder to create or move a module
+
 ## 2.131.2
 
 ### Patch Changes
