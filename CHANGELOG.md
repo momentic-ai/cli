@@ -1,5 +1,16 @@
 # momentic
 
+## 2.134.0
+
+### Minor Changes
+
+- d175387: Add the `momentic ai explore` command, which discovers the user journeys changed by a git diff and can author Momentic tests to cover them
+
+### Patch Changes
+
+- a21a7ac: Fix a crash in the test editor that could close the editor during drag-and-drop interactions
+- 47223c0: Improve browser screenshot diagnostic traces.
+
 ## 2.133.0
 
 ### Minor Changes
