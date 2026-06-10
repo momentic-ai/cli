@@ -1,5 +1,20 @@
 # momentic
 
+## 2.134.1
+
+### Patch Changes
+
+- 6be52b6: Explore notifications sent as private DMs now reach every author and co-author across the explored changes, not just the primary commit author.
+- 41ae542: Fix a crash in the test editor when undoing or redoing after switching to a different test
+- 2102778: Explore notifications now identify the author of the explored change via their GitHub account, so private DMs reach the right person even when their git email isn't linked.
+- 8b2a6a8: Fix editor keyboard shortcuts (like delete) firing while typing into the page in the interactive editor
+- d510ed9: Allow leaving a Type step's value blank in the editor to clear an input field
+- b97e346: Explore notifications no longer report test builds that were blocked from producing a test; added an explore `blockedTestBuilds` setting to optionally include blocked builds with their blocker reason
+- eda44bc: Explore notifications can now identify the author of the explored change so they can be delivered as a private Slack DM
+- 08e2d50: Fix auto-heal direct-commit delivery so healed tests commit reliably in CI, including pull-request runs that check out a detached HEAD
+- 75bb980: Improve test run performance by reducing unnecessary screenshot processing.
+- bb59557: Explore agent Slack notifications now link the pull request and the originating commit, and show fuller test descriptions
+
 ## 2.134.0
 
 ### Minor Changes
