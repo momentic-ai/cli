@@ -1,5 +1,20 @@
 # momentic
 
+## 2.134.2
+
+### Patch Changes
+
+- 310c61a: Improved CSS selector generation reliability for deeply nested elements and reduced selector churn from auto-generated framework attributes
+- 7cca197: Auto-heal and explore pull requests now credit contributors as co-authors: when running against an existing pull request, every author of that PR's commits is credited, and otherwise the author of the originating commit is credited.
+- c3cc5da: Improve test run speed by reducing redundant page-stability waits during element resolution
+- ed97c17: Added observability around element target resolution.
+- e5a50e1: Don't abort momentic run when snapshot step-identity cache restoration fails; degrade to minting fresh step ids instead.
+- 03466c3: Make the triage summarizer agent more aware of the implications of dry runs when making the github comment.
+- 774b9f9: Added observability around browser actions.
+- ed03d46: Run viewer now clarifies when a slow "Resolve element from cache" step is actually time spent retrying while waiting for the element to appear (up to the smart waiting timeout), rather than slow cache resolution.
+- 6d92514: Show a clear, file-specific error when a test or module file contains invalid YAML, instead of an unexpected crash.
+- c077d2f: Improve test run reliability when an AI action step's cached data is outdated
+
 ## 2.134.1
 
 ### Patch Changes
