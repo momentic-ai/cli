@@ -1,5 +1,19 @@
 # momentic
 
+## 2.136.0
+
+### Minor Changes
+
+- a105599: Add `momentic results check [folder]` to report which runs failed, were canceled, or were quarantined in a results folder (use `--json` for machine-readable output).
+
+### Patch Changes
+
+- 0cf1966: Include a link to the pull request in heal details when healing opens a PR
+- a2e7a04: Show clearer error message when runs are blocked due to usage limits
+- ebad3af: Add guidance for the triage agent to better use environment variables.
+- 51eee5c: The triage command now streams agent reasoning in its output panes
+- 36363fe: Fix renamed module name not updating immediately in the editor's repository view
+
 ## 2.135.1
 
 ### Patch Changes
