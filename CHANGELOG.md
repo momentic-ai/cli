@@ -1,5 +1,13 @@
 # momentic
 
+## 2.135.1
+
+### Patch Changes
+
+- 52deec7: AI test generation now builds broader baseline coverage, persists more of the tests it successfully builds, and finishes with a synthesized report covering each surface, the tests written to disk, gaps, and recommended next steps.
+- 3df9e07: Tune the behavior of the healing agent to properly choose the write style of check and stop over using checks when implicit state changes are enough validation.
+- ab6decc: Update dependencies to resolve a security advisory
+
 ## 2.135.0
 
 ### Minor Changes
