@@ -1,5 +1,17 @@
 # momentic
 
+## 2.135.0
+
+### Minor Changes
+
+- 215e08a: Integrate Knowledge Base into AI Action v3
+
+### Patch Changes
+
+- a078d46: Improved reliability when switching between tests in the editor
+- 6f203c7: Stop stray internal warning messages from appearing in CLI output, so machine-readable output such as `ai classify --output-format json` always stays valid JSON
+- 34695af: Improve test step cache reliability for apps that render non-deterministic element ids, reducing repeated cache misses and AI re-heals across consecutive runs
+
 ## 2.134.2
 
 ### Patch Changes
