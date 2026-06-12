@@ -1,5 +1,19 @@
 # momentic
 
+## 2.137.0
+
+### Minor Changes
+
+- 320bda0: The v4 locator, assertion, and visual-assertion agents are now the recommended default. New projects use them automatically, and existing projects that don't pin those agents in `ai.agentConfig` will pick them up as well. v4 is faster and more reliable than v3.
+- f11d769: Improve observability for AI Action test steps
+- c2634ec: Result classification can now use git history, branch diffs, and service logs stored in the test output directory as additional context when categorizing test failures
+
+### Patch Changes
+
+- 22f7005: Exclude bot accounts from automatically attributed pull request co-authors
+- d661a26: Add unsaved changes dialog to editor
+- a93adc0: Refine auto-heal risk PR comment summary
+
 ## 2.136.0
 
 ### Minor Changes
