@@ -1,5 +1,13 @@
 # momentic
 
+## 2.138.1
+
+### Patch Changes
+
+- 2ff02a0: Improve the triage agent's ability to instil scaleable testing patterns.
+- 56599a9: Remove the unsupported --prompt flag from ai explore
+- 225ed71: Make the momentic agents use --timeout less when it is unnecessary to specify
+
 ## 2.138.0
 
 ### Minor Changes
