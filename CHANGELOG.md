@@ -1,5 +1,20 @@
 # momentic
 
+## 2.138.0
+
+### Minor Changes
+
+- a943b3a: Add a --allow-recovered flag to `momentic results check` that treats runs which passed via in-run failure recovery as clean (exit 0).
+- a943b3a: Add `momentic results check`, which exits non-zero unless every non-quarantined run in a merged results archive passed cleanly (no failures, cancellations, in-run failure recoveries, or failure classifications). Use it as a CI gate after `momentic results merge`. `--json` prints per-run detail for each not-clean run plus a `summary` of descriptive per-category counts (total, clean, quarantined, failed, cancelled, recovered, classified).
+- a943b3a: Classification is now controlled from your project instead of the cloud dashboard (app.momentic.ai). Whether classification runs and how it affects your CI exit code now live in momentic.config.yaml (ai.classification: true, or { enabled, overrideExitCode }); your failure categories and their actions stay managed in the dashboard. Enabling classification no longer changes exit codes on its own: overriding the exit code is now opt-in (default off), so the classifier records categories while failed tests still fail CI unless you opt in. Opt in via ai.classification.overrideExitCode: true or the bare --classify-override-exit-code switch on momentic run. Add --exit-code-on-heal <0|1> to momentic triage/heal to control the exit code when tests are auto-healed. Existing dashboard classification settings still apply as a fallback until you move them into your config.
+- a943b3a: Add an `ai.triage` block to momentic.config.yaml for configuring `momentic ai triage`: set the post-heal behavior (`onHealFail`/`onHealSuccess`) and the exit code used when tests are healed (`exitCodeOnHeal`). These settings take precedence over the equivalent options in the cloud dashboard, and the `--exit-code-on-heal` flag overrides them per run.
+
+### Patch Changes
+
+- 1e53ab9: When a required browser isn't installed, the error now names the missing browser and gives the exact command to install just that browser. Command suggestions printed by the CLI now include a runnable prefix so they can be copy-pasted and run directly.
+- ec1e633: Fix missing spacing between fields and sections in the app's dialogs and panels
+- 247b20b: Improve AI Action observability metadata and agent issue reporting
+
 ## 2.137.0
 
 ### Minor Changes
