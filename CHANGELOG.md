@@ -1,5 +1,11 @@
 # momentic
 
+## 2.138.2
+
+### Patch Changes
+
+- c600158: Improve element targeting and assertions for icons and images that appear differently in the screenshot than in the page structure for explore and triage agents.
+
 ## 2.138.1
 
 ### Patch Changes
