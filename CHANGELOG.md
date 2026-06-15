@@ -1,5 +1,17 @@
 # momentic
 
+## 2.139.0
+
+### Minor Changes
+
+- bf0a6b4: Add ability to ungroup a module instance in the editor, inlining its steps in place
+
+### Patch Changes
+
+- e5be34f: Add guidance to the explore and triage agents to better decide the strength of their implicit secondary assertions and to stop referencing stale state in assertions.
+- f9bfd98: Clarify the agent guidance for JavaScript steps, and explicitly forbid certain browser interactions for Explore and Triage agents.
+- ae2e6dd: Fix a rare error that could cause AI Action steps to fail to complete
+
 ## 2.138.3
 
 ### Patch Changes
