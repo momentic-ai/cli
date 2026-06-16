@@ -1,5 +1,26 @@
 # momentic
 
+## 2.140.0
+
+### Minor Changes
+
+- 161895b: Full support for `--run-id`, `--git-commit`, and `--run-group-id` in `ai classify` and `ai triage`.
+- 2c32dde: Add `--skip-quarantined` to `momentic ai triage`/`heal` to exclude quarantined tests from healing (mirrors `momentic run`).
+- 4234a76: Show the past results the AI recalled from memory inline in each step's execution trace, including whether a new result was saved.
+
+### Patch Changes
+
+- 76735ab: ai explore (build mode) can now delete obsolete tests for removed journeys, and rename/redescribe tests via the test-settings tool
+- 7310f04: Explore Slack notifications now only fire from CI runs that discovered journeys and attempted to build tests.
+- 1cc1f61: ai explore and ai heal now leave changes on disk and ignore cloud delivery settings when run outside CI; pass --patch to print a git patch to stdout instead.
+- 0582312: Improve triage agents' understanding of a test's original intent to avoid silently dropping implicit checks when repairing failures
+- ed9a584: Fix mobile AI action runs sometimes showing an empty agent trajectory in the editor, and show the correct AI action version in the run viewer
+- 1806f1f: Improve consistency of failure classification by reusing prior classification results for the same test
+- e71233b: Show a clear configuration error when a file upload step points at a directory instead of a file
+- f5f6085: Improve AI test authoring guidance to describe element targets and assertions against the current page state
+- 59b662d: Improve reliability of run telemetry delivery on networks with restricted egress
+- e3161d1: Improve AI test authoring and healing to favor semantic assertions over brittle exact-text matching unless the exact value is genuinely required
+
 ## 2.139.0
 
 ### Minor Changes
