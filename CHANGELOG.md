@@ -1,5 +1,19 @@
 # momentic
 
+## 2.141.0
+
+### Minor Changes
+
+- 4f73ab7: The `momentic ai classify` and `momentic ai triage` commands now accept multiple run IDs or URLs via `--run-id`, letting you classify or triage several runs in one invocation.
+
+### Patch Changes
+
+- 580da5a: Update ai triage sub-agents to recognize custom result directories
+- 8503263: Improve auto-heal accuracy by looking ahead through the rest of the test to repair every later step broken by the same change
+- 0c4a8ca: Cap the number of AI element re-resolutions during an element check so checks with long timeouts no longer make redundant locator calls.
+- 546d7ae: Mobile AI checks now support a visual-only assertion mode that evaluates the screen using the screenshot alone, without the accessibility tree
+- 89a9dd2: Fix tests failing to launch after renaming a module: references to the renamed module are now updated automatically.
+
 ## 2.140.0
 
 ### Minor Changes
