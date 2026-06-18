@@ -1,5 +1,17 @@
 # momentic
 
+## 2.144.0
+
+### Minor Changes
+
+- 4b7dcfd: Add a `--regenerate-heal` flag to `momentic triage`/`heal` that re-heals failures from scratch instead of reusing previously cached heal solutions.
+- bc0925e: Feedback for agent actions will autogenerate knowledge base entries
+
+### Patch Changes
+
+- d73b634: The CLI now shows important announcements from Momentic after checking for updates.
+- 5013c68: Automatically reapply a previous successful heal when the same test fails the same way again, so healing is faster and more consistent.
+
 ## 2.143.0
 
 ### Minor Changes
