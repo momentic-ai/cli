@@ -1,5 +1,27 @@
 # momentic
 
+## 2.142.0
+
+### Minor Changes
+
+- faae2f6: Remove the --exit-code-on-heal flag and the ai.triage.exitCodeOnHeal config option from momentic ai triage/heal. Successfully healed tests no longer change the exit code on their own; configure post-heal behavior in your cloud Healing settings instead.
+- 7d8b115: Add --on-heal-success and --on-heal-fail flags to `ai triage`/`ai heal` to override the post-heal action (e.g. open a pull request or print a git patch) without editing momentic.config.yaml.
+- 87590a6: Agent-generated PRs now append a links section to the PR description pointing at the source and results they're based on.
+- 471798f: Restore the --prompt and --prompt-file flags for ai explore (and ai seed), letting you append custom instructions to the explorer agent inline or from a file.
+- 1e3cbcd: Add a --browser flag to ai explore (and --no-browser to ai seed) that gives the explorer and seed cartographer a live browser session, starting on a blank page, so they can navigate the running app to ground their analysis.
+
+### Patch Changes
+
+- eefda9b: Improve triage reliability by continuing further through the failed test after repairing a step, so later steps impacted by the same or an unrelated change are also resolved
+- bfa8b08: Improve auto-healing reliability so harder fixes are less likely to be abandoned before completing
+- 70a8d80: Patch high-severity security vulnerabilities in bundled dependencies
+- 7c7ea1a: Improve triage agent to recover faster when a UI element has moved or been removed, spending fewer steps before settling on the correct fix.
+- 870a0a2: Triage orchestrator now passes more content into the subagent's context to further minimized duplicate work.
+- 52ef59b: Add CLI commands (session-start, session-terminate, session-state, session-env, preview-step, run-step, splice-steps) that mirror the Momentic MCP tools and share the same long-lived daemon session. Agents can now author over MCP and run long-running AI Action steps via bash, avoiding the 60-second MCP tool-call timeout.
+- 291bba9: Fix run viewer video player sizing issues, add spacebar keyboard shortcut for pause/play
+- 4064902: Keep running when project configuration cannot be reloaded after a file change (e.g. a temporary network issue); the previously loaded configuration is kept instead of surfacing an error.
+- 82ccff9: Dragging a step over a collapsed module or conditional now auto-expands it after a brief hold, so you can drop steps directly inside. It re-collapses if you drag away without dropping.
+
 ## 2.141.1
 
 ### Patch Changes
