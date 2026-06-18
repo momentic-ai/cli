@@ -1,5 +1,18 @@
 # momentic
 
+## 2.143.0
+
+### Minor Changes
+
+- ea406bc: Add a --no-code mode to `momentic ai explore` that runs the explorer without git or filesystem access, grounding its analysis in the live app through the browser (force-enabled in this mode).
+
+### Patch Changes
+
+- 2a37eee: Reuse successful heal solutions across runs: when a previously accepted repair matches a failing step's classification, autohealing can re-apply that repair instead of healing from scratch.
+- 0ff4f2e: Fix crash when saving a test that removes all route mocks (a removeRouteMock step with no key)
+- 6befe45: ai explore now tags each proposed test plan with an importance of low, medium, or high
+- 08c1115: Auto-heal can now submit shared module changes in the pull requests, commits, and patches it creates, not just test-file changes.
+
 ## 2.142.0
 
 ### Minor Changes
