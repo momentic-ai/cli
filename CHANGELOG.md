@@ -1,5 +1,47 @@
 # momentic
 
+## 3.0.0
+
+### Major Changes
+
+- 209ade0: Removed the `browser.bustCacheOnBoundingBoxChange` config option. The element
+  cache is now invalidated automatically when an element's bounding box changes,
+  so the setting is no longer needed — remove it from `momentic.config.yaml`.
+- 209ade0: The legacy `v1` AI agent configurations for the locator, assertion, visual
+  assertion, and text extraction agents have been retired and can no longer be
+  selected. Runs that pin one of these agents to `v1` (via `ai.agentConfig` in
+  `momentic.config.yaml`) will now error — switch to a current version.
+- 209ade0: Dropped support for Node.js 20, which has reached end of life. The CLIs now
+  require Node.js 22 or newer.
+- 209ade0: AI Action steps now default to the V3 agent everywhere. The older V2 agent is marked "Legacy" and can no longer be selected for new AI Action steps in the editor; existing V2 steps continue to run.
+
+### Minor Changes
+
+- 209ade0: New projects created with `momentic init` now set
+  `browser.disableSecondaryCacheResolution: true` by default. Existing projects are
+  unaffected; set it to `false` in `momentic.config.yaml` to change this behavior.
+
+### Patch Changes
+
+- 209ade0: Hybrid selectors are now enabled by default: `browser.hybridSelectorMode` now
+  defaults to `prefer` when unset. Set it to `off`, `test`, or `always` in
+  `momentic.config.yaml` to change this behavior.
+- 209ade0: Test run videos now default to `on-fail`: a recording is captured for every run
+  but kept only when the test fails. Pass `--video true` (or set `recordVideo: true`)
+  to keep every recording, or `--video false` to disable recording entirely. The
+  deprecated `--record-video` flag has been removed — use `--video` instead.
+- 209ade0: Updated the bundled Playwright to 1.60.0, picking up the latest browser engines
+  and upstream bug fixes.
+- 209ade0: New projects now default to the latest version of each AI agent, pinned to an
+  exact sub-version. Pinning keeps the default from changing unexpectedly when a
+  newer revision of the same agent ships. Existing projects that already set
+  `ai.agentConfig` are unaffected.
+- 209ade0: Element checks now surface a caching caveat in the editor — reminding you that
+  they reuse the cached locator and suggesting an AI check for complex assertions.
+  The "Visible" condition shows a tooltip clarifying it uses Playwright's
+  definition of visibility, and the "Exists" condition is no longer offered for
+  new checks (existing checks that use it continue to work).
+
 ## 2.144.0
 
 ### Minor Changes
