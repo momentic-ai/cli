@@ -1,5 +1,12 @@
 # momentic
 
+## 3.0.1
+
+### Patch Changes
+
+- 2c7e648: Editor tab filters (Console, Network, and others) now persist when switching between tabs, clearing only on page refresh
+- 280b186: The Momentic editor now validates AI agent versions when it launches, so starting it with a retired agent version pinned in ai.agentConfig fails immediately with a clear error instead of only erroring once a step runs.
+
 ## 3.0.0
 
 ### Major Changes
