@@ -1,5 +1,11 @@
 # momentic
 
+## 3.0.2
+
+### Patch Changes
+
+- 595b021: Fix the run viewer's expand-editor modal so the code editor fills the modal height
+
 ## 3.0.1
 
 ### Patch Changes
