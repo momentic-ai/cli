@@ -1,5 +1,19 @@
 # momentic
 
+## 3.1.0
+
+### Minor Changes
+
+- 2836e29: Add browser.exposeNetwork config option to expose additional hosts to remote browsers via the connecting client's network
+
+### Patch Changes
+
+- a99ab79: Improve auto-heal accuracy when intentional copy or label changes break brittle assertions
+- 693f21d: Resolve security advisories in bundled dependencies.
+- 4678268: `click` with `waitForDownload` now captures downloads that open in a new tab (via a `target="_blank"` link or `window.open`), and closes the transient tab opened for the download.
+- 4081c30: Editor Run button is now a split button to choose which sections (Setup, Main, Teardown) to run.
+- 7eb2fd5: Fix run-group links in auto-heal pull request descriptions pointing to localhost instead of the Momentic app
+
 ## 3.0.2
 
 ### Patch Changes
