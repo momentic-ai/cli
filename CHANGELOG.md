@@ -1,5 +1,17 @@
 # momentic
 
+## 3.3.0
+
+### Minor Changes
+
+- 3218c78: `ai explore` now surfaces potential product bugs it spots in the Slack notification (org channel and author DMs), alongside the existing terminal and markdown summaries.
+
+### Patch Changes
+
+- 850aee3: Describe `force` / "disable stability checks" in the CLI step authoring guide as risky and guide against their usage. Add guardrails for triage to drop stale modifiers when unnecessary and part of the break site
+- c5a2626: Smooth out the run progress spinner animation
+- 8fdca59: Improve reliability of long `ai explore` runs: transient connection and service errors are now retried, a failed sub-explorer no longer aborts the whole run, and partial results are preserved when a run is interrupted
+
 ## 3.2.0
 
 ### Minor Changes
