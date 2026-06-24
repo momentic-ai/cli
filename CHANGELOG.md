@@ -1,5 +1,21 @@
 # momentic
 
+## 3.2.0
+
+### Minor Changes
+
+- 96dc532: Add a `--json` flag to `ai explore` that prints the explorer result (changed journeys and proposed test plans) as JSON to stdout and suppresses the live streaming UI.
+- ab65626: Add an explore agent granularity setting (low, medium, high) that controls how specific generated tests are, from high-level features down to individual UI elements.
+- 23e869b: `ai explore` now surfaces potential product bugs it spots while analyzing changes and building tests, listing them in both the terminal output and the markdown summary.
+- c0ac14a: Add a `--no-classify` flag to `momentic run` to skip AI classification of failed runs. Show a clear "classifying failure" indicator while classification runs (in both interactive and non-interactive terminals), and fix the live test status line repeating itself on very narrow terminals.
+- 635db83: Add `momentic snapshot` to create self-contained test snapshot zips (resolved caches, modules, environment, and Momentic version baked in) and `momentic run --from-snapshot` to replay them in complete isolation with no cache reads or writes
+
+### Patch Changes
+
+- 23e869b: Improve reliability of long `ai explore` runs by retrying dropped streaming connections instead of failing the run
+- 46ffb2c: Always save AI classifications to uploaded runs with --save flag
+- ab638ce: Show a clean, actionable error message instead of a stack trace when a command fails with an expected error such as an unknown run group or run ID.
+
 ## 3.1.0
 
 ### Minor Changes
