@@ -1,5 +1,11 @@
 # momentic
 
+## 3.4.1
+
+### Patch Changes
+
+- 17157a0: Reduce quarantined test detail representation in GitHub comments.
+
 ## 3.4.0
 
 ### Minor Changes
