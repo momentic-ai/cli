@@ -1,5 +1,17 @@
 # momentic
 
+## 3.5.0
+
+### Minor Changes
+
+- 2d2119a: Add a `--timeout <minutes>` flag to `ai explore` (default 15) that aborts the run when the wall-clock budget is exhausted and emits partial results instead of running until the CI job is killed. A timed-out run exits with a non-zero code so CI surfaces it as incomplete. Build/edit sub-agents are each capped at two-thirds of the timeout so a single stuck builder can't consume the whole budget.
+- d475fd9: Test healing now consults your organization's knowledge base, scoped to the test being repaired, so agent rules, terminology, and known flows you've documented are taken into account when fixing failing tests.
+
+### Patch Changes
+
+- 9280903: Improve `ai explore` test planning to lead with positive, end-to-end assertions on intended behavior (rather than over-indexing on regression checks that a fixed bug no longer occurs) and to propose broader coverage for changed behaviors (control variants, alternate paths, boundary/inverse states, and persistence). Both improvements apply to the planning and build phases.
+- 2641609: Improve `ai explore` to avoid spinning up unnecessary parallel exploration, reserving it for splitting genuinely large workloads
+
 ## 3.4.1
 
 ### Patch Changes
