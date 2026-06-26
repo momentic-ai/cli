@@ -1,5 +1,11 @@
 # momentic
 
+## 3.6.0
+
+### Minor Changes
+
+- 59ee659: Add JSON run reporter
+
 ## 3.5.1
 
 ### Patch Changes
