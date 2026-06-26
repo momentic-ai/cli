@@ -1,5 +1,17 @@
 # momentic
 
+## 3.7.0
+
+### Minor Changes
+
+- 12923d7: Triage can now decide to heal recovered tests as well to make them stable.
+
+### Patch Changes
+
+- e4adcef: Running a test with no base URL and no BASE_URL environment variable set now reports a clear configuration error instead of failing with an internal error.
+- 8c3d0ff: Default the explore --timeout to 60 minutes when running in --seed mode
+- 9734965: Fix knowledge base citation links in the local run results viewer to correct url
+
 ## 3.6.0
 
 ### Minor Changes
