@@ -1,5 +1,11 @@
 # momentic
 
+## 3.7.1
+
+### Patch Changes
+
+- 507f5aa: Ensure `ai explore --build` reliably proceeds to build the tests it discovers instead of sometimes stopping after planning.
+
 ## 3.7.0
 
 ### Minor Changes
