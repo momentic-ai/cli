@@ -1,5 +1,11 @@
 # momentic
 
+## 3.5.1
+
+### Patch Changes
+
+- e90f87c: Fix `ai explore` live output so builders nested under sub-explorers are shown.
+
 ## 3.5.0
 
 ### Minor Changes
