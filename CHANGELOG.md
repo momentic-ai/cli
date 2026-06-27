@@ -1,5 +1,11 @@
 # momentic
 
+## 3.7.3
+
+### Patch Changes
+
+- 1554b9a: The "update available" notice now links to GitHub Releases for the changelog.
+
 ## 3.7.2
 
 ### Patch Changes
