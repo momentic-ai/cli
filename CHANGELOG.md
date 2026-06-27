@@ -1,5 +1,11 @@
 # momentic
 
+## 3.7.2
+
+### Patch Changes
+
+- 2fd5279: Improve reliability of the explore and build agents with an additional AI model provider fallback
+
 ## 3.7.1
 
 ### Patch Changes
