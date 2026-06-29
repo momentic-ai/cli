@@ -1,5 +1,12 @@
 # momentic
 
+## 3.8.1
+
+### Patch Changes
+
+- 04a27e0: Fix live progress reporting: completedSteps in progress.json now increments after each step finishes instead of only at run completion
+- 1c5489f: Ensure `ai explore` wraps up and submits its findings before hitting its turn limit, so long explorations no longer end without results.
+
 ## 3.8.0
 
 ### Minor Changes
