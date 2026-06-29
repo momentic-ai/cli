@@ -1,5 +1,11 @@
 # momentic
 
+## 3.8.2
+
+### Patch Changes
+
+- 4dad99f: Fix clearing cached steps for AI Actions nested inside modules in the editor
+
 ## 3.8.1
 
 ### Patch Changes
