@@ -1,5 +1,20 @@
 # momentic
 
+## 3.8.0
+
+### Minor Changes
+
+- cc6fa40: Show cache status (hit, miss, busted, or not cached) and the reason in the run viewer step details
+- 069f9d1: Add a while loop step that repeats a set of steps while a condition holds and/or up to a maximum number of iterations
+
+### Patch Changes
+
+- a51477a: Add --save/--no-save support for ai triage heal metadata persistence and improve remote-browser initial navigation reliability.
+- fc42367: Write a live progress.json file to the run output directory during local test runs, reporting per-test and overall completed/total step counts so long runs can be monitored (e.g. forwarded to external reporting).
+- f10ceae: Preserve the real failure reason (e.g. configuration error) when a TestFailureError escapes the test runner, instead of always reporting "Unknown Momentic platform error"
+- 8b40178: Update notification now shows the version you'll actually upgrade to and warns when it's a new major version with potential breaking changes
+- e6831ad: Make browser installation more reliable: re-install partially-downloaded browsers instead of later failing with "browser is not installed", and fix garbled progress output during the download.
+
 ## 3.7.3
 
 ### Patch Changes
