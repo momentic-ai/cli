@@ -1,5 +1,14 @@
 # momentic
 
+## 3.9.2
+
+### Patch Changes
+
+- 91a9ddb: Simplified v2 YAML output no longer includes schema version metadata, default viewport (1920x1080), or default browser type (Chromium).
+- cbe07bc: Make the recovery assessor more accurate in passing forward recovery information and at assessing whether we should triage a recovered test.
+- fcbd94d: Improve AI Action reliability for value-setting goals (set/select/toggle) and recovery from recoverable validation errors like required-field warnings.
+- 50a677b: Triage and explore agents follow rules in your knowledge base for guidance around REFRESH and timeout usage
+
 ## 3.9.1
 
 ### Patch Changes
