@@ -1,5 +1,12 @@
 # momentic
 
+## 3.9.1
+
+### Patch Changes
+
+- 15b966a: Fix misleading error when ffmpeg is missing — now names the actual missing component instead of incorrectly blaming the browser
+- 104196f: Fix CLI hanging indefinitely when failure classification encounters a provider error
+
 ## 3.9.0
 
 ### Minor Changes
