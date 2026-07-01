@@ -1,5 +1,11 @@
 # momentic
 
+## 3.10.3
+
+### Patch Changes
+
+- 231dd9d: Fix issue introduced in 91a9ddb that caused test saving and the auto-save indicator not to work in the local editor on the initial load
+
 ## 3.10.2
 
 ### Patch Changes
