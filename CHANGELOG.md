@@ -1,5 +1,11 @@
 # momentic
 
+## 3.10.1
+
+### Patch Changes
+
+- 272c754: Fix folder dropdown scroll behavior in create module and move dialogs
+
 ## 3.10.0
 
 ### Minor Changes
