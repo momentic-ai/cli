@@ -1,5 +1,19 @@
 # momentic
 
+## 3.11.0
+
+### Minor Changes
+
+- dd92c87: Add --share-diagnostics support to `ai triage` for when you need momentic's help debugging what went wrong
+- f3e61d2: Add setting to request original commit authors as reviewers on heal and explore pull requests.
+
+### Patch Changes
+
+- 25f34f7: The explorer agent is more rigorous when surfacing bugs
+- 25f34f7: The explore builder is more consistent with existing environment usage
+- 9d99843: Pause editor trajectory autoscroll while users are scrolled away from the bottom.
+- d70920c: MCP server now cleans up active sessions and emulators when the MCP client disconnects
+
 ## 3.10.3
 
 ### Patch Changes
