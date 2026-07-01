@@ -1,5 +1,12 @@
 # momentic
 
+## 3.10.2
+
+### Patch Changes
+
+- be1fef2: Keep the MCP daemon alive while long-running steps are executing
+- f80d082: Add `momentic checks unused` to report modules that aren't referenced by any test.
+
 ## 3.10.1
 
 ### Patch Changes
