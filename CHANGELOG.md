@@ -1,5 +1,15 @@
 # momentic
 
+## 3.10.0
+
+### Minor Changes
+
+- da7ac6e: Improve self-healing's ability to detect and repair steps that fail due to a race with an unfinished page state transition
+
+### Patch Changes
+
+- fb7d6c1: Improve self-healing's diagnosis of why a page state transition failed to occur and repair it
+
 ## 3.9.2
 
 ### Patch Changes
