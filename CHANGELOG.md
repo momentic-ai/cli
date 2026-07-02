@@ -1,5 +1,11 @@
 # momentic
 
+## 3.14.0
+
+### Minor Changes
+
+- 6dac91a: Support running only multi-selected steps via context menu or keyboard shortcut
+
 ## 3.13.1
 
 ### Patch Changes
