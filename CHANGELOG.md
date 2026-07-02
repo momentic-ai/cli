@@ -1,5 +1,19 @@
 # momentic
 
+## 3.13.0
+
+### Minor Changes
+
+- 87661b6: Add a soft timeout to momentic_run_step which responds after 30 seconds with the currently executing step and how to poll for the result
+- 87661b6: Add momentic_poll_runner tool which responds with the status of executing steps on the session
+- f33cc04: Auto-heal now considers what changed in your code when grouping and fixing failing tests, for more accurate repairs.
+- 87661b6: Significant skill update for how to handle the new run step status tool and polling pattern
+
+### Patch Changes
+
+- 48a0bc4: Improve triage agent's judgment to not treat recovered runs as the test's intended flow when healing
+- 0b5555e: Improve triage agent's ability to discern when it should not edit functioning target descriptions
+
 ## 3.12.1
 
 ### Patch Changes
