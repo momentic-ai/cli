@@ -1,5 +1,11 @@
 # momentic
 
+## 3.12.1
+
+### Patch Changes
+
+- 151f2cd: Auto-scroll step list to keep the executing step in view during test runs
+
 ## 3.12.0
 
 ### Minor Changes
