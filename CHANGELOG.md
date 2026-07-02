@@ -1,5 +1,17 @@
 # momentic
 
+## 3.12.0
+
+### Minor Changes
+
+- d19a07d: Save a video recording of each heal attempt's browser session as a local artifact
+
+### Patch Changes
+
+- 465a07e: Fix collapsed conditional steps unexpectedly expanding during test execution
+- 44bf5b5: Restore editor autoscroll behavior for streaming step output.
+- d4fadc2: Round scroll pixel values in step display
+
 ## 3.11.0
 
 ### Minor Changes
