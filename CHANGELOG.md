@@ -1,5 +1,16 @@
 # momentic
 
+## 3.13.1
+
+### Patch Changes
+
+- 36270c6: Improve AI action reliability on bulk, multi-step, and form-entry tasks.
+- af61e64: Modules are expanded by default when created
+- 0dc6ad0: Fix type steps without a target failing instead of typing into the focused element
+- a87f5b0: Allow passing an optional timeoutSeconds to momentic_poll_runner to wait for active runs to finish.
+- 9a0ae2e: The explore agent always runs with a live browser session; --browser is now a no-op.
+- dd8f42d: Improve explore agent journey capture during long runs.
+
 ## 3.13.0
 
 ### Minor Changes
