@@ -1,5 +1,15 @@
 # momentic
 
+## 3.15.0
+
+### Minor Changes
+
+- 75eb654: Explore agent can now switch between environments at runtime
+
+### Patch Changes
+
+- a1be78f: Fix Run To in editor to resume after last executed step instead of re-running from the beginning
+
 ## 3.14.0
 
 ### Minor Changes
