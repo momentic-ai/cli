@@ -1,5 +1,13 @@
 # momentic
 
+## 3.15.1
+
+### Patch Changes
+
+- c98a9e1: Pressing Escape in the editor now dismisses one layer at a time — a layered modal or a focused input is cleared before the side panel closes.
+- 10e1432: Improve cached element resolution reliability for elements with dynamic content
+- 594612a: Include screenshots on failure recovery steps
+
 ## 3.15.0
 
 ### Minor Changes
