@@ -1,5 +1,15 @@
 # momentic
 
+## 3.16.0
+
+### Minor Changes
+
+- 619218d: Record a heal trace during heal sessions so healed runs include a browsable timeline of the heal in the run viewer
+
+### Patch Changes
+
+- c25b2ae: Fix run viewer heal playback: clicking a step now seeks correctly, play resumes instead of restarting, and playback continues across multiple recorded videos.
+
 ## 3.15.1
 
 ### Patch Changes
