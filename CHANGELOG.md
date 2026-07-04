@@ -1,5 +1,14 @@
 # momentic
 
+## 3.16.1
+
+### Patch Changes
+
+- 8a803d6: Improve auto-heal reliability with more intent-preserving repairs and stronger assertion choices
+- 05bcc22: Improve test healing to re-target checks onto the element that replaced a removed one when it serves the same purpose in the flow.
+- 001dd65: Improve latency of running cached steps in the ai triage command.
+- 2338385: Improve AI agent guidance around step cache usage
+
 ## 3.16.0
 
 ### Minor Changes
