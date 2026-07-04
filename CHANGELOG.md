@@ -1,5 +1,14 @@
 # momentic
 
+## 3.16.2
+
+### Patch Changes
+
+- 6dde41d: Fix step migration that incorrectly renamed user-defined JavaScript variables named `inputs` to `env`
+- b062ab7: Upload heal traces (timeline + videos) to the Momentic dashboard when triaging already uploaded runs with --save
+- 0164f00: Fix saving of tests with long multi-line JavaScript steps introducing unwanted line breaks in the code
+- 246feb8: Fix heal timeline videos being timestamped at the end of the heal session instead of the actual recording start on remote browser runs
+
 ## 3.16.1
 
 ### Patch Changes
