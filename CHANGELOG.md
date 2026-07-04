@@ -1,5 +1,11 @@
 # momentic
 
+## 3.16.3
+
+### Patch Changes
+
+- 1d49ffe: Improve triage repairs when the product replaces a checked element, and reduce unnecessary re-anchoring of assertions on slow-loading content
+
 ## 3.16.2
 
 ### Patch Changes
