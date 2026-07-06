@@ -1,5 +1,12 @@
 # momentic
 
+## 3.16.5
+
+### Patch Changes
+
+- f2bbb5f: Fix a rare crash that could occur when an operation was cancelled or timed out
+- f712ea3: Stream the browser-execution trace live into the editor step detail so the trace waterfall fills in as spans open/close, instead of only appearing when the step finishes.
+
 ## 3.16.4
 
 ### Patch Changes
