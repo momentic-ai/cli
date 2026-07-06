@@ -1,5 +1,17 @@
 # momentic
 
+## 3.16.4
+
+### Patch Changes
+
+- cb50758: Improve triage agent's understanding of locator caches
+- dde657b: Improve triage repairs to preserve the original intent of a check rather than re-anchoring to recently changed copy
+- 5ffc925: Show before and after steps in the heal attempt test state viewer
+- 620d825: Modules are expanded by default when added via the step picker
+- c552c9f: Gracefully handle system dependency installation failures (e.g. spawn su EACCES) during browser setup instead of crashing
+- 2f35261: Add --interactive support for momentic ai triage so users can continue from triage results into an interactive follow-up session.
+- 5578285: Honor manual classification overrides during triage agent runs.
+
 ## 3.16.3
 
 ### Patch Changes
