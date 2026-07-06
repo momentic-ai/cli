@@ -1,5 +1,16 @@
 # momentic
 
+## 3.17.0
+
+### Minor Changes
+
+- 64d4911: Add `disableLdistCacheValidation` browser config option to skip Levenshtein distance checks during cached element resolution.
+- 680d785: Add `saveCacheOnCancel` config option to save partial step caches when a test run is cancelled or times out
+
+### Patch Changes
+
+- 591201d: Tune how agents handle infra flakes with readiness checks.
+
 ## 3.16.5
 
 ### Patch Changes
