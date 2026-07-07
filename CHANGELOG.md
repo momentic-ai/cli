@@ -1,5 +1,17 @@
 # momentic
 
+## 3.20.0
+
+### Minor Changes
+
+- fd327bb: Add "Move to top" / "Move to bottom" to the editor step right-click menu, for both a single step and a multi-step selection
+
+### Patch Changes
+
+- 0d82b72: Optimize for broader coverage when seeding tests rather than doubling down on existing coverage
+- 16a81fc: Clarify heal guidance for maximum timeout rules.
+- 0d82b72: Improve explorer agent adherence to existing patterns
+
 ## 3.19.0
 
 ### Minor Changes
