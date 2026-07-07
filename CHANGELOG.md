@@ -1,5 +1,18 @@
 # momentic
 
+## 3.19.0
+
+### Minor Changes
+
+- 93a24b7: Enable result-classification cache reads by default for multi-run `ai classify`, write new cache entries only when `--save` is set, and add `--no-cache` to skip cache reads and writes.
+- 67e87ff: Duplicate multiple selected steps at once from the editor's right-click menu
+
+### Patch Changes
+
+- 06d1bb6: Installing Chrome for Testing now also downloads the browser build required for headful runs
+- cdc143a: `upgrade` now asks for confirmation before rewriting tests to the simplified format when the project is not already using it (skip with --yes)
+- 06d1bb6: Improve the error message shown when the installed browser does not match the version expected by the CLI, such as after upgrading
+
 ## 3.18.0
 
 ### Minor Changes
