@@ -1,5 +1,18 @@
 # momentic
 
+## 3.18.0
+
+### Minor Changes
+
+- 4dd6a58: Add a newrelic reporter that pushes test results to New Relic as custom events, configured via the reporting.newrelic block in momentic.config.yaml
+
+### Patch Changes
+
+- e453d8c: Improve heal repairs by verifying each previewed step actually produced its intended effect on the page
+- 557e934: Improve auto-heal rejection behavior when a product gate makes the original tested flow unreachable.
+- 600eb6b: Improve explore agent reliability when working on large surface areas
+- b128379: Show how long each step takes in the AI action agent trajectory in the run viewer
+
 ## 3.17.0
 
 ### Minor Changes
