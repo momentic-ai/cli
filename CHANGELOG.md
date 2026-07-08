@@ -1,5 +1,23 @@
 # momentic
 
+## 3.21.0
+
+### Minor Changes
+
+- a3e7bfc: Include reported bugs in `ai explore --json` output
+- 9c65d9e: Improve terminal output: home-directory paths are shown as `~`, remedy commands are highlighted, warnings that repeat per test are shown once, the cursor is restored after live progress output (including on Ctrl-C), API keys are redacted from console output, and environment-error hints are shown at most once per day. The CLI also honors `CLICOLOR`/`CLICOLOR_FORCE` color conventions, detects color support separately for stdout and stderr, and no longer crashes when output is piped to a command that exits early (e.g. `momentic ... | head`).
+- 9c65d9e: Add a `doctor` command that checks installation health (CLI and Node versions, authentication, browsers, project configuration), warns when project configuration is out of date (legacy file format or older agent versions, with `upgrade` as the remedy), and can remove deprecated configuration options with `--fix`. Environment-related errors now suggest running `doctor`.
+
+  `doctor` also checks connectivity to the Momentic server (HTTPS reachability, TLS certificate verification with a `NODE_EXTRA_CA_CERTS` remedy when a proxy intercepts traffic, WebSocket upgrade, and system clock skew) and reports proxy environment variables, free disk space, and whether the temp and results directories are writable. The mobile `doctor` additionally checks the bundled Appium drivers and reachability of the remote emulator provider, treats Java and `ANDROID_HOME` as local-emulator-only (only `adb` is required for remote emulators), and notes that iOS uses remote simulators with no local setup. Pass `--json` to emit the full report for support tickets.
+
+### Patch Changes
+
+- b9571b6: Improve ai explore test-plan quality and ensure findings from parallel exploration are fully aggregated
+- 2f67c6a: Improve the readability of the `apply patch` preview diff
+- 4443a48: Improve error reporting when AI model calls fail during AI actions
+- 2f67c6a: Improve the readability of the `upgrade` command output, including the dry-run preview
+- 6570ef5: Improve heal triage guidance to preserve step metadata and validate upstream repairs before rewriting assertions.
+
 ## 3.20.0
 
 ### Minor Changes
