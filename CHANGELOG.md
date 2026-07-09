@@ -1,5 +1,12 @@
 # momentic
 
+## 3.22.1
+
+### Patch Changes
+
+- 2d8b250: Fix `momentic ai explore --build` sometimes leaving a browser window open after a test builder finishes
+- df2c548: Explore now shows reasoning and tool calls in a fixed-height window that scrolls to the latest activity, so the output no longer wipes and is easier to follow.
+
 ## 3.22.0
 
 ### Minor Changes
