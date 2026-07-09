@@ -1,5 +1,21 @@
 # momentic
 
+## 3.22.0
+
+### Minor Changes
+
+- 371601c: Add `momentic ai explore diff [commit range]` and `momentic ai explore latest` subcommands. `momentic ai explore` now runs `diff` by default; existing `--base`/`--head`/`--seed` flags still work but are deprecated. `explore` now defaults `--parallel` to `auto`.
+- f30ea8d: The explore agent now builds tests by default; pass --dry-run to only discover and log changed journeys without writing tests.
+
+### Patch Changes
+
+- 683dffa: Explore now proposes tests for refactored user flows that aren't yet covered, instead of skipping them as unchanged.
+- 683dffa: Fix the explore builder's completion summary sometimes showing earlier progress text instead of the finished test.
+- 7156208: Fix Ctrl-C sometimes not cancelling promptly during `momentic ai explore` while the agent is running or validating steps
+- 683dffa: Explore now saves new tests in a folder that matches your existing test layout.
+- 9b200c5: PR status comments and Slack notifications now show a status icon and a per-run-group status table.
+- 1f0ae50: Improve step guidance for AI test agents
+
 ## 3.21.0
 
 ### Minor Changes
