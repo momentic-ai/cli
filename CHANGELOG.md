@@ -1,5 +1,16 @@
 # momentic
 
+## 3.22.2
+
+### Patch Changes
+
+- 7e30b87: Fix the local editor's test options save button becoming disabled after switching tabs.
+- 93f1fc8: Refine explore --granularity levels: low covers the happy path of the main flows plus important failure states, medium covers the happy path of every interaction, and high covers every flow in depth including its failure modes.
+- 9893873: Improve result classification's ability to identify infra issues
+- e245598: Tune the heal agent to reject unfixable app changes and repair all affected steps
+- 1f1dbf0: Fix a bug where explore and heal browsers would sometimes close mid-run.
+- cd07de1: Tune heal guidance for stale UI repair decisions
+
 ## 3.22.1
 
 ### Patch Changes
