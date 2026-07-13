@@ -1,5 +1,20 @@
 # momentic
 
+## 3.23.0
+
+### Minor Changes
+
+- b5ae023: Support passing --prompt and --prompt-file multiple times for `ai explore`; all values are appended to the explorer's instructions in order.
+
+### Patch Changes
+
+- 762c4ff: Tune the heal agent to make complete, minimal repairs and reject access-gate workarounds
+- 6de87b2: Fix run output stacking duplicate status lines instead of updating in place on some terminals
+- 461e0af: Show a clear, actionable message when no Momentic project configuration can be found instead of failing with an unexpected error.
+- 35c132a: Improve result classification's recognition of MOMENTIC_ISSUE and conditional steps related to INFRA
+- 16866f1: Improve result classification accuracy for small copy changes and clarify momentic_list_runs branch filtering
+- 61bfbee: Improved the healing agent's reliability with clearer definitions of error cases and guidance
+
 ## 3.22.2
 
 ### Patch Changes
