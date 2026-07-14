@@ -1,5 +1,18 @@
 # momentic
 
+## 3.24.0
+
+### Minor Changes
+
+- 7117ade: `momentic ai explore` now writes a trace archive (run metadata, the explorer agents' timeline, and browser session recordings) to `--output-dir` when one is provided.
+- bed389e: Add the momentic_quarantine_list MCP tool for paginated quarantine triage with latest failed run and healing details
+- 0984474: Add a new `steps` reporter (`--reporter steps`) that logs each step as it starts and finishes, with nesting, sections (setup/main/teardown), and per-step durations — useful for CI logs
+
+### Patch Changes
+
+- cbab3d0: Teach the healing agent that `{{env.X}}` in a step preserves the intent to render an earlier captured or generated trait.
+- 5e1fa6d: Reduce redundant AI Select test selections by retaining representative coverage for distinct changed behaviors.
+
 ## 3.23.0
 
 ### Minor Changes
