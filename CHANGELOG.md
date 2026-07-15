@@ -1,5 +1,27 @@
 # momentic
 
+## 3.25.0
+
+### Minor Changes
+
+- 1cc2d7a: `momentic ai explore` can now upload its results — run metadata, the explorer agents' timeline, and browser session recordings — to the Momentic dashboard with `--upload-results` (replaces the previous `--output-dir` archive output).
+- 5b399bb: Allow MCP environment tools to recursively filter variables and mobile installed apps.
+- 1528f4e: Explore now links each reported bug to a video recording of its reproduction, with start and end timestamps
+
+### Patch Changes
+
+- e1623da: Reject test heals that replace gated destinations with weaker coverage.
+- 95b56c2: Improvements to result classification's ability to identify infra
+- b1d0d77: Prevent failed Switch Tab steps from being reported as unexpected CLI errors.
+- e593779: Install video recording support automatically when installing browsers.
+- 93d4a06: AI Action pre-condition and post-condition fields now use the same multi-line editor as the goal.
+- 6c858de: Help test healing inspect environment values before updating references.
+- 143683b: Fix test runs failing when a page load timeout exceeds the 60 second maximum
+- e4c05ec: Explore bug reports now include the expected and actual behavior for each bug.
+- ae338d5: Stop triage attempts when persistent browser infrastructure failures prevent reliable investigation.
+- 96d8bec: Preserve readiness-check wait budgets when healing tests.
+- 854623c: Warn agents when browser state retrieval or session reset responds slowly.
+
 ## 3.24.0
 
 ### Minor Changes
