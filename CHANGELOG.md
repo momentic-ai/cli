@@ -1,5 +1,15 @@
 # momentic
 
+## 3.25.2
+
+### Patch Changes
+
+- 39ff13d: Add explore results links to Slack notifications when results are uploaded.
+- 14097a9: Improve explore agent reliability so it retains its reasoning across steps when generating tests.
+- ded3ef8: Prevent a failing background start command from crashing the test run
+- 063a280: Make failure recovery cache busting durable across future test runs.
+- c4a10b3: Fix tab switching reliability and allow separate page-load and retry timeouts.
+
 ## 3.25.1
 
 ### Patch Changes
