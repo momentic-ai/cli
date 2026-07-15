@@ -1,5 +1,11 @@
 # momentic
 
+## 3.25.1
+
+### Patch Changes
+
+- 883abc1: Fix a bug causing reproduction videos to point at the wrong asset
+
 ## 3.25.0
 
 ### Minor Changes
