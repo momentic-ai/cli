@@ -1,5 +1,18 @@
 # momentic
 
+## 3.27.0
+
+### Minor Changes
+
+- 5736260: Add a hidden `momentic ai bugbash latest` command that reuses the explorer to discover journeys, then delegates each test plan to a bugbash agent that verifies the behavior in a live browser and reports product bugs instead of building tests.
+
+### Patch Changes
+
+- 6def30b: Stop adding module display names to saved legacy Momentic YAML files.
+- 19a2ab5: Speed up screenshot resize and crop operations with optional `sharp` support while retaining the portable Jimp fallback
+- 33ab726: Explore now generates more focused test plans, splitting distinct journey variations into their own plans.
+- acbd2da: Explore now keeps meaningful journey variations as separate tests instead of collapsing them into one.
+
 ## 3.26.0
 
 ### Minor Changes
