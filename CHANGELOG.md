@@ -1,12 +1,5 @@
 # momentic
 
-## 3.26.0
-
-### Minor Changes
-
-- 90e69a6: Add custom classification and triage instructions, and rename the Healing
-  settings page to Triage while preserving its previous URL as a redirect.
-
 ## 3.25.3
 
 ### Patch Changes
