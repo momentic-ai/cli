@@ -1,5 +1,11 @@
 # momentic
 
+## 3.25.3
+
+### Patch Changes
+
+- dda2971: Show a clear, actionable message when a test has no base URL configured instead of a generic error
+
 ## 3.25.2
 
 ### Patch Changes
