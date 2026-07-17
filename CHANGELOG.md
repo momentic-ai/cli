@@ -1,5 +1,11 @@
 # momentic
 
+## 3.28.1
+
+### Patch Changes
+
+- bd9ca2a: Prevent triage heals from reporting success when an attempted verification cannot run past every edit, and guide heals toward clear, actionable checks.
+
 ## 3.28.0
 
 ### Minor Changes
