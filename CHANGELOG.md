@@ -1,5 +1,15 @@
 # momentic
 
+## 3.28.2
+
+### Patch Changes
+
+- b16278f: Report an accurate cancellation reason when an explore run is stopped by its --timeout budget
+- a2699ba: Prevent concurrent MCP tool calls from overwriting or corrupting artifact files.
+- 3ddb670: Attribute credit usage to the originating environment and platform for more precise usage reporting.
+- 3142684: Fix environment scoping for knowledge base entries
+- 46f6417: Editor polish: the code editor now focuses automatically when you add a JavaScript step, and the Retries field shows a default placeholder.
+
 ## 3.28.1
 
 ### Patch Changes
