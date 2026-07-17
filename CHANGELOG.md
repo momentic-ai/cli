@@ -1,5 +1,21 @@
 # momentic
 
+## 3.28.0
+
+### Minor Changes
+
+- e4f6082: Assign base pull request authors to healing pull requests and include assignees when requesting reviewers.
+- 6bac659: Let AI triage respect video settings and keep heal timelines usable without recordings.
+- a9ba0f2: Remove deprecated cloud-vs-CLI overlaps: classification enabled/overrideExitCode are now CLI-only (ai.classification), healing behavior (onFail/onSuccess) is cloud-only and the ai.triage config path is removed, and the explore custom prompt is cloud-removed (stays CLI-only via --prompt/--prompt-file).
+
+### Patch Changes
+
+- 5c58761: Reduce AI triage startup time in large repositories and prevent hangs when its streaming connection stops responding.
+- 70a2476: Reduce delays from git metadata collection and show preparation progress during AI triage and classification.
+- a2fcf6e: Always save cache during AI explore runs
+- ae13c01: Restore line wrapping when saving tests so long text steps stay readable, while keeping JavaScript steps exactly as written
+- 12ce6c1: Fix missing bug reproduction videos when explore and bug bash runs open new tabs
+
 ## 3.27.0
 
 ### Minor Changes
