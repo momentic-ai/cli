@@ -1,5 +1,17 @@
 # momentic
 
+## 3.29.0
+
+### Minor Changes
+
+- f8c9c1e: Add `momentic list --changed` to list only the tests changed against the base branch, including tests that use a changed module.
+- a91fe78: Show before and after screenshots for executed heal substeps in the run viewer.
+
+### Patch Changes
+
+- f89937c: Fix a high-severity vulnerability in ZIP archive handling
+- 991446e: Show both active and overridden classifications to triage agents.
+
 ## 3.28.2
 
 ### Patch Changes
