@@ -1,5 +1,18 @@
 # momentic
 
+## 3.30.0
+
+### Minor Changes
+
+- 33d9fd9: Persist heal timelines and normal-run web trace assets asynchronously so filesystem writes do not block Playwright operations.
+
+### Patch Changes
+
+- 33d9fd9: Use Sharp when available to reduce screenshot stability comparison overhead while retaining the portable fallback.
+- 33d9fd9: Triage now disables console and network debug collection by default and adds `--console-logs` for opt-in console capture. Optional browser debug collection stops after repeated Playwright lag without disabling mocks, custom headers, or explicit request recording.
+- 33d9fd9: Record lightweight root-triage resource summaries and capture process-level details only under resource pressure, including peak details in shared diagnostic traces.
+- 96c1f1c: Pass full active and overridden classification context to triage subagents as well as clarifying the orchestrator handoff.
+
 ## 3.29.0
 
 ### Minor Changes
