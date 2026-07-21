@@ -1,5 +1,19 @@
 # momentic
 
+## 3.31.1
+
+### Patch Changes
+
+- 34f251a: Improve consistency of AI-generated tests and bug bashes
+- 730b885: Print the results URL after an AI bugbash/explore run uploads its results
+- f0020b3: Reset interactive test fixtures consistently between browser and emulator replays.
+- bfe2e02: Keep concurrent browser sessions responsive while timeline videos are collected.
+- dcfccac: Cleaner, unified terminal output for AI classify, triage, and explore commands
+- f0020b3: Make triage step screenshots opt-in and reuse recent trace boundary captures to reduce browser contention.
+- eeed495: Improve AI triage performance when recording detailed test-healing activity.
+- 997b395: Bugbash sub-agents now receive the product URL, credentials, and test-data context, and set up their own preconditions and retry recoverable failures instead of guessing URLs or reporting false blockers.
+- 461067a: Fix explore bug reproduction videos showing a frozen page when the agent switched browser tabs during the recording
+
 ## 3.31.0
 
 ### Minor Changes
