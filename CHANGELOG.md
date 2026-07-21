@@ -1,5 +1,21 @@
 # momentic
 
+## 3.31.0
+
+### Minor Changes
+
+- a67c7f7: Add a dot reporter for compact CI output, a Vitest-style run summary footer with a suggested next step after failures, and clickable links in terminal output
+- 653d5db: Include test labels in usage reporting so usage can be broken down by label.
+- 507cbf1: Unhide the `momentic ai bugbash` command: run `momentic ai bugbash latest` to discover user journeys like explore and report product bugs instead of building tests.
+
+### Patch Changes
+
+- 10f34eb: Add search to folder dropdown in create module and move dialogs
+- d036747: Improve AI explore to stop flagging not-yet-available features as bugs and to fully cover the flows you ask it to test.
+- a67c7f7: Improve terminal output for AI test selection
+- 2151995: Improve result-classification and heal cache reuse across repeated CLI runs of the same test
+- b9c3404: Update a dependency to resolve a security advisory
+
 ## 3.30.0
 
 ### Minor Changes
