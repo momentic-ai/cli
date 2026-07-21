@@ -1,5 +1,15 @@
 # momentic
 
+## 3.32.1
+
+### Patch Changes
+
+- 8fa82d4: Capture step screenshots by default during AI triage.
+- a046445: Return web and mobile editor step results faster.
+- c97b061: Improve reliability and reduce AI usage during ai heal orchestration.
+- 10a0aa8: Prevent agents from making unnecessary tool calls while editing test state.
+- 9831058: Stop writing AI action cache data into test files when healing tests
+
 ## 3.32.0
 
 ### Minor Changes
