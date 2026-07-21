@@ -1,5 +1,16 @@
 # momentic
 
+## 3.32.0
+
+### Minor Changes
+
+- 30d85e4: Apply the configured heal failure behavior when failed tests cannot be attempted.
+
+### Patch Changes
+
+- 9d2a7ee: Improve reliability for long-running AI agent conversations.
+- 7ee727a: Make run_step faster by allowing eligible work to finish asynchronously.
+
 ## 3.31.1
 
 ### Patch Changes
