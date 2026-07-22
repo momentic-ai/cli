@@ -1,5 +1,19 @@
 # momentic
 
+## 3.33.0
+
+### Minor Changes
+
+- 7d0ee56: Add run assertions: plain-English checks verified after each test run by an agent that watches the recorded video.
+- 8072ec8: Allow AI Triage healing agents to inspect code and use file-backed evidence.
+
+### Patch Changes
+
+- 2339b11: Make triage repairs model each required user action explicitly instead of relying on ambiguous retries or side effects.
+- cf4bca5: Tune the triage agent's adherence to surrounding authorship styles.
+- 22fb8bb: Protect browser responsiveness by stopping excessive console diagnostics and recovering stalled scoped CDP sessions.
+- 1ca26f6: Improve tracing for ai explore and triage.
+
 ## 3.32.1
 
 ### Patch Changes
