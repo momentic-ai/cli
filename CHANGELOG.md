@@ -1,5 +1,16 @@
 # momentic
 
+## 3.34.0
+
+### Minor Changes
+
+- 275a8e1: Stop AI Triage at its wall-clock timeout while preserving and uploading partial results.
+
+### Patch Changes
+
+- 360fc53: Improve the way manual classification overrides feed into future classifications.
+- b7671cd: Improve `--share-diagnostics` trace clarity.
+
 ## 3.33.0
 
 ### Minor Changes
