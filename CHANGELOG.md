@@ -1,5 +1,19 @@
 # momentic
 
+## 3.35.0
+
+### Minor Changes
+
+- f51d01d: Add `momentic_submit_result_classification` MCP tool for recording the result classification on a specific run.
+- ae3e0f0: Add support for agent skills under .momentic/skills for tuning agents such as explore, result-classification, and triage agents.
+
+### Patch Changes
+
+- 4b3d4c7: Discover agent skills recursively within .momentic/skills.
+- e53d24c: Change how model streams recover when they fail to call tools correctly.
+- 36e0fd1: Improve git context in result classification.
+- 106bafd: Teach triage agents how to read file-backed evidence in nested Momentic projects.
+
 ## 3.34.0
 
 ### Minor Changes
