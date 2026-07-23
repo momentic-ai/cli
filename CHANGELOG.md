@@ -1,5 +1,16 @@
 # momentic
 
+## 3.36.0
+
+### Minor Changes
+
+- 52f2168: Fail heal invocations before quarantining eligible non-bug tests that were not repaired or attempted.
+
+### Patch Changes
+
+- 3a82b5a: Cancel in-progress browser steps when an AI agent run stops.
+- 9a9772e: Keep failed heal attempts for quarantined tests non-blocking unless quarantine is explicitly ignored.
+
 ## 3.35.0
 
 ### Minor Changes
