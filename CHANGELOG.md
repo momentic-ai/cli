@@ -1,5 +1,16 @@
 # momentic
 
+## 3.37.0
+
+### Minor Changes
+
+- 4e2a001: Give the Explore agent live network-log inspection tools (search_network_requests, get_network_request) as supplemental bug confirmation
+
+### Patch Changes
+
+- 812ddd5: Stop rewriting test and module files with formatting-only changes; saving a test or module whose content doesn't change no longer produces a diff.
+- 9f73635: Result classification can now inspect browser console and network logs when diagnosing failed web runs.
+
 ## 3.36.0
 
 ### Minor Changes
