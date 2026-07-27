@@ -1,5 +1,23 @@
 # momentic
 
+## 3.38.0
+
+### Minor Changes
+
+- 1f00b19: Rebase iterative auto-heal pull requests and review changed Momentic files
+
+### Patch Changes
+
+- 315c5c3: Fix a rare failure that could corrupt run result archives when they grew past the zip size limit
+- 7f9b9fc: Fix ambiguous tab selection in the local editor when multiple tabs share the same URL
+- c849a74: Element checks stop re-running AI element location when the page has not changed since the last time it could not find the element.
+- 8cfad70: Improve cached element validation to avoid stale cache hits when an element's text content was truncated
+- d731fe9: Smart waiting no longer re-asks the AI about a page that has not changed since the last time it answered "not ready", and its model chain now demotes providers that are failing or responding slowly instead of retrying them first on every request.
+- 3281b0a: Fix a rare crash when authoring or healing a test with a malformed step
+- f6ce0b9: Allow AI Select runs to target test paths, consider pull or merge request descriptions, append custom selection instructions with repeatable `--prompt` flags, and honor their configured test budget.
+- 0f0b51c: Smart waiting now paces by the minimum gap between checks rather than sleeping a fixed interval after each one, so a slow check adds no extra delay.
+- d0a93c9: Raise network-log circuit-breaker thresholds for remote browsers and auto-resume capture 30s after it trips
+
 ## 3.37.0
 
 ### Minor Changes
