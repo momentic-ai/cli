@@ -1,5 +1,19 @@
 # momentic
 
+## 3.39.0
+
+### Minor Changes
+
+- f089da6: AI Action can now run Playwright code in JavaScript steps via the new `usePlaywrightPage` option, letting the agent inspect the live page while exploring and building steps
+- f7af475: Allow AI triage to skip recovered tests that do not need permanent healing.
+
+### Patch Changes
+
+- e3e23ad: Show a clear, actionable message when your Momentic API key is invalid or unauthorized instead of failing with an unexpected error.
+- 1a9ea1a: Keep pending heals non-blocking until healing conclusively leaves them unattempted or fails them.
+- 51c6130: Improve reliability of uploading large exploration results
+- 7e180d6: Explore findings now distinguish product bugs from UX issues, and exploration timelines reliably show every sub-agent lane.
+
 ## 3.38.0
 
 ### Minor Changes
