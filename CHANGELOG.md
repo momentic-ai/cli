@@ -1,5 +1,29 @@
 # momentic
 
+## 3.41.0
+
+### Minor Changes
+
+- a520f7d: Add a fill alias for fast text input without per-keystroke delays.
+
+### Patch Changes
+
+- 418ebaa: AI Action no longer runs Playwright code in JavaScript steps; the `usePlaywrightPage` option has been removed
+- 4b575a6: Show a clear, actionable error when a --custom-headers value isn't in HEADER=VALUE form (for example when test paths are passed after the flag) instead of exiting unexpectedly.
+- 152b3c8: Object and array env vars referenced in templates now render as JSON instead of `[object Object]`
+- 4b575a6: Show clear guidance when browser installation fails because the browser download directory is not writable
+- 4b575a6: Prevent the CLI from crashing when a run artifact file cannot be written
+- 4ae0b11: AI Action failures now say when the agent hit the step budget
+- 332a64b: Update bundled dependencies to address security advisories
+- 4b575a6: Test runs no longer fail to start when organization settings cannot be loaded from Momentic
+- 4b575a6: Skip noisy error logs when collecting git metadata in a repository that has no commits yet
+- 4b575a6: Show a clear error message when browsers are not available for your operating system, with a workaround, instead of a raw installation failure
+- a81fa26: Improve performance monitoring for unexpectedly slow browser test steps.
+- 4b575a6: Show a clear, actionable message when your Momentic API key is invalid or expired instead of failing with an unexpected error.
+- c37bdda: AI Action steps can now look up the environment variables available to a run, and see the goal you wrote alongside the version with `{{env.X}}` references filled in
+- 07f94cd: Fix bug bash results double-counting a finding that was reported more than once
+- 2fed62b: Sign-in automatically issues a new code if you don't finish signing in before the first one expires
+
 ## 3.40.0
 
 ### Minor Changes
