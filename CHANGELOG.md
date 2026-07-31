@@ -1,5 +1,16 @@
 # momentic
 
+## 3.42.0
+
+### Minor Changes
+
+- 5af6d6d: Let the checked-out repository triage skill select successful-heal delivery from the existing cloud AI setting.
+
+### Patch Changes
+
+- 7305085: Show a clear error message when conflicting cache flags are combined instead of exiting unexpectedly.
+- ef9c33f: AI Action failures now explain what blocked the agent, not just the last step that failed
+
 ## 3.41.0
 
 ### Minor Changes
