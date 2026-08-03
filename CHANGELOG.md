@@ -1,5 +1,16 @@
 # momentic
 
+## 3.42.1
+
+### Patch Changes
+
+- 0a92cb6: Discover repo-committed agent skills from the nearest `.momentic/skills` directory at or above the project root, so repo-root skills apply when `momentic.config.yaml` lives in a subdirectory, and warn when healing is configured to follow a triage skill that cannot be found.
+- 8242e90: Show AI test selection details in the product: the run group viewer gains an AI test selection tab explaining which tests were selected and why, and the run viewer's AI settings tab shows whether the run came from an AI-selected run group.
+- 6ab8e87: Improve the fidelity of archived HTML snapshots in run artifacts
+- 0a92cb6: Make zero-test AI selections first-class in results handling: uploads accept a run group without runs when the recorded selection chose zero tests, `results merge`, `results upload`, and `results check` gain `--allow-empty` so the merge keeps zero-run shards' selection plans and the whole chain tolerates a missing or empty results path, `results check` reports a metadata-only results directory as clean instead of failing, and the GitHub PR comment explains why zero tests ran.
+- f493d8a: Show how much of a cache resolution was spent evaluating the element versus waiting for it in the run viewer
+- 16e5f9f: Ignore machine-generated attribute values (useId tokens, hashes, UUIDs, record ids) in the l-dist cache comparison so rotating framework ids no longer bust otherwise-identical cached elements
+
 ## 3.42.0
 
 ### Minor Changes
