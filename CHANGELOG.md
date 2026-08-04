@@ -1,5 +1,24 @@
 # momentic
 
+## 3.43.0
+
+### Minor Changes
+
+- 506e63e: Quarantined tests are now skipped by default. Pass --skip-quarantined false to run them without affecting pipeline status.
+- a538d00: Support `browser.userAgent: null` to disable the default desktop Chrome user agent override and use the browser's native user agent. The default UA is unchanged.
+- 6e0e123: AI Action can dismiss and reauthor stale postconditions if the goal has been achieved.
+- 0cf6214: Add momentic ai triage --from-quarantine to heal currently-quarantined tests earliest-first, with --from-quarantine-budget and automatic skipping of tests previously marked unhealable.
+
+### Patch Changes
+
+- 58f4d2b: Fixed triage and heal agents failing to open the artifact files that tool results point at when the CLI runs from a subdirectory of the project
+- de54ef8: Fix heal cache candidates failing to load when triaging many runs at once.
+- 60808a7: Use the latest text in a step when running it from the editor, instead of the previously saved value.
+- 0cf6214: Improve quarantine backlog triage output and let users clear heal status from the quarantine board instead of retrying unhealable tests.
+- ee0dbcb: --skip-quarantined now rejects values other than true or false instead of silently disabling the flag, and can be combined with --from-snapshot.
+- 25e5acb: Give cloud MCP ability to access quarantined runs
+- 1fef34a: Prevent test runs from hanging indefinitely when the browser stops responding during failure recovery
+
 ## 3.42.1
 
 ### Patch Changes
