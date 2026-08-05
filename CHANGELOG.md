@@ -1,5 +1,15 @@
 # momentic
 
+## 3.43.1
+
+### Patch Changes
+
+- d1971c3: Improve the local run viewer: reorganized detail tabs, tidier feedback controls, and simplified run-state chips with hover cards.
+- 315c6d9: Improve AI network diagnostics with status, method, URL, and resource-type filters.
+- 114324c: Fix element caching so cached elements with long attribute values are reused instead of re-resolved on every step
+- a0c8d8f: Deterministically reuse a previous result classification when the same authored test fails at the same step for the same execution failure reason.
+- b426e3a: Skip triage, and exit non-zero, when a run group has at least 20 failures and at least half its tests failed — a suite that fails that way is one outage rather than many bugs worth diagnosing separately. Quarantined failures and runs that recovered on retry are excluded from both numbers, and naming runs with `--run-id` always triages them. The check runs before the recovery assessor, so an outage skips those model calls too.
+
 ## 3.43.0
 
 ### Minor Changes
