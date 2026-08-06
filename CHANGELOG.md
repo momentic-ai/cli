@@ -1,5 +1,16 @@
 # momentic
 
+## 3.44.0
+
+### Minor Changes
+
+- 50b7ecd: Support disabling caching on AI actions to run the agent on every execution instead of replaying previously generated steps.
+- 1f3442e: Add an experimental opt-in `ai-routing` value for `healing.onSuccess`, which attributes each repaired failure and delivers it to whoever owns the code rather than to whoever ran the tests.
+
+### Patch Changes
+
+- f1ac00f: Improve result classification reliability
+
 ## 3.43.1
 
 ### Patch Changes
