@@ -1,5 +1,16 @@
 # momentic
 
+## 3.45.0
+
+### Minor Changes
+
+- 74486c9: Skip result classification when at least 90% of an org's recent runs are failing, instead of classifying every failed run during a widespread outage.
+
+### Patch Changes
+
+- 294bcb3: Improve error reporting when result classification fails, including a clear message when usage limits are exceeded
+- afc15d9: Improve result classification reliability when an Anthropic provider is unavailable.
+
 ## 3.44.0
 
 ### Minor Changes
