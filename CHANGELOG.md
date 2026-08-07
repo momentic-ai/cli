@@ -1,17 +1,5 @@
 # momentic
 
-## 3.47.0
-
-### Minor Changes
-
-- a507fff: Allow triage to revise result classifications when live browser evidence disproves the original diagnosis.
-
-### Patch Changes
-
-- 9b109a7: Resolves an issue where AI action healing could pass a step whose goal was practically unachievable due to an application issue
-- f6de09f: Failure recovery can now clear a stale AI Action (v3) cache so future runs regenerate the action
-- 3ad770c: Update bundled dependencies to address security advisories
-
 ## 3.46.1
 
 ### Patch Changes
