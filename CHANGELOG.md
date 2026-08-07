@@ -1,5 +1,11 @@
 # momentic
 
+## 3.46.1
+
+### Patch Changes
+
+- 3a35bfe: Reject legacy beforeSteps and afterSteps keys in simplified test files instead of failing the run during cache resolution
+
 ## 3.46.0
 
 ### Minor Changes
