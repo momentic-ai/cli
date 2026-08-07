@@ -1,5 +1,24 @@
 # momentic
 
+## 3.46.0
+
+### Minor Changes
+
+- 6bfd774: Add global default overrides in momentic.config.yaml for element check timeouts and key press delays (browser.elementCheckTimeoutSeconds / browser.typeDelayMs / browser.pressDelayMs for web, emulator.elementCheckTimeoutSeconds / emulator.keyPressDelayMs for mobile). Steps that set their own timeout or delay are unaffected.
+- 1ccdb8c: Show an "Outdated" indicator next to the CLI version in the run viewer when a newer CLI release is available.
+- 2e9f58a: AI Actions now verify success with a goal check against the live app state instead of an auto-generated postcondition.
+
+### Patch Changes
+
+- 3967801: Local editor is now built with the React Compiler for automatic memoization.
+- 67a5eea: Fix sorting and filtering controls in the local editor test list
+- 21f1d7e: AI action steps can now read the page's accessibility snapshot when a screenshot is not enough
+- 3808526: Show the CLI tip after a command finishes instead of before it, and never alongside JSON or quiet output
+- a43c3d3: Show an actionable error when sign-in cannot reach Momentic or WorkOS, instead of a bare "fetch failed" or a misleading "invalid API key" message, and tolerate brief network blips while waiting for browser sign-in to complete.
+- c76b925: Show a rotating tip when the CLI starts, and call out in the wizard and CLI next steps that naming a skill (e.g. /momentic-test) is what guarantees your coding agent uses it
+- 3209994: Routed triage repairs request a review instead of assigning, and always reach a person or team via the new `healing.defaultReviewer` setting.
+- fa0b745: Exclude steps added by failure recovery from the completed step counts in progress.json
+
 ## 3.45.0
 
 ### Minor Changes
