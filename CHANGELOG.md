@@ -1,5 +1,17 @@
 # momentic
 
+## 3.47.0
+
+### Minor Changes
+
+- 605026d: Allow triage to revise result classifications when live browser evidence disproves the original diagnosis.
+
+### Patch Changes
+
+- 605026d: Resolves an issue where AI action healing could pass a step whose goal was practically unachievable due to an application issue
+- 605026d: Failure recovery can now clear a stale AI Action (v3) cache so future runs regenerate the action
+- df0f93c: Upgrade the model for the recovery assessor in the triage command.
+
 ## 3.46.1
 
 ### Patch Changes
