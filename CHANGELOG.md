@@ -1,5 +1,16 @@
 # momentic
 
+## 3.47.1
+
+### Patch Changes
+
+- fc97977: Fix a retries value of 1 not being saved in test settings.
+- 118c0b2: Failure notifications no longer say a test needs review when its failure was classified recoverable — they report that it failed and note that Momentic's triage agent will review it if your CI runs one.
+- ca34e9f: Triage can now identify who a failure belongs to when CI checks out a shallow clone, and auto-heal pull requests and commits explain what broke and where the repair came from.
+- 4039549: Review requests are now sent one name at a time instead of as a single batch. GitHub rejects an entire batch with a 422 when it will not accept one of the names, so a coding-agent account among the commit authors cost the review request for every human beside it. Candidates are also checked for merge access before the first request, and a routed repair whose owner GitHub refuses now falls to another person from the same commits, then to the configured default reviewer, rather than reaching nobody.
+- b3df020: Auto-heal notifications now say when a repair was already committed to your branch instead of reporting that no healing happened, and auto-heal commit messages are short and link to the run.
+- 8cc2664: Auto-heal notifications no longer let one routing decision speak for tests it did not repair, so a test whose heal failed is reported as still needing you instead of being covered by another test's fix, and a batch that was partly committed to your branch and partly routed elsewhere now names each owner.
+
 ## 3.47.0
 
 ### Minor Changes
