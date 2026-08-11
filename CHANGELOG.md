@@ -1,5 +1,11 @@
 # momentic
 
+## 3.47.2
+
+### Patch Changes
+
+- 1a7c9e7: Tune recovery assessor behavior to recognize durable test-owned fixes when targeting or configuration changes expose brittle actions.
+
 ## 3.47.1
 
 ### Patch Changes
