@@ -1,5 +1,19 @@
 # momentic
 
+## 3.48.0
+
+### Minor Changes
+
+- 4365e49: Add rule-based routing for Slack notifications: send auto-heal and Explore alerts to different channels based on project name, project directory, repository, or branch, configured in the dashboard.
+- 2a42af9: Add conditionals to AI actions.
+
+### Patch Changes
+
+- 0d4d780: Improve how the recovery assessor uses failure classifications before sending recovered runs to triage.
+- 5d087fa: Quarantined tests run again by default, restoring the behavior from before 3.47.0. Pass --skip-quarantined to skip them.
+- fd3a53d: Improve remote browser durability with provider fallback.
+- c829d93: Resolves an issue where an AI action could cache and repeat an action its goal explicitly prohibited
+
 ## 3.47.2
 
 ### Patch Changes
