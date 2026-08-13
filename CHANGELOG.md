@@ -1,5 +1,11 @@
 # momentic
 
+## 3.48.1
+
+### Patch Changes
+
+- e293627: Improve AI test selection with pull request and commit context, explicit test requests, and reliable shallow-checkout support.
+
 ## 3.48.0
 
 ### Minor Changes
