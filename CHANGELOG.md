@@ -1,5 +1,13 @@
 # momentic
 
+## 3.48.2
+
+### Patch Changes
+
+- 9cfa2b6: Remove a bundled dependency to resolve two high-severity security advisories
+- 5f2c602: Share one knowledge-base retrieval across parallel child explorers in a bugbash run
+- 77e66e8: Improve knowledge base retrieval performance and reliability under high load
+
 ## 3.48.1
 
 ### Patch Changes
