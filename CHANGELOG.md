@@ -1,5 +1,11 @@
 # momentic
 
+## 3.49.0
+
+### Minor Changes
+
+- 5c9a93c: Allow MCP to filter run history by failure category and minimum attempt count.
+
 ## 3.48.2
 
 ### Patch Changes
