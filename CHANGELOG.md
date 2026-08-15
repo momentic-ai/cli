@@ -1,5 +1,17 @@
 # momentic
 
+## 3.50.0
+
+### Minor Changes
+
+- 032f72a: The local editors now show a "What's new" card with the latest Momentic product update, and the support chat bubble no longer overlaps the editor UI.
+
+### Patch Changes
+
+- 7abe4b0: Fix a streaming failure that could interrupt AI steps mid-run
+- 4c7d62d: Remove the `why-is-node-running` dependency so that CLI installs no longer fail when the package manager blocks it as an untrusted release
+- 9bb3935: Correct keyboard shortcuts when tests use hosted browsers.
+
 ## 3.49.0
 
 ### Minor Changes
