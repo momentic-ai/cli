@@ -1,5 +1,11 @@
 # momentic
 
+## 3.50.1
+
+### Patch Changes
+
+- b3f3213: Improve latency of triage agents.
+
 ## 3.50.0
 
 ### Minor Changes
