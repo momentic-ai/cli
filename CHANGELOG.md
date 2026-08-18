@@ -1,5 +1,25 @@
 # momentic
 
+## 3.51.0
+
+### Minor Changes
+
+- 472a9b6: Add Turbo mode to project-wide and per-test browser settings to reduce latency by skipping selected readiness and stability waits.
+- fd64b96: Auto-heal pull requests now link to the originating CI run. Supported providers: GitHub Actions, GitLab, CircleCI, Buildkite, and Bitrise.
+- dbb3031: Keep comments in test and module files when they are saved from the editor
+- 472a9b6: Make MCP workflows faster with reusable daemon sessions, batched previews, and parallel element location.
+- 72c725c: Let independent CLI invocations upload into one caller-selected run group with
+  `momentic run <test> --run-group-id <uuid> --upload-results`.
+
+### Patch Changes
+
+- 1e97e10: Saving a renamed module in the editor now updates the module path in every test that uses it
+- 171516d: Preserve response status and headers in network logs when a request does not finish.
+- 293eebc: Improve iframe caching reliability for tests that use iframes with dynamic URLs
+- 5666036: Stop attempting AI failure recovery when the application under test is broadly failing, and skip retrying repairs that recently failed for the same step.
+- c5cf322: Report quarantined test failures without attributing coverage loss to the current run, and stop new triage summaries from recommending coverage review without complete failed-heal quarantine provenance.
+- 4243e94: Wait for a concurrent browser install to finish instead of crashing when the install lock is held, and show clear instructions if it is still locked.
+
 ## 3.50.1
 
 ### Patch Changes
