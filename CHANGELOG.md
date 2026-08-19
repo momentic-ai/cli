@@ -1,5 +1,11 @@
 # momentic
 
+## 3.51.1
+
+### Patch Changes
+
+- 7018b24: Preserve recent service logs that are already streaming into the test output directory so AI failure classification can inspect them, while pruning entries older than one hour.
+
 ## 3.51.0
 
 ### Minor Changes
