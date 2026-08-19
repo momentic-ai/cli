@@ -1,5 +1,12 @@
 # momentic
 
+## 3.51.2
+
+### Patch Changes
+
+- a652e33: Make `ignorePageLoadTimeouts` avoid repeated delays when a page does not finish loading.
+- bcb52cb: Capture the initial document request for tabs opened with `window.open()` in network logs.
+
 ## 3.51.1
 
 ### Patch Changes
