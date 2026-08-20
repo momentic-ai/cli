@@ -1,5 +1,11 @@
 # momentic
 
+## 3.51.3
+
+### Patch Changes
+
+- e5c6cc3: Keep large CI result uploads within bounded memory.
+
 ## 3.51.2
 
 ### Patch Changes
