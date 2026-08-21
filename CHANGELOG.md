@@ -1,5 +1,13 @@
 # momentic
 
+## 3.51.4
+
+### Patch Changes
+
+- d83ea9a: Prevent large JavaScript steps from exhausting memory while restoring test history.
+- 44fb245: Improve generated pull request summaries with a newer AI model.
+- e4c5fc1: Preserve result upload errors and report leftover temporary archives when cleanup fails.
+
 ## 3.51.3
 
 ### Patch Changes
