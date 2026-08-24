@@ -1,5 +1,16 @@
 # momentic
 
+## 3.52.0
+
+### Minor Changes
+
+- 2571568: Allow MCP agents to set run and preview soft timeouts, poll long-running previews, and batch-preview AI actions and modules.
+- 3fa3974: Allow bare strings in simplified test steps to represent AI action V3 goals, with an advanced setting to preserve the shorthand when saving.
+
+### Patch Changes
+
+- 4ff74d8: Reduce memory use when checking, healing, and uploading large result archives.
+
 ## 3.51.4
 
 ### Patch Changes
