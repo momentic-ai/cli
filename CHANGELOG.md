@@ -1,5 +1,13 @@
 # momentic
 
+## 3.52.1
+
+### Patch Changes
+
+- 03b3abc: Prevent large result ZIP uploads from timing out.
+- 28af23e: Hide explore and bugbash from the CLI help.
+- 2d6eb4f: Improve result classification cache behavior for runs without Git context.
+
 ## 3.52.0
 
 ### Minor Changes
