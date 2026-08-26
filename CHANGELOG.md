@@ -1,5 +1,11 @@
 # momentic
 
+## 3.52.2
+
+### Patch Changes
+
+- b769d76: Prevent failure recovery from masking application bugs.
+
 ## 3.52.1
 
 ### Patch Changes
