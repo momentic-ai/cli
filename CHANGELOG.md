@@ -1,5 +1,17 @@
 # momentic
 
+## 3.52.3
+
+### Patch Changes
+
+- 8f6419a: Improve failure recovery safety, diagnostics, and execution latency.
+- 4d6f4f2: Fix spurious git errors when the system uses a non-English locale
+- 1e26c49: Show failure recovery errors when failed actions run inside modules.
+- 8116d0c: Enable AI action shorthand by default for newly initialized projects, improve its editor validation, and allow any stable kebab-case V2 ID.
+- ee93445: Treat no-edit triage outcomes as successful without repair charges, and keep pull request summaries scoped to the latest run state.
+- 4d6f4f2: Retry rate-limited API requests during setup and report a clear message when the limit persists.
+- 6bb0877: Explore commands now require Explore to be enabled for your organization.
+
 ## 3.52.2
 
 ### Patch Changes
