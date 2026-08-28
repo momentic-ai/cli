@@ -1,5 +1,11 @@
 # momentic
 
+## 3.52.4
+
+### Patch Changes
+
+- 8f103fa: Expand iframe content for AI Extract when `autoExpandIframes` is enabled
+
 ## 3.52.3
 
 ### Patch Changes
