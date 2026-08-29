@@ -1,5 +1,11 @@
 # momentic
 
+## 3.52.6
+
+### Patch Changes
+
+- ffb58b8: Report AI agent invocation outcomes and fixed triage tests for usage tracking.
+
 ## 3.52.5
 
 ### Patch Changes
