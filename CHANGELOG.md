@@ -1,5 +1,13 @@
 # momentic
 
+## 3.52.5
+
+### Patch Changes
+
+- 271ac56: Add `init --yes` to set up a project without prompts. Unknown step types now name the closest valid step, and a `waitForUrl` pattern with a wildcard explains that substring matching is literal. A confirmation prompt in a shell with no terminal now stops with instructions instead of assuming yes.
+- a9703eb: Combine routed repairs for the same reviewer into one pull request, and report every delivered auto-heal pull request including stability improvements produced after recovery.
+- 2457da9: Make AI Select fall back to all tests after a configurable timeout and support diffs with up to 1,000 changed files.
+
 ## 3.52.4
 
 ### Patch Changes
