@@ -1,5 +1,12 @@
 # momentic
 
+## 3.52.7
+
+### Patch Changes
+
+- 8b3ee95: Improve reliability of element checks when an earlier attempt of the same step failed.
+- 902586a: Fix cached element actions that fail on ambiguous selectors across shadow roots.
+
 ## 3.52.6
 
 ### Patch Changes
