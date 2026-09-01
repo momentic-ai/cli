@@ -1,5 +1,12 @@
 # momentic
 
+## 3.52.8
+
+### Patch Changes
+
+- bb20804: Improve cached element stability: normalize generated SVG reference ids before hashing and ignore build-generated source-file line references in src attributes
+- 3e3d802: Allocate self-hosted browser sessions directly through Browser Fleet.
+
 ## 3.52.7
 
 ### Patch Changes
