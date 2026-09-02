@@ -1,5 +1,13 @@
 # momentic
 
+## 3.52.10
+
+### Patch Changes
+
+- cbf3c9b: Suggest `doctor` when a run fails because a browser or the ffmpeg binary is missing
+- cbf3c9b: Explain the cause when a test or module file can't be written because of file permissions or a file lock
+- cbf3c9b: Improve V5 assertion accuracy with automatic effort routing, and bill auto-routed locator and assertion steps at the selected effort.
+
 ## 3.52.9
 
 ### Patch Changes
