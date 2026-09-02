@@ -1,5 +1,12 @@
 # momentic
 
+## 3.52.9
+
+### Patch Changes
+
+- 6b86c95: Correct CLI sign-in hints for each published command.
+- a7723cd: Prevent directory test filters from matching similarly named sibling directories.
+
 ## 3.52.8
 
 ### Patch Changes
