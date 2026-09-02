@@ -1,13 +1,5 @@
 # momentic
 
-## 3.52.10
-
-### Patch Changes
-
-- 9ca7893: Suggest `doctor` when a run fails because a browser or the ffmpeg binary is missing
-- 9ca7893: Explain the cause when a test or module file can't be written because of file permissions or a file lock
-- 33872ec: Improve V5 assertion accuracy with automatic effort routing, and bill auto-routed locator and assertion steps at the selected effort.
-
 ## 3.52.9
 
 ### Patch Changes
