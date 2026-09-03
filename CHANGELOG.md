@@ -1,5 +1,11 @@
 # momentic
 
+## 3.52.11
+
+### Patch Changes
+
+- 435082a: Improve AI Action performance with a new AI model.
+
 ## 3.52.10
 
 ### Patch Changes
