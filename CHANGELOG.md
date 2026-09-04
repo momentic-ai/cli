@@ -1,5 +1,11 @@
 # momentic
 
+## 3.53.0
+
+### Minor Changes
+
+- 046a8f8: New web projects created with `momentic init` or the onboarding wizard get a documented `momentic.config.yaml`: every option has an explanatory comment, useful options such as hosted browsers (`browser.remoteBrowser`) appear as commented-out hints, and `parallel` defaults to `auto`.
+
 ## 3.52.11
 
 ### Patch Changes
