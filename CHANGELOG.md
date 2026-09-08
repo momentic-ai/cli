@@ -1,5 +1,13 @@
 # momentic
 
+## 3.53.1
+
+### Patch Changes
+
+- 8f54ae9: Speed up the local editor's browse pages and first editor load for projects with thousands of tests.
+- da2bf5c: Add v2 mobile locator configs
+- 379023c: Fix a Node.js "MaxListenersExceededWarning" that could appear during long test runs and editor sessions.
+
 ## 3.53.0
 
 ### Minor Changes
