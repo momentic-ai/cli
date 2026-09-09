@@ -1,5 +1,11 @@
 # momentic
 
+## 3.54.0
+
+### Minor Changes
+
+- 4ed24d3: Default new and upgraded web projects to `v5` locator and assertion agents with automatic effort routing, and mobile projects to `v2` locators.
+
 ## 3.53.1
 
 ### Patch Changes
