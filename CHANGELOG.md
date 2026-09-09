@@ -1,5 +1,19 @@
 # momentic
 
+## 3.55.0
+
+### Minor Changes
+
+- a5218ec: Use Knowledge base agent rules to guide AI test selection, with organization-wide guidance and rules for the environment passed via `--env`.
+- 50b5b18: Remove the failureRecoveryInstructions test setting. Use knowledge base agent rules to give the failure recovery agent custom guidance instead.
+- b68a8f4: Add `whoami`, which shows the name, email, user ID, organization ID, server, and API key source for the current login.
+
+### Patch Changes
+
+- a5218ec: Improve AI test selection coverage for shared-code changes by investigating affected paths beyond the new feature and retaining existing regression tests even without direct assertions on the change. Review discovered tests before removing overlapping coverage, honor configured timeouts with room for recovery, and preserve completed selections when reporting is slow. Selection timeouts require at least 60 seconds; `--budget` remains a soft cap with no fixed test-count limit.
+- b814254: `momentic install-codetools` shows the npm error output when the install fails.
+- ff3e88a: Redirect source run group links to the final merged run group after uploading merged results, and reject merges exceeding 10,000 source groups before upload.
+
 ## 3.54.0
 
 ### Minor Changes
