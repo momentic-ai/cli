@@ -1,5 +1,18 @@
 # momentic
 
+## 3.56.0
+
+### Minor Changes
+
+- 70f0c8f: Add `install-mcp`, which writes the Momentic MCP server into the config of Claude Code, Cursor, VS Code, Codex, OpenCode, Gemini CLI, Windsurf, Zed, Antigravity, or Claude Desktop. Use `--client`, `--scope`, and `--yes` to skip the prompts.
+- 2ba4e90: Bundle the Momentic coding agent skills with the CLIs. Install them with momentic skills, momentic-mobile skills, or mo skills. The CLI asks once when an upgrade ships newer skills, and init and the wizard offer skills and MCP setup.
+
+### Patch Changes
+
+- 1690ce3: Installed `SKILL.md` files end with a footer that names the CLI version and skills version that generated them.
+- a5b77b5: Add the `momentic_search_docs` MCP tool so coding agents can search the Momentic docs from the MCP server.
+- 1180800: Fix run viewer AI Action versions for legacy CLI runs.
+
 ## 3.55.0
 
 ### Minor Changes
