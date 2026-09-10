@@ -1,5 +1,11 @@
 # momentic
 
+## 3.56.2
+
+### Patch Changes
+
+- cf0b844: Fix CORS failures on third-party requests when tests use `extraHeaders` and network logging is disabled or automatically paused.
+
 ## 3.56.1
 
 ### Patch Changes
