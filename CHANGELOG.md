@@ -1,5 +1,16 @@
 # momentic
 
+## 3.57.0
+
+### Minor Changes
+
+- 891afd2: Allow triage skills to select GitHub reviewers for accepted repairs using repository and patch evidence, and restore the global default reviewer as a last resort for other delivery modes.
+
+### Patch Changes
+
+- 21f4820: Show whether a run's classification was manually overridden or revised by triage, and keep the original AI diagnosis visible for comparison.
+- 310f71d: AI routing now delivers repairs to the current branch even when the same repair exists in another pull request, instead of asking you to use that PR. Cached patches remain reusable. Other healing delivery modes are unchanged.
+
 ## 3.56.2
 
 ### Patch Changes
