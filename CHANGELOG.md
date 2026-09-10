@@ -1,5 +1,16 @@
 # momentic
 
+## 3.56.1
+
+### Patch Changes
+
+- 75f8dbc: Revamp AI routing for triage repairs. Route related repairs to direct commits on the source branch and unrelated repairs to one reusable PR targeting that branch. Request review from the source PR's human author (or assignee for bot-authored PRs) instead of inferring a responsible owner.
+- 75f8dbc: Keep earlier repairs when updating an existing repair PR, including fixes produced by that PR's CI. Reject delivery if the source branch advances during healing, and recognize successful direct commits when a lost response causes a retry. These delivery fixes also apply without AI routing.
+- f6406ac: Preserve locator memory when dynamic values change an element description, so subsequent AI lookups can still use prior examples.
+- 75f8dbc: Revamp GitHub and Slack triage notifications across delivery modes. Summarize the tested commit without duplicate merged run groups, explain why healing failed, and show delivered repairs, including stability improvements after recovery. Distinguish new, updated, and merged repair PRs from runs that produced no patch.
+- 75f8dbc: Save triage classification corrections even when a repair fails or produces no patch. Preserve manual classifications. This fix also applies without AI routing.
+- fa3f72c: Retry transient Chromium launch crashes twice before failing browser startup.
+
 ## 3.56.0
 
 ### Minor Changes
