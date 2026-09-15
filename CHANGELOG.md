@@ -1,5 +1,17 @@
 # momentic
 
+## 3.58.0
+
+### Minor Changes
+
+- 14b00d0: Add `browser.markIneligibleElementsInChecks` to make V5 use element eligibility markers when locating targets for positive visibility checks. This helps it select the visible element instead of a matching wrapper with no rendered box. The setting defaults to `false`; other element checks, older agents, and existing memory precedence are unchanged.
+
+### Patch Changes
+
+- 9140ccc: Prevent module retries from rerunning earlier steps when a nested step runs from the web or mobile editor.
+- ced1001: Redact custom HTTP header values from captured HAR data.
+- 4ce7658: Offer to install a newer CLI version in interactive terminals instead of only printing the update notice.
+
 ## 3.57.0
 
 ### Minor Changes
