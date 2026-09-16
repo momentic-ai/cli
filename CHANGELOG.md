@@ -1,5 +1,14 @@
 # momentic
 
+## 3.58.2
+
+### Patch Changes
+
+- 998af8f: Improved HAR entry handling for result classification
+- acca6a2: Retry clicks and other element actions when the element is covered, hidden, disabled, or off screen for the first attempt.
+- d95aaf7: Fix a triage delivery regression introduced in Momentic CLI 3.56.1. When GitHub pull request metadata was unavailable, triage mistook GitHub Actions' synthetic merge commit for the source branch head, so a successfully healed test could fail delivery with an incorrect stale-source error and publish no repair pull request or commit.
+- 6295e47: Update proxy address handling to fix an IP spoofing vulnerability.
+
 ## 3.58.1
 
 ### Patch Changes
