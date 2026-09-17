@@ -1,5 +1,11 @@
 # momentic
 
+## 3.58.3
+
+### Patch Changes
+
+- 064854a: Preserve accessibility requirements when caching AI-selected browser elements.
+
 ## 3.58.2
 
 ### Patch Changes
