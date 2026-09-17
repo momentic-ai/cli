@@ -1,5 +1,11 @@
 # momentic
 
+## 3.58.4
+
+### Patch Changes
+
+- a898c4d: Reduce cache snapshot sizes for tests with large JavaScript steps.
+
 ## 3.58.3
 
 ### Patch Changes
