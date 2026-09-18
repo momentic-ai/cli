@@ -1,5 +1,11 @@
 # momentic
 
+## 3.58.6
+
+### Patch Changes
+
+- a19877c: Include disabled and quarantined skipped tests in Allure reports.
+
 ## 3.58.5
 
 ### Patch Changes
