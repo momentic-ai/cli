@@ -1,5 +1,11 @@
 # momentic
 
+## 3.58.5
+
+### Patch Changes
+
+- 577fdfc: Prevent test runs from hanging indefinitely while cleaning up browser resources.
+
 ## 3.58.4
 
 ### Patch Changes
