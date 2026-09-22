@@ -10,6 +10,9 @@ end-to-end tests - all through natural language prompts.
 
 **Learn more in the [official documentation](https://momentic.ai/docs)**.
 
+Using a coding agent? `momentic skills` installs Momentic's agent skills and MCP
+servers for it.
+
 ## Get Started
 
 1. Log in to the [Momentic dashboard](https://app.momentic.ai) and generate an
