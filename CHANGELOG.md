@@ -1,5 +1,21 @@
 # momentic
 
+## 3.59.0
+
+### Minor Changes
+
+- 6720768: Add project-wide slow motion defaults for local test runs.
+
+### Patch Changes
+
+- ca82255: Failed commands now print a machine-readable error line to stderr with a stable error code for scripts and CI, and every failure exits with a consistent code.
+- 5e5da9d: Preserve prior result classifications as classifier context after test definitions change without automatically reusing them.
+- 2fab330: Installing Chrome or Edge now tells you what to do when the system installer fails, instead of only "Failed to install chrome".
+- 0f6533a: Fix incorrect tracking of agent types that caused some AI action agents to run with the wrong execution settings.
+- 2fab330: An API key that was copied incompletely (for example with a trailing "…") is now reported as an invalid key instead of a network error.
+- 93ec530: Report disabled and quarantined skipped tests once across shards in web and mobile test reports.
+- 6720768: Improve accessibility snapshots by preserving source filenames and omitting redundant `none` roles.
+
 ## 3.58.6
 
 ### Patch Changes
