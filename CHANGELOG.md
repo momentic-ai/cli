@@ -1,5 +1,15 @@
 # momentic
 
+## 3.59.1
+
+### Patch Changes
+
+- 566b892: Skip the Slow Mo delay before the first executed step in each step list.
+- f6e56d5: Update npm page copy and package metadata: descriptions, keywords, homepage, bugs, and README headers.
+- a7582d8: Improve page-ranking reliability with an independent OpenRouter fallback and
+  repair drift in Fireworks vision autoscaling policy. Move tuned vision serving
+  to the validated H200 shape with a latency-tested request-rate target.
+
 ## 3.59.0
 
 ### Minor Changes
