@@ -1,5 +1,12 @@
 # momentic
 
+## 3.59.2
+
+### Patch Changes
+
+- f6d5345: Preserve nested test context in web and mobile AI Action and failure recovery prompts.
+- 26a6f93: Prevent stale result classifications from being reused when failure evidence has changed.
+
 ## 3.59.1
 
 ### Patch Changes
