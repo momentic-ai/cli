@@ -1,5 +1,11 @@
 # momentic
 
+## 3.59.3
+
+### Patch Changes
+
+- b34c7ac: Improve the triage command's recovery assessor model.
+
 ## 3.59.2
 
 ### Patch Changes
