@@ -1,5 +1,18 @@
 # momentic
 
+## 3.60.0
+
+### Minor Changes
+
+- 0c2fea6: Let users choose a Browser Fleet region for an individual remote browser run.
+- 33ecd75: Update the V5 auto fast path model for improved speed.
+- 557b03a: Add the `v5` visual-assertion agent and make it the default for new and upgraded projects. `momentic upgrade` sets `visual-assertion: v5`, replacing any `v4` or older value.
+
+### Patch Changes
+
+- 424847c: Fix setup flow for headless coding agents: `init` exits with an actionable error in non-TTY shells instead of crashing, `init --yes` now installs skills and attempts MCP wiring, `install-mcp` supports a `devin` client writing project `.mcp.json`, the wizard always installs the skills bundle to `.agents/skills/` unless `--editor-tools none`, and scaffolded tests get readable kebab-case ids.
+- 2c3782b: Filter oversized pages with a faster, more accurate chunk ranker that keeps more of the content a step needs.
+
 ## 3.59.3
 
 ### Patch Changes
