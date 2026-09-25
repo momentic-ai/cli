@@ -1,5 +1,16 @@
 # momentic
 
+## 3.60.1
+
+### Patch Changes
+
+- eda8900: `install-mcp` now auto-detects Devin via its filesystem markers (`~/.config/devin` for Devin CLI/Desktop, `/opt/.devin` and `~/.devin-files` on Devin VMs), writes the documented `.devin/mcp_config.json` project config (plus `~/.config/devin/mcp_config.json` at user scope), and skips detected clients that cannot take the resolved scope instead of aborting the remaining installs.
+- 6f65d00: Invalid `--include`/`--exclude` regex patterns (for example globs like `momentic/pr/**`) now fail with a clear error instead of an internal crash.
+- 561dc04: Show a clear error instead of an unexpected crash when `momentic ai triage` is given a results directory without a runs folder
+- bf5f0dd: Report invalid test files as user errors instead of internal CLI failures
+- 9fcca29: Upgrade finishes the mo-to-qa rename automatically and qa doctor runs the same checks as momentic doctor.
+- b03357f: Show a clear error instead of an internal failure when a test path passed to `momentic run` does not exist
+
 ## 3.60.0
 
 ### Minor Changes
