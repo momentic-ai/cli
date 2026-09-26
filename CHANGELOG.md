@@ -1,5 +1,11 @@
 # momentic
 
+## 3.60.2
+
+### Patch Changes
+
+- 3fa7030: File upload steps now accept uppercase HTTP(S) URLs, use the upload filename to set the file type, and block disallowed file extensions regardless of case. This also tightens download path containment for uploads, and file path containment in the local run viewer.
+
 ## 3.60.1
 
 ### Patch Changes
