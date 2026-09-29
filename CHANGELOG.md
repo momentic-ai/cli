@@ -1,5 +1,24 @@
 # momentic
 
+## 3.61.0
+
+### Minor Changes
+
+- d49d2f4: Include credits used and steps executed for each test run in the `metadata.json` result artifact.
+- 4df1bf3: Improve the accuracy of fast AI assertions, including assertions that use memory from earlier runs.
+
+### Patch Changes
+
+- 290a19d: Make automatic failed-run classification faster.
+- 4f33b3b: `momentic install-browsers` with no browser now tells you which browsers to pass, and the setup wizard's skipped-sample-test hint includes `chromium` so the suggested command works.
+- 67c2bef: Report a clear, actionable error when momentic upgrade cannot install the new CLI version with the project's package manager.
+- 4f33b3b: Browser download failures during `momentic install-browsers` now explain how to fix network/CDN access instead of crashing with an internal error.
+- 2fb154c: Fix cached element lookups on pages with attribute names containing special characters, such as `wire:id`
+- b9621d0: Lint reports a test or module file that disappears mid-scan as a lint error for that file instead of crashing the CLI.
+- 0514954: Show a clear error naming the missing file when a JavaScript step references a code file that does not exist
+- 8335c6f: Show a clear error when healing cannot fetch from the git remote (for example, missing git credentials in CI) instead of reporting an unexpected CLI exit.
+- c2726bb: Upgrade AI triage's models.
+
 ## 3.60.2
 
 ### Patch Changes
