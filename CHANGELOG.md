@@ -1,5 +1,20 @@
 # momentic
 
+## 3.62.0
+
+### Minor Changes
+
+- 7cb4f7c: Improve AI extraction accuracy and speed.
+
+### Patch Changes
+
+- 261cc08: Improve reliability and compatibility of AI-powered test execution and agent conversations.
+- bd15974: Security fixes.
+- 1752f81: Show a clear error when another test run deletes the shared results folder mid-run
+- 66c5f71: Show a clear, actionable error instead of a crash when the skills command can't write to a read-only instructions file or skills directory.
+- 5a9a70a: Fix `results merge` failing when shards of the same commit report different commit timestamps, and explain mismatched shards instead of crashing.
+- 1f8e9dc: Show a clear error when an invalid run or run group ID is passed, including a hint when multiple IDs are passed as a single quoted string
+
 ## 3.61.0
 
 ### Minor Changes
