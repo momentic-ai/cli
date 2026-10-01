@@ -1,5 +1,11 @@
 # momentic
 
+## 3.62.1
+
+### Patch Changes
+
+- 64060f5: Upgrade the model used by the module recommendation tool.
+
 ## 3.62.0
 
 ### Minor Changes
