@@ -1,5 +1,11 @@
 # momentic
 
+## 3.62.2
+
+### Patch Changes
+
+- 6c7a645: Allow test healing to continue when the runner cannot fetch from the Git remote.
+
 ## 3.62.1
 
 ### Patch Changes
