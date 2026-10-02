@@ -1,5 +1,11 @@
 # momentic
 
+## 3.62.3
+
+### Patch Changes
+
+- 4047c77: Improve error handling and actionability when healing cannot update an existing auto-heal pull request
+
 ## 3.62.2
 
 ### Patch Changes
