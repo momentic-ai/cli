@@ -1,5 +1,15 @@
 # momentic
 
+## 3.63.1
+
+### Patch Changes
+
+- e114377: Keep failed checks visible in reports and distinguish sub-agent execution status from its last submitted result.
+
+  Default new Momentic web sessions to Turbo while preserving organization and mobile restrictions.
+
+- ca47cc0: Prevent coding-agent connections from failing while long-running MCP operations continue in the background.
+
 ## 3.63.0
 
 ### Minor Changes
