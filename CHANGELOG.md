@@ -1,5 +1,13 @@
 # momentic
 
+## 3.62.4
+
+### Patch Changes
+
+- 1cfa021: security fixes
+- 4cfb747: Fix the editor clamping JavaScript timeouts to 120 seconds instead of allowing up to 600 seconds.
+- d10464b: security fixes
+
 ## 3.62.3
 
 ### Patch Changes
