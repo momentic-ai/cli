@@ -1,5 +1,11 @@
 # momentic
 
+## 3.63.0
+
+### Minor Changes
+
+- 3622c91: Add --slow-mo to override browser step delays for a single test run, including 0 to disable inherited slow motion.
+
 ## 3.62.4
 
 ### Patch Changes
