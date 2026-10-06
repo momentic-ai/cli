@@ -1,5 +1,11 @@
 # momentic
 
+## 3.63.2
+
+### Patch Changes
+
+- 1066a6d: security fixes
+
 ## 3.63.1
 
 ### Patch Changes
