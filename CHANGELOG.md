@@ -1,5 +1,15 @@
 # momentic
 
+## 3.64.0
+
+### Minor Changes
+
+- 4113c07: Add soft AI assertions that let browser tests continue after failed checks and fail when execution finishes. Include every failed soft check with YAML context and all failed post-run assertions in the final CLI report. Describe failed soft setup and teardown checks as assertion failures, reflecting that execution continued.
+
+### Patch Changes
+
+- 651c610: Security fixes.
+
 ## 3.63.2
 
 ### Patch Changes
