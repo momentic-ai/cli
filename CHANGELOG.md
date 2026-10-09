@@ -1,5 +1,11 @@
 # momentic
 
+## 3.65.0
+
+### Minor Changes
+
+- cf5bdb3: Allow all element checks to continue after failure while failing the test at completion.
+
 ## 3.64.0
 
 ### Minor Changes
