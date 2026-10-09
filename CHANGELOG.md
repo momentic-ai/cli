@@ -1,5 +1,11 @@
 # momentic
 
+## 3.65.1
+
+### Patch Changes
+
+- 73c0709: Protect against classification cost overruns with a separate limit on fresh end-of-run classifications for each run group. Failure recovery and matching cached results remain available.
+
 ## 3.65.0
 
 ### Minor Changes
