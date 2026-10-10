@@ -1,5 +1,15 @@
 # momentic
 
+## 3.66.0
+
+### Minor Changes
+
+- aae5256: Standardize browser and mobile session visibility options on `--headful` and MCP session overrides on `headful`. Keep the previous names compatible.
+
+### Patch Changes
+
+- 6106006: Extend timeout and improve logging for when MCP daemon doesn't launch on slower machines
+
 ## 3.65.1
 
 ### Patch Changes
