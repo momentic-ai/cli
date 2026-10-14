@@ -1,5 +1,15 @@
 # momentic
 
+## 3.66.1
+
+### Patch Changes
+
+- fd9538e: Keep soft assertion settings beside expectations and make soft mode easier to see in the browser editor.
+- e081445: Stop reporting a missing local browser to Momentic as an internal error when an AI explore or interactive browser session starts
+- b9198c2: Reduce local app startup time for projects with many modules in the default YAML format. Validation still runs before the app opens.
+- dd61a66: Give long agent conversations more time to be summarized before older context is trimmed.
+- fab585b: `momentic import` now shows a clear error when a test or folder path doesn't exist in Momentic, instead of reporting an unexpected crash.
+
 ## 3.66.0
 
 ### Minor Changes
