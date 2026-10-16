@@ -1,5 +1,11 @@
 # momentic
 
+## 3.66.2
+
+### Patch Changes
+
+- 81a1282: Show AI test selection decisions and per-test reasons in the local run viewer.
+
 ## 3.66.1
 
 ### Patch Changes
