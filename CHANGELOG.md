@@ -1,5 +1,13 @@
 # momentic
 
+## 3.66.3
+
+### Patch Changes
+
+- a91d99e: Wait up to five minutes for Browser Fleet session allocation.
+- 697ffe6: Keep fetched screen hierarchy rows visible when reopening diagnostics. Emphasize screen hierarchy values. Label screen hierarchy search controls and distinguish empty logs from unmatched filters.
+- 1baac01: Explain emulator startup failures with retry guidance and preserve the underlying error details.
+
 ## 3.66.2
 
 ### Patch Changes
