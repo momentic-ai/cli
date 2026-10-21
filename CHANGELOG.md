@@ -1,5 +1,14 @@
 # momentic
 
+## 3.66.4
+
+### Patch Changes
+
+- f684362: Improve recall for AI test selection.
+- 78bba49: Security fixes.
+- 4e72f14: Report Browser Fleet allocation timeouts with a clear timeout error.
+- fdf8cb9: Fix steps stalling for the full page load timeout after a redirect removes a loading iframe.
+
 ## 3.66.3
 
 ### Patch Changes
