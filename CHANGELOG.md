@@ -1,5 +1,24 @@
 # momentic
 
+## 3.67.0
+
+### Minor Changes
+
+- 5c530c9: CLI tests with no browser choice now inherit project and selected-environment settings, with Chromium as the fallback. This also applies to existing files that previously used Chromium when the browser field was absent. Set an explicit Chromium choice to keep that behavior. Cloud-stored test defaults do not change.
+
+  Saving test options preserves explicit overrides, including values that match a default, false, zero and supported null or empty values. Selecting Project default removes the browser field. Existing `Org Default` aliases remain intact during unrelated edits, step saves and moves. Metadata-only saves preserve step versions.
+
+  New wizard tests inherit project browser, viewport and retry settings instead of storing default values.
+
+### Patch Changes
+
+- 0cc6d1a: Reduced tail latency (p95) for some AI assertions by querying multiple model providers in parallel.
+- bc827d4: security fixes
+- b59715f: Keep local editor tables up to date and preserve focus and expansion for run-viewer entries with stable IDs.
+- 4f74d69: Fix AI actions previewed through the MCP server losing their cache. A successful `momentic_preview_step` of an AI action returned no CacheId, and `--cache-id` was ignored when splicing one, so the spliced AI action saved no cache and the next `momentic run` planned it again from scratch. A successful AI action preview that produced a reusable cache (caching enabled, a resolved goal, and cached sub-steps or a last successful run) now returns a CacheId, and splicing the same step with it saves the cached flow.
+- 69348db: Improve the reliability of AI features when one or more Anthropic model providers is unavailable.
+- 8602b07: Keep local project settings and editor state isolated and recover safely after failed project changes.
+
 ## 3.66.4
 
 ### Patch Changes
