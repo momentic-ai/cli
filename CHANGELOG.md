@@ -1,5 +1,28 @@
 # momentic
 
+## 3.68.0
+
+### Minor Changes
+
+- ef1d07f: Improve browser session reliability and cleanup.
+
+### Patch Changes
+
+- cfe5ad4: Keep test file versions in the header when saving or migrating browser tests.
+- 9f90146: What's new cards in the local editor hide after their end date, skip updates
+  published before you signed up, and stay dismissed across devices.
+
+## 3.67.1
+
+### Patch Changes
+
+- 4fb860c: Update validation security protections while preserving existing bulk request sizes.
+- 027355c: Allow AI test selection to continue when App Graph is unavailable.
+- 53c269a: Improve how failure recovery tells real application bugs from temporary failures, and make its recovery steps more precise.
+- 77832b0: Upgrade the model used by AI triage.
+- b4cee96: Speed up AI auto-heal when it carries earlier repairs onto an updated branch.
+- cbe4ff2: Fix AI triage run summaries failing on their primary model and always falling back.
+
 ## 3.67.0
 
 ### Minor Changes
