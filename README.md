@@ -10,8 +10,9 @@ end-to-end tests - all through natural language prompts.
 
 **Learn more in the [official documentation](https://momentic.ai/docs)**.
 
-Using a coding agent? `momentic skills` installs Momentic's agent skills and MCP
-servers for it.
+Using a coding agent? `momentic skills` installs the Momentic CLI skills and
+adds a short pointer block to the agent's instructions file. Rerunning it
+updates only that block.
 
 ## Get Started
 
