@@ -1,5 +1,17 @@
 # momentic
 
+## 3.70.0
+
+### Minor Changes
+
+- 82c3efd: Add `targets` to `momentic.config.yaml` to run tests with a named viewport, user agent, and locale using `momentic run --target <name>`. Add `momentic list --targets` and `momentic run --dry-run` to inspect targets before running them.
+
+### Patch Changes
+
+- ecc4f0f: When HTTPS traffic is intercepted during sign-in, the error now explains how to trust your corporate certificate with --use-system-ca or NODE_EXTRA_CA_CERTS.
+- bce8b46: Prevent panel cleanup errors when leaving a view during resizing.
+- 6ba8002: Explain missing inputs and filesystem access failures without internal crash reports. Return a 400 response for malformed JSON requests to the local editor and MCP servers, and keep local project settings when organization settings cannot be reached.
+
 ## 3.69.0
 
 ### Minor Changes
