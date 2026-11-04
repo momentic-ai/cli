@@ -1,5 +1,22 @@
 # momentic
 
+## 3.69.0
+
+### Minor Changes
+
+- 0e0de9a: Avoid page hangs caused by removing route handlers during network logging ([Playwright #43619](https://github.com/microsoft/playwright/issues/43619)). Automatic capture uses passive events and size/volume limits instead of latency-based shutdown. When no routing is needed, real CORS preflights now reach servers and can fail where they were previously approved automatically. The HTTP cache is also enabled, so repeated requests can return cached responses instead of reaching the origin. Runs with local-network protection, global or custom headers, mocks, or recorders still use routing and retain the previous CORS and cache behavior.
+- 37de26a: Each CLI's pointer block lists only its own skills, and each command rewrites only its own block. The new `devin` target installs skills to `.devin/skills` and writes its pointer in `AGENTS.md`. `qa skills` installs only `mo-qa`. Reinstalling removes skills that this CLI generated earlier and no longer ships, unless another Momentic CLI's pointer in the repository lists the same skills directory.
+
+### Patch Changes
+
+- ed95348: Show the login command when no Momentic API key is found.
+- ed95348: Git commands no longer fail with "Use of GIT_ASKPASS is not permitted" when GIT_ASKPASS, SSH_ASKPASS, GIT_PROXY_COMMAND, or GIT_SSH_COMMAND is set to an empty value.
+- 3927be0: `momentic ai classify` and `momentic ai triage` now stop early with a clear message when the workspace circuit breaker is on.
+- dec4f26: Speed up local app startup and lint for large projects by skipping unneeded work when validating test and module steps.
+- 943ef23: Fix bugs in AI step command parsing.
+- 256893a: Clarify in the quarantine list MCP tool description that the latest failed run is included only when one is retained.
+- 75564d7: Speed up local app startup and lint for large projects by parsing test and module YAML faster.
+
 ## 3.68.0
 
 ### Minor Changes
