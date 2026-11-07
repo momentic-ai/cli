@@ -1,5 +1,17 @@
 # momentic
 
+## 3.72.0
+
+### Minor Changes
+
+- bfcd681: Support holding and releasing keyboard keys in agent-authored steps for modified clicks.
+- b3d9e1f: Support waiting for downloads from coordinate-based clicks.
+
+### Patch Changes
+
+- 884c89c: Remove run listing, quarantine listing and docs search from the local MCP servers; use the hosted Momentic MCP at https://mcp.momentic.ai for these tools.
+- de63aeb: Stop bundling the `momentic-triage-quarantined-tests` skill; `momentic-maintain` now covers quarantine triage.
+
 ## 3.71.0
 
 ### Minor Changes
