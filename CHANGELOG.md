@@ -1,5 +1,14 @@
 # momentic
 
+## 3.72.1
+
+### Patch Changes
+
+- c43f25c: Report the calling coding agent, such as Claude Code, Codex or Cursor, to Momentic when detected.
+- 60d6f20: Simplify test authoring and maintenance guidance for coding agents.
+- 8029aa0: Fix Codex invocation of the Momentic specification skill.
+- 98f2fec: Share server and API-key option factories and CLI debug setup without changing command behavior.
+
 ## 3.72.0
 
 ### Minor Changes
