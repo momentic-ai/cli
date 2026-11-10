@@ -10,9 +10,20 @@ end-to-end tests - all through natural language prompts.
 
 **Learn more in the [official documentation](https://momentic.ai/docs)**.
 
-Using a coding agent? `momentic skills` installs the Momentic CLI skills and
-adds a short pointer block to the agent's instructions file. Rerunning it
-updates only that block.
+Using a coding agent? `npx momentic skills --target claude-code` installs
+`momentic-test`, `momentic-maintain`, and `momentic-spec` for web and mobile.
+The mobile CLI installs the same bundle. Rerunning the command refreshes the
+skill files and updates its pointer block in the agent's instructions. Use your
+agent's target in place of `claude-code`.
+
+If you use both `momentic` and `momentic-mobile`, upgrade both CLIs together.
+Old releases can restore split skills; rerun `skills` with either upgraded CLI
+to repair the installation.
+
+Run `npx momentic install-mcp --client claude-code` to register local `momentic`
+and hosted `momentic-hosted`. In Claude Code, use either the Momentic plugin or
+`install-mcp`, not both. See
+[coding agent setup](https://momentic.ai/docs/coding-agents/skills).
 
 ## Get Started
 
