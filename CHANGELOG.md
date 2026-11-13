@@ -1,5 +1,16 @@
 # momentic
 
+## 3.73.1
+
+### Patch Changes
+
+- eb38893: Reuse cached failure classifications for tests whose modules include other modules. `momentic lint` now warns when a module uses another module.
+- 061576e: Overlap cache requests to reduce test startup time.
+- dd0adb1: Overlap organization settings and quota requests to reduce local run startup time.
+- bb60224: Reduce test closeout time with concurrent cache uploads when step writes cannot publish a commit timestamp.
+- cdcb7e0: Start local MCP sessions faster by preparing the step guide, test content and initial screenshot in parallel, and skip a duplicate org settings request when `momentic mcp` starts.
+- 3181f1a: Improve AI action and failure recovery performance when they fall back to a backup model.
+
 ## 3.73.0
 
 ### Minor Changes
