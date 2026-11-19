@@ -1,5 +1,34 @@
 # momentic
 
+## 3.74.0
+
+### Minor Changes
+
+- 8f080bf: Support text responses when accepting native browser prompts.
+
+### Patch Changes
+
+- 87966c3: Report the final AI assertion failure reason after retries.
+- 0fcf642: Fix selector-based steps failing with an internal error when the smart waiting timeout is very short or zero.
+- 895c512: Update the backup model for AI actions.
+- 9adacb6: Preserve redirect response details when awaiting a request listener.
+- 94bc07e: Improve support for application keyboard shortcuts.
+- 4a6a9a1: Security patches.
+- 9ee85f0: The MCP server now tells your coding agent when it can't reach Momentic, instead of failing to start.
+- f62d3f0: Say how many attempts failed when the Momentic server can't be reached during the authentication check.
+- 96441c0: Clarify how to reuse downloaded files in upload steps.
+- 63e950d: Correct module input and preview guidance. Clarify failure diagnosis,
+  end-to-end checkpoints, and QA scope and spending safeguards.
+- af933ab: Honor configured download timeouts and return promptly when download cleanup cannot reach the browser.
+- 8785c37: Fix copying text to the clipboard on insecure HTTP pages.
+- f119193: Restore saved authentication to the correct origin without changing the active video recording, and reject invalid IndexedDB origins before changing storage.
+- 66ad423: Accept quoted string inputs that match a module parameter's enum when an agent adds a module step.
+- d8f9a4b: Launch installer-configured hosted MCP through qa mcp with the shared CLI login. Plugin connections keep OAuth by default and offer the CLI bridge as an opt-in.
+- 6c1a90e: Improve error handling for the triage command.
+- d8f9a4b: Treat an empty MOMENTIC_API_KEY like an unset one so a saved `momentic login` still works, and show Claude Code plugin users where to set the API key for local MCP servers.
+  MCP tools declare read-only and destructive annotations, so Codex runs read-only tools without approval.
+- 1ab669e: Add an MCP tool for submitting user-approved feedback.
+
 ## 3.73.1
 
 ### Patch Changes
