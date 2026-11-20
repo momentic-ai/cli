@@ -1,5 +1,11 @@
 # momentic
 
+## 3.74.1
+
+### Patch Changes
+
+- 591dded: Record Mo finding outcomes for requested fixes and tracker filings.
+
 ## 3.74.0
 
 ### Minor Changes
