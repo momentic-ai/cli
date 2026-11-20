@@ -1,5 +1,12 @@
 # momentic
 
+## 3.74.2
+
+### Patch Changes
+
+- b7b74e9: Fix issues with expiring browser step cache memories.
+- fb5ee33: Failure recovery pinned to a v2 sub-version (such as v2.1) now uses tool-based recovery with its 10-minute limit.
+
 ## 3.74.1
 
 ### Patch Changes
