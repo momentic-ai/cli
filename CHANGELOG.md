@@ -1,5 +1,14 @@
 # momentic
 
+## 3.74.3
+
+### Patch Changes
+
+- ab68801: AI actions now grade their final state against their goal with a better understanding of their trajectory
+- 7ae0a82: Improve the latency and accuracy of result classification.
+- 6def44b: Loading an auth state with IndexedDB data on a `data:` or standalone `about:blank` page, or on a page whose Momentic helpers were overwritten, now fails with a clear message explaining how to fix it.
+- 4ea9207: Web tests can set `classification: { enabled: false }` to skip AI result classification for that test, for example in tests that are expected to fail. It cannot turn classification on when the project or `--no-classify` turned it off.
+
 ## 3.74.2
 
 ### Patch Changes
