@@ -1,5 +1,11 @@
 # momentic
 
+## 3.74.4
+
+### Patch Changes
+
+- 6eafa46: Improve how AI actions review long runs against their goal.
+
 ## 3.74.3
 
 ### Patch Changes
