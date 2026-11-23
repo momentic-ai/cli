@@ -1,5 +1,11 @@
 # momentic
 
+## 3.74.5
+
+### Patch Changes
+
+- 90ca3b1: Security patches.
+
 ## 3.74.4
 
 ### Patch Changes
