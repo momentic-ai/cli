@@ -1,5 +1,11 @@
 # momentic
 
+## 3.74.7
+
+### Patch Changes
+
+- 89b0dcd: Recover sooner when an AI model connection stops responding.
+
 ## 3.74.6
 
 ### Patch Changes
