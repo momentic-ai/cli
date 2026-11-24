@@ -1,5 +1,13 @@
 # momentic
 
+## 3.74.6
+
+### Patch Changes
+
+- 5f376f5: COOKIE steps can now clear a cookie with an empty value and Max-Age=0 or a past Expires, and Max-Age is honored.
+- 6fdfa5d: Send request step parameters correctly when the URL already has a query string or fragment.
+- 819754f: COOKIE steps without a Domain now apply to the current page's site instead of failing.
+
 ## 3.74.5
 
 ### Patch Changes
