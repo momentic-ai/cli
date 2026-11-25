@@ -1,5 +1,17 @@
 # momentic
 
+## 3.74.9
+
+### Patch Changes
+
+- 9d22b66: Agents can submit concise issue and optional suggested-fix feedback without
+  asking the user to approve it. The change also adds an optional agentObservation
+  to existing in-task Mo triage actions. Caller guidance asks agents to omit
+  unknown observations and private details. Deploy API support before CLI clients
+  send observations; clients that omit the field remain compatible with older
+  servers.
+- 3455c43: Fix a remote browser timeout.
+
 ## 3.74.8
 
 ### Patch Changes
