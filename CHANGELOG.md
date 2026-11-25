@@ -1,5 +1,11 @@
 # momentic
 
+## 3.74.8
+
+### Patch Changes
+
+- ef7e57c: Report a browser that stops responding to a click, type, or key press as a failed test with its error, instead of a cancelled one, so retries still run.
+
 ## 3.74.7
 
 ### Patch Changes
