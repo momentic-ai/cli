@@ -1,5 +1,21 @@
 # momentic
 
+## 3.75.0
+
+### Minor Changes
+
+- 30b1a70: Opt in to service workers in browser settings.
+
+### Patch Changes
+
+- 794f36f: Make run assertions more reliable at catching brief on-screen changes.
+- d9a26d7: Improve browser session reliability.
+- 3df15de: Improve remote browser performance.
+- eec1131: Use commas to separate the default results summary counts.
+- a2fcde3: Classify failed and canceled browser runs more accurately, and reserve one-time recovery for repairs that are not required on every run.
+- f8a241d: Keep web MCP daemon reuse scoped to the requested display mode.
+- d0d990c: Use the improved text-extraction behavior when initializing a web project.
+
 ## 3.74.9
 
 ### Patch Changes
